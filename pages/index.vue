@@ -1,6 +1,8 @@
 <template>
   <section class="container">
-    <div></div>
+    <div>
+      <p>aaaa</p>
+    </div>
   </section>
 </template>
 
@@ -8,4 +10,8 @@
 export default {}
 </script>
 
-<style></style>
+<style lang="scss">
+p {
+  color: $mainColor;
+}
+</style>
