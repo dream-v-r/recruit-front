@@ -78,3 +78,6 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 - templateの中で複雑な式を使わないでcomputedやmethodsで行う
 - 複雑なcomputedはできるだけ単純なプロパティに分割する
 - v-bindは「:」、v-on:は「@」で省略する
+
+optimizedImagesで画像を圧縮するのでPhotoShopでは100%で書き出す  
+generate時に圧縮

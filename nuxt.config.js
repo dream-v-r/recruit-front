@@ -38,8 +38,12 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    '@bazzite/nuxt-optimized-images'
   ],
+  optimizedImages: {
+    optimizeImages: true
+  },
   styleResources: {
     sass: ['@/assets/scss/variable.scss']
   },
