@@ -71,6 +71,11 @@ export default {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    postcss: [
+      require('autoprefixer')({
+        grid: true
+      })
+    ]
   }
 }
