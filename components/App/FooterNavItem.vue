@@ -31,5 +31,7 @@ export default {
   font-size: 10px;
   color: #ccc;
   text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 </style>

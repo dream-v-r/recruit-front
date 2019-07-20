@@ -39,6 +39,7 @@ export default {
   }
   > .title2 {
     font-size: 10px;
+    text-transform: uppercase;
   }
 }
 </style>
