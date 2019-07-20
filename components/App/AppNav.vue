@@ -9,19 +9,32 @@
         :url="page.url"
       />
     </ul>
+    <AppEntry />
   </nav>
 </template>
 
 <script>
 import { mapGetters } from 'vuex'
 import AppNavItem from './AppNavItem'
+import AppEntry from './AppEntry'
 export default {
   name: 'AppNav',
-  components: { AppNavItem },
+  components: { AppEntry, AppNavItem },
   computed: {
     ...mapGetters(['pageList'])
   }
 }
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.site-nav {
+  display: flex;
+  > .list {
+    display: flex;
+    align-items: center;
+  }
+  > .entry-link {
+    width: 194px;
+  }
+}
+</style>

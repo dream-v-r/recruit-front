@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <header class="site-header">
     <AppLogo />
     <AppNav />
-  </div>
+  </header>
 </template>
 
 <script>
@@ -14,4 +14,14 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.site-header {
+  padding: 0 0 0 30px;
+  background-color: #029ae4;
+  display: flex;
+  justify-content: space-between;
+  > .site-logo {
+    padding: 13px 0;
+  }
+}
+</style>
