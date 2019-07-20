@@ -1,8 +1,6 @@
 <template>
   <section class="container">
-    <div>
-      <p>aaaa</p>
-    </div>
+    <div></div>
   </section>
 </template>
 

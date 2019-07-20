@@ -1,7 +1,7 @@
 <template>
   <nav class="site-nav">
     <ul class="list">
-      <AppNavItem
+      <HeaderNavItem
         v-for="page in pageList"
         :key="page.id"
         :title1="page.title1"
@@ -15,11 +15,11 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import AppNavItem from './AppNavItem'
+import HeaderNavItem from './HeaderNavItem'
 import AppEntry from './AppEntry'
 export default {
-  name: 'AppNav',
-  components: { AppEntry, AppNavItem },
+  name: 'HeaderNav',
+  components: { AppEntry, HeaderNavItem },
   computed: {
     ...mapGetters(['pageList'])
   }

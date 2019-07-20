@@ -1,16 +1,16 @@
 <template>
   <header class="site-header">
     <AppLogo />
-    <AppNav />
+    <HeaderNav />
   </header>
 </template>
 
 <script>
 import AppLogo from '../App/AppLogo'
-import AppNav from '../App/AppNav'
+import HeaderNav from '../App/HeaderNav'
 export default {
   name: 'TheHeader',
-  components: { AppNav, AppLogo }
+  components: { HeaderNav, AppLogo }
 }
 </script>
 
