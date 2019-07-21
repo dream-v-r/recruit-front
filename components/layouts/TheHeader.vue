@@ -16,12 +16,16 @@ export default {
 
 <style scoped lang="scss">
 .site-header {
-  padding: 0 0 0 30px;
+  padding-left: 2.19619%;
   background-color: #029ae4;
   display: flex;
   justify-content: space-between;
   > .site-logo {
     padding: 13px 0;
+    @include _mqmax() {
+      max-width: 136px;
+      padding: 6px 0;
+    }
   }
 }
 </style>

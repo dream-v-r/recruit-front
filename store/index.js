@@ -36,11 +36,22 @@ export const state = () => ({
       title2: 'event',
       url: 'seminar'
     }
-  ]
+  ],
+  hamburger: false
 })
 
 export const getters = {
   pageList(state) {
     return state.pageList
+  },
+  hamburger(state) {
+    return state.hamburger
+  }
+}
+
+export const mutations = {
+  hamburgerChange(state) {
+    console.log('aaa')
+    state.hamburger = !state.hamburger
   }
 }

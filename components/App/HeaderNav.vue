@@ -9,19 +9,30 @@
         :url="page.url"
       />
     </ul>
+    <ul v-show="hamburger" class="list-sp">
+      <HeaderNavItemSp
+        v-for="page in pageList"
+        :key="page.id"
+        :title2="page.title2"
+        :url="page.url"
+      />
+    </ul>
     <AppEntry />
+    <AppBtn class="appBtn" />
   </nav>
 </template>
 
 <script>
 import { mapGetters } from 'vuex'
 import HeaderNavItem from './HeaderNavItem'
+import HeaderNavItemSp from './HeaderNavItemSp'
 import AppEntry from './AppEntry'
+import AppBtn from './AppBtn'
 export default {
   name: 'HeaderNav',
-  components: { AppEntry, HeaderNavItem },
+  components: { AppBtn, AppEntry, HeaderNavItem, HeaderNavItemSp },
   computed: {
-    ...mapGetters(['pageList'])
+    ...mapGetters(['pageList', 'hamburger'])
   }
 }
 </script>
@@ -32,9 +43,27 @@ export default {
   > .list {
     display: flex;
     align-items: center;
+    @include _mqmax() {
+      display: none;
+    }
+  }
+  > .list-sp {
+    /*display: none;*/
+    @include _mqmax() {
+      /*display: block;*/
+    }
   }
   > .entry-link {
     width: 194px;
+    @include _mqmax() {
+      width: 55px;
+    }
+  }
+  .appBtn {
+    display: none;
+    @include _mqmax() {
+      display: block;
+    }
   }
 }
 </style>

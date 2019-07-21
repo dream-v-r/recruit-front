@@ -1,8 +1,17 @@
+@import "mixin";
+
 ul,li {
   list-style: none;
 }
 
 body {
-  min-width: 1100px;
+  min-width: 1200px;
+  @include _mqmax(){
+    min-width: 320px;
+  }
+}
+
+img {
+  max-width: 100%;
 }
 
