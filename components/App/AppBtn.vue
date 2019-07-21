@@ -1,6 +1,13 @@
 <template>
-  <button type="button" class="hamburger-menu" @click="handleClick">
-    <span class="icon"></span>
+  <button
+    type="button"
+    class="hamburger-menu"
+    :class="{ active: hamburger }"
+    @click="handleClick"
+  >
+    <span class="icon1"></span>
+    <span class="icon2"></span>
+    <span class="icon3"></span>
   </button>
 </template>
 
@@ -26,8 +33,21 @@ export default {
 .hamburger-menu {
   width: 55px;
   height: 55px;
+  &.active {
+    > .icon1 {
+      opacity: 0;
+    }
+    > .icon2 {
+      transform: rotate(45deg) translate(13px, 12px);
+    }
+    > .icon3 {
+      transform: rotate(-45deg) translate(7px, -7px);
+    }
+  }
   position: relative;
-  > .icon {
+  > .icon1,
+  .icon2,
+  .icon3 {
     width: 25px;
     height: 2px;
     background-color: #fff;
@@ -38,23 +58,13 @@ export default {
     margin: auto;
     right: 0;
     left: 0;
-    &::before,
-    &::after {
-      content: '';
-      width: 25px;
-      height: 2px;
-      background-color: #fff;
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: auto;
-    }
-    &::before {
-      top: -12px;
-    }
-    &::after {
-      bottom: -12px;
-    }
+    transition: 0.2s;
+  }
+  > .icon2 {
+    margin-top: 13px;
+  }
+  > .icon3 {
+    margin-bottom: 13px;
   }
 }
 </style>

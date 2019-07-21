@@ -9,14 +9,16 @@
         :url="page.url"
       />
     </ul>
-    <ul v-if="hamburger" class="list-sp">
-      <HeaderNavItemSp
-        v-for="page in pageList"
-        :key="page.id"
-        :title2="page.title2"
-        :url="page.url"
-      />
-    </ul>
+    <transition name="fade">
+      <ul v-if="hamburger" class="list-sp">
+        <HeaderNavItemSp
+          v-for="page in pageList"
+          :key="page.id"
+          :title2="page.title2"
+          :url="page.url"
+        />
+      </ul>
+    </transition>
     <AppEntry />
     <AppBtn class="appBtn" />
   </nav>
@@ -53,7 +55,7 @@ export default {
     @include _mqmax() {
       display: block;
       position: fixed;
-      top: 50px;
+      top: 59px;
       width: 100%;
       left: 0;
       background-color: $mainColor;
@@ -72,5 +74,13 @@ export default {
       display: block;
     }
   }
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
