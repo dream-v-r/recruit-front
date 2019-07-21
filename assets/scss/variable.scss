@@ -1,1 +1,8 @@
 $mainColor: #029ae4;
+
+$breakpointsMax: (
+  'sm': 'screen and (max-width: 360px)',
+  'md': 'screen and (max-width: 767px)',
+  'lg': 'screen and (max-width: 991px)',
+  'xl': 'screen and (max-width: 1200px)'
+) !default;

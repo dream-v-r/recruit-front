@@ -1,5 +1,5 @@
 <template>
-  <nav class="site-nav">
+  <nav class="footer-nav">
     <ul class="nav-list">
       <FooterNavItem
         v-for="page in pageList"
@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.site-nav {
+.footer-nav {
   display: flex;
 }
 .nav-list {

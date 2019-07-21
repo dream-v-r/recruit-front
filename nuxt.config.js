@@ -45,7 +45,10 @@ export default {
     optimizeImages: true
   },
   styleResources: {
-    sass: ['@/assets/scss/variable.scss']
+    sass: [
+      '@/assets/scss/variable.scss',
+      '@/assets/scss/mixin.scss'
+    ]
   },
   /*
    ** Axios module configuration

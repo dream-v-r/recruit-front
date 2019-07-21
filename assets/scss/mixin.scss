@@ -1,0 +1,15 @@
+@mixin _mqmax($breakpoint: md) {
+  @media #{map-get($breakpointsMax, $breakpoint)} {
+    @content
+  }
+}
+
+@mixin inner {
+  max-width: 1000px;
+  margin: auto;
+  @include _mqmax() {
+    max-width: 100%;
+  }
+}
+
+

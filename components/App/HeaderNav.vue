@@ -1,5 +1,5 @@
 <template>
-  <nav class="site-nav">
+  <nav class="header-nav">
     <ul class="list">
       <HeaderNavItem
         v-for="page in pageList"
@@ -27,7 +27,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.site-nav {
+.header-nav {
   display: flex;
   > .list {
     display: flex;
