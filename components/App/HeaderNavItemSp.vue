@@ -25,16 +25,14 @@ export default {
 <style scoped lang="scss">
 .nav-link {
   display: block;
-  border-left: 2px solid #fff;
-  padding: 5px 40px 5px 14px;
+  text-align: center;
   text-decoration: none;
+  padding: 10px 0;
   color: #fff;
-  > .title1 {
-    font-size: 13px;
-  }
   > .title2 {
-    font-size: 10px;
     text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.2em;
   }
 }
 </style>

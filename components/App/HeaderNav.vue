@@ -9,7 +9,7 @@
         :url="page.url"
       />
     </ul>
-    <ul v-show="hamburger" class="list-sp">
+    <ul v-if="hamburger" class="list-sp">
       <HeaderNavItemSp
         v-for="page in pageList"
         :key="page.id"
@@ -28,6 +28,7 @@ import HeaderNavItem from './HeaderNavItem'
 import HeaderNavItemSp from './HeaderNavItemSp'
 import AppEntry from './AppEntry'
 import AppBtn from './AppBtn'
+
 export default {
   name: 'HeaderNav',
   components: { AppBtn, AppEntry, HeaderNavItem, HeaderNavItemSp },
@@ -48,9 +49,15 @@ export default {
     }
   }
   > .list-sp {
-    /*display: none;*/
+    display: none;
     @include _mqmax() {
-      /*display: block;*/
+      display: block;
+      position: fixed;
+      top: 50px;
+      width: 100%;
+      left: 0;
+      background-color: $mainColor;
+      padding: 62px 0;
     }
   }
   > .entry-link {
