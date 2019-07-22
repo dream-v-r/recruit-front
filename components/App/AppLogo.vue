@@ -2,7 +2,7 @@
   <div class="site-logo">
     <img
       src="~/assets/img/Logo.png"
-      alt=""
+      alt="DREAM VISION CO.,LTD."
     >
   </div>
 </template>

@@ -2,7 +2,7 @@
   <li class="nav-item">
     <nuxt-link
       :to="url"
-      class="nav-link"
+      class="link"
     >
       <div class="title1">
         {{ title1 }}
@@ -35,18 +35,20 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.nav-link {
-  display: block;
-  border-left: 2px solid #fff;
-  padding: 5px 40px 5px 14px;
-  text-decoration: none;
-  color: #fff;
-  > .title1 {
-    font-size: 13px;
-  }
-  > .title2 {
-    font-size: 10px;
-    text-transform: uppercase;
+.nav-item {
+  > .link {
+    display: block;
+    border-left: 2px solid #fff;
+    padding: 5px 40px 5px 14px;
+    text-decoration: none;
+    color: #fff;
+    > .title1 {
+      font-size: 13px;
+    }
+    > .title2 {
+      font-size: 10px;
+      text-transform: uppercase;
+    }
   }
 }
 </style>
