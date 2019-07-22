@@ -31,6 +31,8 @@ export default {
   .nav-item {
     margin-right: 31px;
     position: relative;
+    display: flex;
+    align-items: center;
     &.-second {
       @include _mqmax(){
         margin: 0;
@@ -62,7 +64,10 @@ export default {
       top: 0;
       bottom: 0;
       margin: auto;
-      right: 25px;
+      right: 0;
+      @include _mqmax(){
+        right: 25px;
+      }
     }
     &::after {
       width: 8px;
@@ -72,15 +77,15 @@ export default {
       top: -4px;
       bottom: 0;
       margin: auto;
-      right: 23px;
+      right: -3px;
+      @include _mqmax(){
+        right: 23px;
+      }
     }
     &.-first {
       @include _mqmax(){
         border-right: 1px solid #fff;
       }
-    }
-    @include _mqmax(){
-
     }
   }
 }
