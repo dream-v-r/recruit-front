@@ -2,7 +2,7 @@
   <li class="nav-item">
     <nuxt-link
       :to="url"
-      class="nav-link"
+      class="link"
     >
       <div class="title2">
         {{ title2 }}
@@ -12,32 +12,34 @@
 </template>
 
 <script>
-export default {
-  name: 'HeaderNavItemSp',
-  props: {
-    title2: {
-      type: String,
-      default: ''
-    },
-    url: {
-      type: String,
-      default: ''
+  export default {
+    name: 'HeaderNavItemSp',
+    props: {
+      title2: {
+        type: String,
+        default: ''
+      },
+      url: {
+        type: String,
+        default: ''
+      }
     }
   }
-}
 </script>
 
 <style scoped lang="scss">
-.nav-link {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  padding: 10px 0;
-  color: #fff;
-  > .title2 {
-    text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 0.2em;
+.nav-item {
+  > .link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #fff;
+    > .title2 {
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 0.2em;
+    }
   }
 }
 </style>

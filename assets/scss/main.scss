@@ -6,6 +6,7 @@ ul,li {
 
 body {
   min-width: 1200px;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
   @include _mqmax(){
     min-width: 320px;
   }
