@@ -11,8 +11,11 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "precommit": "npm run fix"
   },
+  "precommit": [
+
+  ],
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^2.6.0",
@@ -46,6 +49,7 @@
     "node-sass": "^4.12.0",
     "nodemon": "^1.18.9",
     "postcss": "^7.0.17",
+    "pre-commit": "^1.2.2",
     "prettier": "^1.16.4",
     "responsive-loader": "^1.2.0",
     "ress": "^1.2.2",
