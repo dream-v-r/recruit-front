@@ -1,4 +1,8 @@
 import pkg from './package'
+const meta = {
+  title: '採用情報 - ドリームビジョン株式会社',
+  description: 'ドリームビジョン株式会社の採用情報をご紹介しております。ドリームビジョンは日本一エンジニアにやさしい企業を目指しております。'
+}
 
 export default {
   mode: 'universal',
@@ -7,11 +11,13 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: '採用情報 - ドリームビジョン株式会社',
+    title: meta.title,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'ドリームビジョン株式会社の採用情報をご紹介しております。ドリームビジョンは日本一エンジニアにやさしい企業を目指しております。' }
+      { hid: 'description', name: 'description', content: meta.description },
+      { hid: 'description', name: 'og:description', content: meta.description }
+
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
