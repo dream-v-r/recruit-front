@@ -3,8 +3,6 @@
     to="entry"
     class="entry-link"
   >
-
-
     <span class="title">entry</span>
   </nuxt-link>
 </template>

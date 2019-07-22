@@ -1,6 +1,6 @@
 <template>
   <header class="site-header">
-    <AppLogo />
+    <AppLogo class="logo" />
     <HeaderNav />
   </header>
 </template>
@@ -20,7 +20,7 @@ export default {
   background-color: #029ae4;
   display: flex;
   justify-content: space-between;
-  > .site-logo {
+  > .logo {
     padding: 13px 0;
     @include _mqmax() {
       max-width: 136px;
