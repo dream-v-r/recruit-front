@@ -1,5 +1,8 @@
 <template>
-  <nuxt-link to="entry" class="entry-link">
+  <nuxt-link
+    to="entry"
+    class="entry-link"
+  >
     <span class="title">entry</span>
   </nuxt-link>
 </template>

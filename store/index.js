@@ -51,7 +51,6 @@ export const getters = {
 
 export const mutations = {
   hamburgerChange(state) {
-    console.log('aaa')
     state.hamburger = !state.hamburger
   }
 }

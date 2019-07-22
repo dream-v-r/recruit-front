@@ -1,10 +1,20 @@
 <template>
   <ul class="footer-nav2">
     <li class="nav-item">
-      <nuxt-link to="about" class="nav-link">会社概要</nuxt-link>
+      <nuxt-link
+        to="about"
+        class="nav-link"
+      >
+        会社概要
+      </nuxt-link>
     </li>
     <li class="nav-item">
-      <nuxt-link to="privacy" class="nav-link">プライバシーポリシー</nuxt-link>
+      <nuxt-link
+        to="privacy"
+        class="nav-link"
+      >
+        プライバシーポリシー
+      </nuxt-link>
     </li>
   </ul>
 </template>

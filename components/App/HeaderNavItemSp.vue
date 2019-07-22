@@ -1,7 +1,12 @@
 <template>
   <li class="nav-item">
-    <nuxt-link :to="url" class="nav-link">
-      <div class="title2">{{ title2 }}</div>
+    <nuxt-link
+      :to="url"
+      class="nav-link"
+    >
+      <div class="title2">
+        {{ title2 }}
+      </div>
     </nuxt-link>
   </li>
 </template>

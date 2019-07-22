@@ -5,9 +5,9 @@
     :class="{ active: hamburger }"
     @click="handleClick"
   >
-    <span class="icon1"></span>
-    <span class="icon2"></span>
-    <span class="icon3"></span>
+    <span class="icon1" />
+    <span class="icon2" />
+    <span class="icon3" />
   </button>
 </template>
 

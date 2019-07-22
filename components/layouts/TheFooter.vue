@@ -12,7 +12,9 @@
     </div>
     <div class="footer-bottom bottom">
       <div class="footer-inner">
-        <p class="copyright">Copyright(c) DreamVision Co.,Ltd.All Rights</p>
+        <p class="copyright">
+          Copyright(c) DreamVision Co.,Ltd.All Rights
+        </p>
       </div>
     </div>
   </footer>

@@ -10,7 +10,10 @@
       />
     </ul>
     <transition name="fade">
-      <ul v-if="hamburger" class="list-sp">
+      <ul
+        v-if="hamburger"
+        class="listSp"
+      >
         <HeaderNavItemSp
           v-for="page in pageList"
           :key="page.id"
@@ -19,7 +22,7 @@
         />
       </ul>
     </transition>
-    <AppEntry />
+    <AppEntry class="entry " />
     <AppBtn class="appBtn" />
   </nav>
 </template>
@@ -50,7 +53,7 @@ export default {
       display: none;
     }
   }
-  > .list-sp {
+  > .listSp {
     display: none;
     @include _mqmax() {
       display: block;
@@ -62,7 +65,7 @@ export default {
       padding: 62px 0;
     }
   }
-  > .entry-link {
+  > .entry {
     width: 194px;
     @include _mqmax() {
       width: 55px;

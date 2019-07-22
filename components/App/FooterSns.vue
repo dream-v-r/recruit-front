@@ -1,25 +1,51 @@
 <template>
   <div class="sns-block">
-    <p class="sns-title">FOLLOW US ON</p>
+    <p class="sns-title">
+      FOLLOW US ON
+    </p>
     <ul class="sns-list">
       <li class="sns-item item">
-        <a href="#" class="sns-link link">
-          <img src="~/assets/img/icon_facebook.png" alt="facebook" />
+        <a
+          href="#"
+          class="sns-link link"
+        >
+          <img
+            src="~/assets/img/icon_facebook.png"
+            alt="facebook"
+          >
         </a>
       </li>
       <li class="sns-item item">
-        <a href="#" class="sns-link link">
-          <img src="~/assets/img/icon_twitter.png" alt="twitter" />
+        <a
+          href="#"
+          class="sns-link link"
+        >
+          <img
+            src="~/assets/img/icon_twitter.png"
+            alt="twitter"
+          >
         </a>
       </li>
       <li class="sns-item item">
-        <a href="#" class="sns-link link">
-          <img src="~/assets/img/icon_insta.png" alt="instagram" />
+        <a
+          href="#"
+          class="sns-link link"
+        >
+          <img
+            src="~/assets/img/icon_insta.png"
+            alt="instagram"
+          >
         </a>
       </li>
       <li class="sns-item item">
-        <a href="#" class="sns-link link">
-          <img src="~/assets/img/icon_line.png" alt="line@" />
+        <a
+          href="#"
+          class="sns-link link"
+        >
+          <img
+            src="~/assets/img/icon_line.png"
+            alt="line@"
+          >
         </a>
       </li>
     </ul>
