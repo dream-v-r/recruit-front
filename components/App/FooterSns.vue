@@ -1,6 +1,6 @@
 <template>
   <div class="sns-block">
-    <p class="sns-title">
+    <p class="sns-title title">
       FOLLOW US ON
     </p>
     <ul class="sns-list">
@@ -62,15 +62,28 @@ export default {
 .sns-block {
   display: flex;
   align-items: center;
+  @include _mqmax(){
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 .sns-title {
-  color: #fff;
+  color: #ccc;
   font-size: 12px;
+  @include _mqmax(){
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
 }
 .sns-list {
   display: flex;
   > .item {
     margin-left: 20px;
+    @include _mqmax(){
+      margin-right: 10px;
+      margin-left: 10px;
+    }
   }
 }
 .sns-item {

@@ -6,6 +6,7 @@
         :key="page.id"
         :title2="page.title2"
         :url="page.url"
+        class="item"
       />
     </ul>
   </nav>
@@ -26,12 +27,23 @@ export default {
 <style scoped lang="scss">
 .footer-nav {
   display: flex;
+  @include _mqmax() {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
 .nav-list {
   display: flex;
   align-items: center;
-  > .nav-item {
-    margin: 0 0 0 40px;
+  @include _mqmax() {
+    display: block;
+  }
+  > .item {
+    margin-bottom: 40px;
+    @include _mqmax(){
+      margin-bottom: 16px;
+    }
   }
 }
 </style>

@@ -2,7 +2,7 @@
   <li class="nav-item">
     <nuxt-link
       :to="url"
-      class="nav-link"
+      class="link"
     >
       <div class="title2">
         {{ title2 }}
@@ -32,11 +32,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.nav-link {
-  font-size: 10px;
-  color: #ccc;
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
+.nav-item {
+  > .link {
+    font-size: 10px;
+    color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    @include _mqmax() {
+      font-size: 14px;
+      padding: 10px 0;
+      display: block;
+    }
+  }
 }
 </style>
