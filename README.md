@@ -81,3 +81,6 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 
 optimizedImagesで画像を圧縮するのでPhotoShopでは100%で書き出す  
 generate時に圧縮
+
+全部大文字のテキスト書くときは、
+全部小文字か先頭だけ大文字で書いてCSSで全部大文字にする

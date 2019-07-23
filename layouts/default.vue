@@ -2,6 +2,7 @@
   <div>
     <TheHeader />
     <nuxt />
+    <TheEntry />
     <TheFooter />
   </div>
 </template>
@@ -10,7 +11,8 @@
 <script>
 import TheHeader from '../components/layouts/TheHeader'
 import TheFooter from '../components/layouts/TheFooter'
+import TheEntry from '../components/layouts/TheEntry'
 export default {
-  components: { TheFooter, TheHeader }
+  components: { TheEntry, TheFooter, TheHeader }
 }
 </script>

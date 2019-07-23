@@ -40,8 +40,9 @@ export default {
     display: block;
   }
   > .item {
-    margin-bottom: 40px;
+    margin-left: 40px;
     @include _mqmax(){
+      margin-left: 0;
       margin-bottom: 16px;
     }
   }
