@@ -1,9 +1,11 @@
 <template>
   <div class="site-logo">
-    <img
-      src="~/assets/img/Logo.png"
-      alt="DREAM VISION CO.,LTD."
-    >
+    <nuxt-link to="/">
+      <img
+        src="~/assets/img/Logo.png"
+        alt="DREAM VISION CO.,LTD."
+      >
+    </nuxt-link>
   </div>
 </template>
 

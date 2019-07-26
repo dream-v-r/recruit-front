@@ -63,6 +63,7 @@ export default {
       left: 0;
       background-color: $mainColor;
       padding: 62px 0;
+      z-index: 1;
     }
   }
   > .entry {

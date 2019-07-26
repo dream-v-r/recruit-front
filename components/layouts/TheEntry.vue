@@ -30,12 +30,25 @@
   padding-bottom: 83px;
   position: relative;
   background-size: cover;
+  @include _mqmax(){
+    padding-top: 38px;
+    padding-bottom: 38px;
+    background-position: center;
+  }
   >.title {
     text-align: center;
+    @include _mqmax(){
+      max-width: 260px;
+      margin: auto;
+    }
   }
   >.btn {
     width: 250px;
     margin: auto;
+    @include _mqmax() {
+      width: 183px;
+      margin-top: 17px;
+    }
   }
 }
 </style>
