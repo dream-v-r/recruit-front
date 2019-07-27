@@ -1,15 +1,26 @@
 <template>
-  <section class="container">
-    <div />
-  </section>
+  <main>
+    <div class="top-main">
+      <SectionMain class="section" />
+    </div>
+  </main>
 </template>
 
 <script>
-export default {}
+  import SectionMain from '../components/Top/SectionMain'
+
+  export default {
+    components: { SectionMain }
+  }
 </script>
 
-<style lang="scss">
-p {
-  color: $mainColor;
-}
+<style lang="scss" scoped>
+  p {
+    color: $mainColor;
+  }
+  .top-main {
+    .section {
+      margin-top: 120px;
+    }
+  }
 </style>
