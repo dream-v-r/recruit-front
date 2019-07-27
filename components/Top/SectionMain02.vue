@@ -86,7 +86,8 @@
   .section-inner {
     position: relative;
     > .bg {
-      background-color: beige;
+      background-image: url("~assets/img/top/section_bg.jpg");
+      background-repeat: repeat;
       padding-top: 35.339%;
       width: calc(100% - 230px);
       margin-left: auto;
