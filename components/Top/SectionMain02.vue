@@ -52,8 +52,6 @@
     > .inner {
       max-width: 1596px;
       margin-left: auto;
-      /*background-image: url();*/
-      background-position: left 420px;
       > .block {
       }
     }
@@ -61,12 +59,21 @@
 
   .section-block {
     padding-left: 20px;
+    background-image: url("~assets/img/top/section02_bg_text.png");
+    background-position: left 20px bottom 55px;
+    padding-bottom: 121px;
+    @include _mqmax(){
+      background-size: 75.2%;
+      background-position: left 0 bottom 36px;
+      padding-bottom: 71px;
+    }
     > .feature {
       position: absolute;
       top: -43px;
       left: 51.75695%;
       width: 625px;
       @include _mqmax(){
+        top: 0;
         position: relative;
         left: 0;
         width: 100%;
@@ -78,8 +85,6 @@
 
   .section-inner {
     position: relative;
-    background-image: url("~assets/img/top/section02_bg_text.png");
-    background-position: left bottom 55px;
     > .bg {
       background-color: beige;
       padding-top: 35.339%;

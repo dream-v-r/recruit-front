@@ -49,9 +49,9 @@
 
 <style scoped lang="scss">
   .main-section {
-    padding-bottom: 209px;
+
     @include _mqmax(){
-      padding-bottom: 82px;
+
     }
     > .inner {
       max-width: 1366px;
@@ -59,9 +59,13 @@
       margin-left: auto;
       background-image: url("~assets/img/top/section01_bg_text.png");
       background-position: left 420px;
+      padding-bottom: 209px;
       @include _mqmax(){
         padding-right: 20px;
         padding-left: 20px;
+        padding-bottom: 82px;
+        background-size: 79.2%;
+        background-position: left bottom 36px;
       }
       > .block {
         margin-left: 183px;
