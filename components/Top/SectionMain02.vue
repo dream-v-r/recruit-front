@@ -60,39 +60,73 @@
   }
 
   .section-block {
+    padding-left: 20px;
     > .feature {
       position: absolute;
       top: -43px;
       left: 51.75695%;
       width: 625px;
+      @include _mqmax(){
+        position: relative;
+        left: 0;
+        width: 100%;
+        margin-top: -9.85915%;
+        z-index: 2;
+      }
     }
   }
 
   .section-inner {
     position: relative;
+    background-image: url("~assets/img/top/section02_bg_text.png");
+    background-position: left bottom 55px;
     > .bg {
       background-color: beige;
-      padding-top: 562px;
+      padding-top: 35.339%;
       width: calc(100% - 230px);
       margin-left: auto;
+      @include _mqmax(){
+        width: calc(100% - 95px);
+        padding-top: 77.18309%;
+      }
     }
     > .img01 {
       position: absolute;
-      max-width: 1183px;
+      max-width: 40.10025%;
       top: 67px;
+      @include _mqmax(){
+        max-width: 84.50704%;
+        top: 12%;
+      }
     }
     > .img02 {
       margin-top: -47px;
       margin-left: 21.22986%;
+      max-width: 18.9223%;
+      @include _mqmax(){
+        position: relative;
+        max-width: 31.40845%;
+        margin-left: auto;
+        margin-right: 20px;
+        z-index: 2;
+        margin-top: -22.53521%;
+    }
     }
   }
   .section-feature {
     > .content {
       margin-top: 122px;
-      margin-left: -8.052708638
+      margin-left: -8.052708%;
+      @include _mqmax(){
+        margin-top: 30px;
+        margin-left: 0;
+      }
     }
     > .title {
       margin-left: 182px;
+      @include _mqmax(){
+        margin-left: 0;
+      }
     }
   }
 </style>

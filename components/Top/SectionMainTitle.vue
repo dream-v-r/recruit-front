@@ -69,6 +69,17 @@
       >.comment {
         top: 70px;
         right: 0;
+        @include _mqmax() {
+          top: 13px;
+          max-width: 190px;
+          right: auto;
+          left: 41.09589%;
+        }
+      }
+      >.title {
+        @include _mqmax(){
+          max-width: 139px;
+        }
       }
     }
   }

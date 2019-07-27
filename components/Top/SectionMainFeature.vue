@@ -66,5 +66,12 @@
         max-width: 156px;
       }
     }
+    .section02 & {
+      > .btn {
+        @include _mqmax() {
+          margin-right: 20px;
+        }
+      }
+    }
   }
 </style>
