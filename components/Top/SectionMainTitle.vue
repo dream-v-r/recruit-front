@@ -50,6 +50,16 @@
     position: absolute;
     top: 50px;
     left: 28px;
+    @include _mqmax(){
+      width: 69.85074%;
+      left: auto;
+      right: 0;
+    }
+  }
+  > .title {
+    @include _mqmax(){
+      max-width: 135px;
+    }
   }
 }
 </style>

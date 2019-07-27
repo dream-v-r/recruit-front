@@ -54,12 +54,22 @@
 <style scoped lang="scss">
   .main-section {
     padding-bottom: 209px;
+    @include _mqmax(){
+      padding-bottom: 82px;
+    }
     > .inner {
       max-width: 1366px;
       margin-right: auto;
       margin-left: auto;
+      @include _mqmax(){
+        padding-right: 20px;
+        padding-left: 20px;
+      }
       > .block {
         margin-left: 183px;
+        @include _mqmax(){
+          margin: 0;
+        }
       }
     }
   }
@@ -69,17 +79,32 @@
       margin-left: auto;
       margin-bottom: 60px;
       width: 60.01690%;
+      @include _mqmax(){
+        width: 89.55223%;
+        margin-bottom: 48px;
+      }
     }
     > .img02 {
       padding-top: 42px;
       margin-left: 16.56804%;
       width: 29.92392%;
+      @include _mqmax() {
+        width: 47.46268%;
+        margin-left: auto;
+        padding: 0;
+      }
     }
     > .img03 {
       position: absolute;
       top: 61.08108%;
       right: 21.978022%;
       width: 25.52831%;
+      @include _mqmax(){
+        top: 22.2%;
+        width: 32.83582%;
+        right: auto;
+        left: 0;
+      }
 
     }
     > .feature {
@@ -87,24 +112,44 @@
       top: -37px;
       left: 0;
       width: 568px;
+      @include _mqmax(){
+        position: static;
+        width: 100%;
+        margin-top: -30px;
+        top: 26px;
+      }
     }
   }
   .section-feature {
     .content {
       margin-top: 104px;
+      @include _mqmax(){
+        margin-top: 40px;
+      }
     }
   }
   .feature-content {
     > .title {
       font-size: 24px;
+      @include _mqmax(){
+        font-size: 20px;
+      }
     }
     > .detail {
       margin-top: 14px;
       font-size: 15px;
+      @include _mqmax(){
+        font-size: 14px;
+      }
     }
     > .btn {
       margin-top: 38px;
       max-width: 205px;
+      @include _mqmax(){
+        margin-top: 17px;
+        margin-left: auto;
+        max-width: 156px;
+      }
     }
   }
 </style>
