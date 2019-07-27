@@ -26,18 +26,7 @@
             title="people"
             comment="一人一人のキャリアとプライベートを全力で応援"
           />
-          <div class="feature-content content">
-            <h3 class="title">
-              社員紹介
-            </h3>
-            <p class="detail">
-              希望の働き方を実現した社員の声をご紹介。
-            </p>
-            <SectionMainBtn
-              url="people_index"
-              class="btn"
-            />
-          </div>
+          <SectionMainFeature title="社員紹介" detail="希望の働き方を実現した社員の声をご紹介。" url="people_index" />
         </div>
       </div>
     </div>
@@ -46,10 +35,10 @@
 
 <script>
   import SectionMainTitle from './SectionMainTitle'
-  import SectionMainBtn from './SectionMainBtn'
+  import SectionMainFeature from './SectionMainFeature'
   export default {
     name: 'SectionMain01',
-    components: { SectionMainBtn, SectionMainTitle }
+    components: { SectionMainFeature, SectionMainTitle }
   }
 </script>
 
@@ -129,30 +118,6 @@
       margin-top: 104px;
       @include _mqmax(){
         margin-top: 40px;
-      }
-    }
-  }
-  .feature-content {
-    > .title {
-      font-size: 24px;
-      @include _mqmax(){
-        font-size: 20px;
-      }
-    }
-    > .detail {
-      margin-top: 14px;
-      font-size: 15px;
-      @include _mqmax(){
-        font-size: 14px;
-      }
-    }
-    > .btn {
-      margin-top: 38px;
-      max-width: 205px;
-      @include _mqmax(){
-        margin-top: 17px;
-        margin-left: auto;
-        max-width: 156px;
       }
     }
   }

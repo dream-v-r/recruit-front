@@ -44,22 +44,33 @@
 </script>
 
 <style scoped lang="scss">
-.section-title {
-  position: relative;
-  > .comment {
-    position: absolute;
-    top: 50px;
-    left: 28px;
-    @include _mqmax(){
-      width: 69.85074%;
-      left: auto;
-      right: 0;
+  .section-title {
+    position: relative;
+    > .comment {
+      position: absolute;
+    }
+    .section01 & {
+      > .comment {
+        top: 50px;
+        left: 28px;
+        @include _mqmax() {
+          width: 69.85074%;
+          left: auto;
+          right: 0;
+        }
+      }
+      > .title {
+        @include _mqmax() {
+          max-width: 135px;
+        }
+      }
+    }
+    .section02 & {
+      >.comment {
+        top: 70px;
+        right: 0;
+      }
     }
   }
-  > .title {
-    @include _mqmax(){
-      max-width: 135px;
-    }
-  }
-}
+
 </style>
