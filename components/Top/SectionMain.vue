@@ -66,17 +66,20 @@
   .section-block {
     position: relative;
     > .img01 {
-      text-align: right;
+      margin-left: auto;
       margin-bottom: 60px;
+      width: 60.01690%;
     }
     > .img02 {
       padding-top: 42px;
       margin-left: 16.56804%;
+      width: 29.92392%;
     }
     > .img03 {
       position: absolute;
-      top: 452px;
-      right: 260px;
+      top: 61.08108%;
+      right: 21.978022%;
+      width: 25.52831%;
 
     }
     > .feature {
