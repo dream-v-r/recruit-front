@@ -26,7 +26,12 @@
             title="people"
             comment="一人一人のキャリアとプライベートを全力で応援"
           />
-          <SectionMainFeature title="社員紹介" detail="希望の働き方を実現した社員の声をご紹介。" url="people_index" />
+          <SectionMainFeature
+            title="社員紹介"
+            detail="希望の働き方を実現した社員の声をご紹介。"
+            url="people_index"
+            class="content"
+          />
         </div>
       </div>
     </div>

@@ -1,9 +1,12 @@
 <template>
-  <div class="feature-content content">
+  <div class="feature-content">
     <h3 class="title">
-      {{title}}
+      {{ title }}
     </h3>
-    <p class="detail" v-html="detail"></p>
+    <p
+      class="detail"
+      v-html="detail"
+    />
     <SectionMainBtn
       :url="url"
       class="btn"
@@ -35,16 +38,6 @@
 </script>
 
 <style scoped lang="scss">
-  .section-feature {
-
-    .content {
-      margin-top: 104px;
-
-      @include _mqmax() {
-        margin-top: 40px;
-      }
-    }
-  }
 
   .feature-content {
 

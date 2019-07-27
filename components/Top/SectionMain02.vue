@@ -3,8 +3,7 @@
     <div class="inner">
       <div class="section-block block">
         <div class="section-inner">
-          <div class="bg">
-          </div>
+          <div class="bg"></div>
           <div class="img01">
             <img
               src="~/assets/img/top/section02_img01.jpg"
@@ -23,8 +22,14 @@
             number="02"
             title="Culture"
             comment="社員の笑顔の源。社員の声から生まれる"
+            class="title"
           />
-          <SectionMainFeature title="福利厚生・社風" detail="大手IT企業にも負けない様々な福利厚生や<br>社員サポートを行っております。" url="culture" />
+          <SectionMainFeature
+            title="福利厚生・社風"
+            detail="大手IT企業にも負けない様々な福利厚生や<br>社員サポートを行っております。"
+            url="culture"
+            class="content"
+          />
         </div>
       </div>
     </div>
@@ -37,23 +42,7 @@
 
   export default {
     name: 'SectionMain02',
-    components: { SectionMainFeature, SectionMainTitle },
-    data() {
-      return {
-        windowSize: {
-          x: 0,
-          y: 0
-        }
-      }
-    },
-    mounted: function() {
-      this.onResize()
-    },
-    methods: {
-      onResize() {
-        this.windowSize = { x: window.innerWidth, y: window.innerHeight }
-      }
-    }
+    components: { SectionMainFeature, SectionMainTitle }
   }
 </script>
 
@@ -74,8 +63,8 @@
     > .feature {
       position: absolute;
       top: -43px;
-      right: 70px;
-      width: 476px;
+      left: 51.75695%;
+      width: 625px;
     }
   }
 
@@ -95,6 +84,15 @@
     > .img02 {
       margin-top: -47px;
       margin-left: 21.22986%;
+    }
+  }
+  .section-feature {
+    > .content {
+      margin-top: 122px;
+      margin-left: -8.052708638
+    }
+    > .title {
+      margin-left: 182px;
     }
   }
 </style>
