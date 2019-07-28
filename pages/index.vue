@@ -21,6 +21,7 @@
   .top-main {
     .section {
       margin-top: 120px;
+      border-bottom: 1px solid #999;
     }
   }
 </style>
