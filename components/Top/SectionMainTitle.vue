@@ -129,9 +129,15 @@
       > .comment {
         left: 206px;
         top: 56px;
+        @include _mqmax(){
+          top: 25px;
+          left: 99px;
+        }
       }
       > .title {
-
+        @include _mqmax(){
+          max-width: 178px;
+        }
       }
     }
   }

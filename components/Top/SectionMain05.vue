@@ -3,7 +3,8 @@
     <div class="inner">
       <div class="section-block block">
         <div class="img01">
-          <img src="~/assets/img/top/section05_img01.jpg" alt=""/>
+          <img src="~/assets/img/top/section05_img01.jpg" alt="" class="pc"/>
+          <img src="~/assets/img/top/section05_img01_sp.jpg" alt="" class="sp"/>
         </div>
         <div class="feature section-feature">
           <SectionMainTitle
@@ -38,7 +39,10 @@
     > .inner {
       max-width: 1366px;
       margin: auto;
-      padding-bottom: 160px;
+      padding-bottom: 82px;
+      @include _mqmax(){
+        padding-bottom: 40px;
+      }
     }
   }
   .section-block {
@@ -47,11 +51,19 @@
       margin-left: auto;
       margin-right: auto;
       margin-top: -33px;
+      @include _mqmax(){
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: -13px;
+      }
     }
   }
   .section-feature {
     .title {
       margin-bottom: 40px;
+      @include _mqmax(){
+        margin-bottom: 30px;
+      }
     }
   }
 
