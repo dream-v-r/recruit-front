@@ -83,12 +83,13 @@
     > .feature {
       position: absolute;
       top: -43px;
-      left: 51.75695%;
-      width: 625px;
+      left: 51.61054%;
+      max-width: 40.42690%;
       @include _mqmax(){
         top: 0;
         position: relative;
         left: 0;
+        max-width: 100%;
         width: 100%;
         margin-top: -3.6%;
         z-index: 2;
