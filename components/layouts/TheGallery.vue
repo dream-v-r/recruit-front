@@ -19,38 +19,11 @@
             ギャラリー
           </div>
         </h2>
-        <div
-          class="gallery1 gallery-img"
-          @mouseover="showDetail"
-        >
-          <img
-            src="~/assets/img/gallery-img01.jpg"
-            alt=""
-          >
-        </div>
-        <div class="gallery2 gallery-img">
-          <img
-            src="~/assets/img/gallery-img01.jpg"
-            alt=""
-          >
-        </div>
-        <div class="gallery3 gallery-img">
-          <img
-            src="~/assets/img/gallery-img01.jpg"
-            alt=""
-          >
-        </div>
-        <div class="gallery4 gallery-img">
-          <img
-            src="~/assets/img/gallery-img01.jpg"
-            alt=""
-          >
-        </div>
-        <div class="gallery5 gallery-img">
-          <img
-            src="~/assets/img/gallery-img01.jpg"
-            alt=""
-          >
+        <div v-for="(item,index) in gallery" :key="index" class="gallery-img" :class="`gallery${index + 1}`" @mouseover="showDetail(index)" @mouseleave="hiddenDetail(index)">
+          <img :src="item.img">
+          <div class="detail-cover cover" v-show="item.isDetail">
+            <p class="text">{{item.detail}}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -59,7 +32,51 @@
 
 <script>
   export default {
-    name: 'TheGallery'
+    name: 'TheGallery',
+    data() {
+      return {
+        gallery: [
+          {
+            title: '',
+            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。',
+            img: require("~/assets/img/gallery-img01.jpg"),
+            isDetail: false
+          },
+          {
+            title: '',
+            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。',
+            img: require("~/assets/img/gallery-img02.jpg"),
+            isDetail: false
+          },
+          {
+            title: '',
+            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。',
+            img: require("~/assets/img/gallery-img03.jpg"),
+            isDetail: false
+          },
+          {
+            title: '',
+            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。',
+            img: require("~/assets/img/gallery-img04.jpg"),
+            isDetail: false
+          },
+          {
+            title: '',
+            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。',
+            img: require("~/assets/img/gallery-img05.jpg"),
+            isDetail: false
+          }
+        ]
+      }
+    },
+    methods: {
+      showDetail: function(index) {
+        this.gallery[index].isDetail = true
+      },
+      hiddenDetail: function(index) {
+        this.gallery[index].isDetail = false
+      }
+    }
   }
 </script>
 
@@ -141,10 +158,27 @@
     }
   }
   .gallery-img {
+    position: relative;
     > img {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
+    > .cover {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      padding-right: 15px;
+      padding-left: 15px;
+      padding-bottom: 15px;
+      padding-top: 15px;
+    }
+  }
+  .detail-cover {
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(#1b75b0, 0.9);
   }
 </style>
