@@ -52,31 +52,31 @@
         gallery: [
           {
             title: '',
-            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。',
+            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。１１１１',
             img: require("~/assets/img/gallery-img01.jpg"),
             isDetail: false
           },
           {
             title: '',
-            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。',
+            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。２２２２',
             img: require("~/assets/img/gallery-img02.jpg"),
             isDetail: false
           },
           {
             title: '',
-            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。',
+            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。３３３３３',
             img: require("~/assets/img/gallery-img03.jpg"),
             isDetail: false
           },
           {
             title: '',
-            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。',
+            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。４４４４４',
             img: require("~/assets/img/gallery-img04.jpg"),
             isDetail: false
           },
           {
             title: '',
-            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。',
+            detail: 'マウスオーバーでテキストが表示されます。マウスオーバーでテキストが表示されます。５５５５５',
             img: require("~/assets/img/gallery-img05.jpg"),
             isDetail: false
           }
