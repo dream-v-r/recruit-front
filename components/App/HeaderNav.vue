@@ -58,7 +58,7 @@ export default {
     @include _mqmax() {
       display: block;
       position: fixed;
-      top: 57px;
+      top: 54px;
       width: 100%;
       left: 0;
       background-color: $mainColor;
