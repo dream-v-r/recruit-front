@@ -132,6 +132,7 @@
         @include _mqmax(){
           top: 25px;
           left: 99px;
+          max-width: 244px;
         }
       }
       > .title {

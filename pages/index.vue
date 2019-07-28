@@ -2,15 +2,17 @@
   <main>
     <div class="top-main">
       <SectionMain class="section" />
+      <TheColumnBanner />
     </div>
   </main>
 </template>
 
 <script>
   import SectionMain from '../components/Top/SectionMain'
+  import TheColumnBanner from '../components/layouts/TheColumnBanner'
 
   export default {
-    components: { SectionMain }
+    components: { TheColumnBanner, SectionMain }
   }
 </script>
 
