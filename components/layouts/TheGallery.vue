@@ -21,9 +21,11 @@
         </h2>
         <div v-for="(item,index) in gallery" :key="index" class="gallery-img" :class="`gallery${index + 1}`" @mouseover="showDetail(index)" @mouseleave="hiddenDetail(index)">
           <img :src="item.img">
-          <div class="detail-cover cover" v-show="item.isDetail">
-            <p class="text">{{item.detail}}</p>
-          </div>
+          <transition name="show">
+            <div class="detail-cover cover" v-show="item.isDetail">
+              <p class="text">{{item.detail}}</p>
+            </div>
+          </transition>
         </div>
       </div>
     </div>
@@ -180,5 +182,11 @@
     font-size: 14px;
     color: #fff;
     background-color: rgba(#1b75b0, 0.9);
+  }
+  .show-enter-active, .show-leave-active {
+    transition: opacity .2s
+  }
+  .show-enter, .show-leave-active {
+    opacity: 0
   }
 </style>
