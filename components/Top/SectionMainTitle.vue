@@ -82,6 +82,12 @@
         }
       }
     }
+    .section03 & {
+      > .comment {
+        top: 52px;
+        left: 112px;
+      }
+    }
   }
 
 </style>

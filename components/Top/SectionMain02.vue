@@ -60,7 +60,7 @@
   .section-block {
     padding-left: 20px;
     background-image: url("~assets/img/top/section02_bg_text.png");
-    background-position: left 20px bottom 55px;
+    background-position: left 20px bottom 183px;
     padding-bottom: 121px;
     @include _mqmax(){
       background-size: 75.2%;
@@ -122,10 +122,8 @@
   .section-feature {
     > .content {
       margin-top: 122px;
-      margin-left: -8.052708%;
       @include _mqmax(){
         margin-top: 30px;
-        margin-left: 0;
       }
     }
     > .title {
