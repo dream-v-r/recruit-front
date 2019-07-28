@@ -3,8 +3,16 @@
     <div class="inner">
       <div class="section-block block">
         <div class="img01">
-          <img src="~/assets/img/top/section05_img01.jpg" alt="" class="pc"/>
-          <img src="~/assets/img/top/section05_img01_sp.jpg" alt="" class="sp"/>
+          <img
+            src="~/assets/img/top/section05_img01.jpg"
+            alt=""
+            class="pc"
+          >
+          <img
+            src="~/assets/img/top/section05_img01_sp.jpg"
+            alt=""
+            class="sp"
+          >
         </div>
         <div class="feature section-feature">
           <SectionMainTitle

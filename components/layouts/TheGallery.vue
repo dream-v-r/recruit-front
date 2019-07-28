@@ -4,27 +4,53 @@
       <div class="gallery-grid">
         <h2 class="title gallery-title">
           <div class="icon">
-            <img src="~/assets/img/icon_insta_c.png" alt=""/>
+            <img
+              src="~/assets/img/icon_insta_c.png"
+              alt=""
+            >
           </div>
           <div class="main">
-            <img src="~/assets/img/gallery_text.png" alt="gallery"/>
+            <img
+              src="~/assets/img/gallery_text.png"
+              alt="gallery"
+            >
           </div>
-          <div class="sub">ギャラリー</div>
+          <div class="sub">
+            ギャラリー
+          </div>
         </h2>
-        <div class="gallery1 gallery-img">
-          <img src="~/assets/img/gallery-img01.jpg" alt="">
+        <div
+          class="gallery1 gallery-img"
+          @mouseover="showDetail"
+        >
+          <img
+            src="~/assets/img/gallery-img01.jpg"
+            alt=""
+          >
         </div>
         <div class="gallery2 gallery-img">
-          <img src="~/assets/img/gallery-img01.jpg" alt="">
+          <img
+            src="~/assets/img/gallery-img01.jpg"
+            alt=""
+          >
         </div>
         <div class="gallery3 gallery-img">
-          <img src="~/assets/img/gallery-img01.jpg" alt="">
+          <img
+            src="~/assets/img/gallery-img01.jpg"
+            alt=""
+          >
         </div>
         <div class="gallery4 gallery-img">
-          <img src="~/assets/img/gallery-img01.jpg" alt="">
+          <img
+            src="~/assets/img/gallery-img01.jpg"
+            alt=""
+          >
         </div>
         <div class="gallery5 gallery-img">
-          <img src="~/assets/img/gallery-img01.jpg" alt="">
+          <img
+            src="~/assets/img/gallery-img01.jpg"
+            alt=""
+          >
         </div>
       </div>
     </div>

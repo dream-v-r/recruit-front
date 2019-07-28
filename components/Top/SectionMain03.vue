@@ -19,7 +19,7 @@
             number="03"
             title="event"
             comment="多くの人との出会いの機会を"
-            :sp= "true"
+            :sp="true"
           />
           <SectionMainFeature
             title="説明会"

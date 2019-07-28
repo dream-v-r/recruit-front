@@ -2,7 +2,10 @@
   <section class="site-columnBanner">
     <div class="inner">
       <nuxt-link to="">
-        <img src="~/assets/img/banner_column.jpg" alt="Column IT業界やエンジニアの仕事のことなど、ご紹介します。"/>
+        <img
+          src="~/assets/img/banner_column.jpg"
+          alt="Column IT業界やエンジニアの仕事のことなど、ご紹介します。"
+        >
       </nuxt-link>
     </div>
   </section>
