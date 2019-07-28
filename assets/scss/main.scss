@@ -17,3 +17,15 @@ img {
   vertical-align: bottom;
 }
 
+.pc {
+  @include _mqmax(){
+    display: none;
+  }
+}
+
+.sp {
+  display: none;
+  @include _mqmax(){
+    display: block;
+  }
+}

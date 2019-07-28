@@ -6,28 +6,40 @@
           <div class="bg"></div>
           <div class="img01">
             <img
-              src="~/assets/img/top/section02_img01.jpg"
+              src="~/assets/img/top/section04_img01.jpg"
               alt=""
+              class="pc"
+            >
+            <img
+              src="~/assets/img/top/section04_img01_sp.jpg"
+              alt=""
+              class="sp"
             >
           </div>
           <div class="img02">
             <img
-              src="~/assets/img/top/section02_img02.jpg"
+              src="~/assets/img/top/section04_img02.jpg"
               alt=""
+              class="pc"
+            >
+            <img
+              src="~/assets/img/top/section04_img02_sp.jpg"
+              alt=""
+              class="sp"
             >
           </div>
         </div>
         <div class="feature section-feature">
           <SectionMainTitle
-            number="02"
-            title="Culture"
-            comment="社員の笑顔の源。社員の声から生まれる"
+            number="04"
+            title="Recruit"
+            comment="一緒に働ける仲間募集中！"
             class="title"
           />
           <SectionMainFeature
-            title="福利厚生・社風"
-            detail="大手IT企業にも負けない様々な福利厚生や<br>社員サポートを行っております。"
-            url="culture"
+            title="採用情報"
+            detail="新卒・中途採用の情報をご紹介します。"
+            url="entry"
             class="content"
           />
         </div>
@@ -59,13 +71,14 @@
 
   .section-block {
     padding-left: 20px;
-    background-image: url("~assets/img/top/section02_bg_text.png");
+    background-image: url("~assets/img/top/section04_bg_text.png");
     background-position: left 20px bottom 183px;
     padding-bottom: 121px;
     @include _mqmax(){
       background-size: 75.2%;
       background-position: left 0 bottom 36px;
       padding-bottom: 71px;
+      padding-left: 0;
     }
     > .feature {
       position: absolute;
@@ -77,8 +90,9 @@
         position: relative;
         left: 0;
         width: 100%;
-        margin-top: -9.85915%;
+        margin-top: -3.6%;
         z-index: 2;
+        padding-left: 20px;
         padding-right: 20px;
       }
     }
@@ -94,7 +108,7 @@
       margin-left: auto;
       @include _mqmax(){
         width: calc(100% - 95px);
-        padding-top: 77.18309%;
+        padding-top: 77.6%;
       }
     }
     > .img01 {
@@ -102,22 +116,23 @@
       max-width: 40.10025%;
       top: 67px;
       @include _mqmax(){
-        max-width: 84.50704%;
-        top: 12%;
+        max-width: 80%;
+        top: 9.33333%;
+        right: 0;
       }
     }
     > .img02 {
       margin-top: -47px;
       margin-left: 21.22986%;
-      max-width: 18.9223%;
+      max-width: 40.10025%;
       @include _mqmax(){
         position: relative;
-        max-width: 31.40845%;
-        margin-left: auto;
-        margin-right: 20px;
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: 0;
         z-index: 2;
-        margin-top: -22.53521%;
-    }
+        margin-top: -37.13333%;
+      }
     }
   }
   .section-feature {

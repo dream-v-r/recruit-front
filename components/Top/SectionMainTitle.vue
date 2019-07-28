@@ -104,21 +104,24 @@
           top: 17px;
           max-width: 191px;
         }
-        > .sp {
-          display: none;
-          @include _mqmax(){
-            display: block;
-          }
-        }
-        > .pc {
-          @include _mqmax(){
-            display: none;
-          }
-        }
       }
       > .title {
         @include _mqmax(){
           max-width: 103px;
+        }
+      }
+    }
+    .section04 & {
+      >.comment {
+        @include _mqmax() {
+          max-width: 175px;
+          left: 40.8%;
+          top: 25px;
+        }
+      }
+      >.title {
+        @include _mqmax() {
+          max-width: 135px;
         }
       }
     }

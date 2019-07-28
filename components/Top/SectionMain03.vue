@@ -84,7 +84,7 @@
       }
     }
     > .img02 {
-      padding-top: 42˚px;
+      padding-top: 42px;
       margin-left: 21.978021%;
       width: 60.016906%;
       @include _mqmax() {
@@ -110,7 +110,7 @@
   }
 
   .section-feature {
-    .content {˚
+    .content {
       margin-top: 104px;
       @include _mqmax() {
         margin-top: 40px;
