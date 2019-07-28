@@ -19,6 +19,7 @@
             number="03"
             title="event"
             comment="多くの人との出会いの機会を"
+            :sp= "true"
           />
           <SectionMainFeature
             title="説明会"
@@ -56,8 +57,6 @@
       background-position: left bottom 148px;
       padding-bottom: 245px;
       @include _mqmax() {
-        padding-right: 20px;
-        padding-left: 20px;
         padding-bottom: 82px;
         background-size: 79.2%;
         background-position: left bottom 36px;
@@ -79,17 +78,20 @@
       width: 60.01690%;
       @include _mqmax() {
         width: 89.55223%;
-        margin-bottom: 48px;
+        margin-left: 0;
+        margin-right: auto;
+        margin-bottom: 40px;
       }
     }
     > .img02 {
-      padding-top: 42px;
+      padding-top: 42˚px;
       margin-left: 21.978021%;
       width: 60.016906%;
       @include _mqmax() {
-        width: 47.46268%;
+        width: 80%;
         margin-left: auto;
-        padding: 0;
+        padding-top: 0;
+        padding-right: 20px;
       }
     }
     > .feature {
@@ -100,14 +102,15 @@
       @include _mqmax() {
         position: static;
         width: 100%;
-        margin-top: -30px;
-        top: 26px;
+        padding-left: 20px;
+        margin-top: -27px;
+        padding-right: 20px;
       }
     }
   }
 
   .section-feature {
-    .content {
+    .content {˚
       margin-top: 104px;
       @include _mqmax() {
         margin-top: 40px;

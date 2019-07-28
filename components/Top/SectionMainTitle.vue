@@ -10,6 +10,13 @@
       <img
         :src="commentImgPath"
         :alt="comment"
+        :class="{pc: sp}"
+      >
+      <img
+        v-if="sp"
+        :src="commmentImgPathSp"
+        :alt="comment"
+        class="sp"
       >
     </p>
   </div>
@@ -30,6 +37,10 @@
       comment: {
         type: String,
         default: ''
+      },
+      sp: {
+        type: Boolean,
+        default: false
       }
     },
     computed: {
@@ -38,6 +49,9 @@
       },
       commentImgPath: function() {
         return require(`~/assets/img/top/section${this.number}_comment.png`)
+      },
+      commmentImgPathSp: function() {
+        return require(`~/assets/img/top/section${this.number}_comment_sp.png`)
       }
     }
   }
@@ -86,6 +100,26 @@
       > .comment {
         top: 52px;
         left: 112px;
+        @include _mqmax(){
+          top: 17px;
+          max-width: 191px;
+        }
+        > .sp {
+          display: none;
+          @include _mqmax(){
+            display: block;
+          }
+        }
+        > .pc {
+          @include _mqmax(){
+            display: none;
+          }
+        }
+      }
+      > .title {
+        @include _mqmax(){
+          max-width: 103px;
+        }
       }
     }
   }
