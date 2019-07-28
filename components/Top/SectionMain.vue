@@ -1,10 +1,30 @@
 <template>
   <div>
-    <SectionMain01 class="section01 section-area" v-observe-visibility="visibilityChanged1" :class="{active: isVisible1}" />
-    <SectionMain02 class="section02 section-area" v-observe-visibility="visibilityChanged2" :class="{active: isVisible2}" />
-    <SectionMain03 class="section03 section-area" v-observe-visibility="visibilityChanged3" :class="{active: isVisible3}" />
-    <SectionMain04 class="section04 section-area" v-observe-visibility="visibilityChanged4" :class="{active: isVisible4}" />
-    <SectionMain05 class="section05 section-area" v-observe-visibility="visibilityChanged5" :class="{active: isVisible5}" />
+    <SectionMain01
+      v-observe-visibility="visibilityChanged1"
+      class="section01 section-area"
+      :class="{active: isVisible1}"
+    />
+    <SectionMain02
+      v-observe-visibility="visibilityChanged2"
+      class="section02 section-area"
+      :class="{active: isVisible2}"
+    />
+    <SectionMain03
+      v-observe-visibility="visibilityChanged3"
+      class="section03 section-area"
+      :class="{active: isVisible3}"
+    />
+    <SectionMain04
+      v-observe-visibility="visibilityChanged4"
+      class="section04 section-area"
+      :class="{active: isVisible4}"
+    />
+    <SectionMain05
+      v-observe-visibility="visibilityChanged5"
+      class="section05 section-area"
+      :class="{active: isVisible5}"
+    />
   </div>
 </template>
 <script>

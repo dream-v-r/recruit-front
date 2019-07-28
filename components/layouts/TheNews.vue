@@ -1,17 +1,29 @@
 <template>
   <section class="site-news">
     <div class="inner news-inner">
-    <h2 class="title">NEWS</h2>
-    <ul class="list">
-      <li class="item news-item">
-        <time datetime="0000.00.00" class="date">0000.00.00</time>
-        <p class="text">記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイト...</p>
-      </li>
-      <li class="item news-item">
-        <time datetime="0000.00.00" class="date">0000.00.00</time>
-        <p class="text">記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイト...</p>
-      </li>
-    </ul>
+      <h2 class="title">
+        NEWS
+      </h2>
+      <ul class="list">
+        <li class="item news-item">
+          <time
+            datetime="0000.00.00"
+            class="date"
+          >0000.00.00</time>
+          <p class="text">
+            記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイト...
+          </p>
+        </li>
+        <li class="item news-item">
+          <time
+            datetime="0000.00.00"
+            class="date"
+          >0000.00.00</time>
+          <p class="text">
+            記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイト...
+          </p>
+        </li>
+      </ul>
     </div>
   </section>
 </template>

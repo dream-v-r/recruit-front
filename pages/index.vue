@@ -2,7 +2,7 @@
   <main>
     <div class="top-main">
       <div class="news">
-      <TheNews />
+        <TheNews />
       </div>
       <SectionMain class="section" />
       <TheColumnBanner class="banner" />
