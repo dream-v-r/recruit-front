@@ -1,6 +1,7 @@
 <template>
   <main>
     <div class="top-main">
+      <TheNews />
       <SectionMain class="section" />
       <TheColumnBanner class="banner" />
       <TheGallery class="gallery" />
@@ -12,9 +13,10 @@
   import SectionMain from '../components/Top/SectionMain'
   import TheColumnBanner from '../components/layouts/TheColumnBanner'
   import TheGallery from '../components/layouts/TheGallery'
+  import TheNews from '../components/layouts/TheNews'
 
   export default {
-    components: { TheGallery, TheColumnBanner, SectionMain }
+    components: { TheNews, TheGallery, TheColumnBanner, SectionMain }
   }
 </script>
 
