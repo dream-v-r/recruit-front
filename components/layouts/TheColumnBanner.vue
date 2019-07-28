@@ -1,11 +1,11 @@
 <template>
-  <div class="column-banner">
+  <section class="site-columnBanner">
     <div class="inner">
       <nuxt-link to="">
         <img src="~/assets/img/banner_column.jpg" alt="Column IT業界やエンジニアの仕事のことなど、ご紹介します。"/>
       </nuxt-link>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -15,7 +15,7 @@
 </script>
 
 <style scoped lang="scss">
-.column-banner {
+.site-columnBanner {
   padding-top: 80px;
   padding-bottom: 80px;
   @include _mqmax(){

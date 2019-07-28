@@ -1,11 +1,11 @@
 <template>
   <div class="site-entry">
-    <div class="title">
+    <h2 class="title">
       <img
         src="~/assets/img/text_entry.png"
         alt="Entry"
       >
-    </div>
+    </h2>
     <BaseBtn
       title="エントリーはこちら"
       url="entry"
