@@ -1,7 +1,9 @@
 <template>
   <main>
     <div class="top-main">
+      <div class="news">
       <TheNews />
+      </div>
       <SectionMain class="section" />
       <TheColumnBanner class="banner" />
       <TheGallery class="gallery" />
@@ -25,12 +27,21 @@
     color: $mainColor;
   }
   .top-main {
-    .section {
+    > .section {
       margin-top: 120px;
       border-bottom: 1px solid #999;
+      @include _mqmax(){
+        margin-top: 50px;
+      }
     }
-    .banner {
+    > .banner {
       border-bottom: 1px solid #999;
+    }
+    > .news {
+      @include _mqmax() {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
     }
   }
 </style>

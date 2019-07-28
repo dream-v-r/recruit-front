@@ -28,23 +28,18 @@
     methods: {
       visibilityChanged1(isVisible) {
         this.isVisible1 = isVisible;
-        console.log(this.isVisible1);
       },
       visibilityChanged2(isVisible) {
         this.isVisible2 = isVisible;
-        console.log(this.isVisible1);
       },
       visibilityChanged3(isVisible) {
         this.isVisible3 = isVisible;
-        console.log(this.isVisible1);
       },
       visibilityChanged4(isVisible) {
         this.isVisible4 = isVisible;
-        console.log(this.isVisible1);
       },
       visibilityChanged5(isVisible) {
         this.isVisible5 = isVisible;
-        console.log(this.isVisible1);
       }
     },
   }

@@ -27,11 +27,21 @@
   display: flex;
   align-items: flex-start;
   padding-top: 35px;
-  padding-bottom: 35px;
+  padding-bottom: 18px;
+  @include _mqmax(){
+    padding-top: 21px;
+    display: block;
+  }
   > .date {
     font-size: 15px;
     color: $mainColor;
     margin-right: 35px;
+    line-height: 1;
+    display: block;
+    @include _mqmax(){
+      margin-right: 0;
+      margin-bottom: 8px;
+    }
   }
   > .text {
     font-size: 14px;
@@ -46,10 +56,18 @@
   max-width: 1000px;
   margin: auto;
   padding-top: 64px;
-  padding-bottom: 64px;
+  padding-bottom: 33px;
+  @include _mqmax(){
+    padding-top: 29px;
+    padding-bottom: 0;
+  }
   > .inner {
     max-width: 750px;
     margin: auto;
+    @include _mqmax(){
+      padding-right: 20px;
+      padding-left: 20px;
+    }
   }
 }
   .news-inner {
@@ -58,6 +76,9 @@
       color: #fff;
       padding-bottom: 15px;
       border-bottom: 1px solid #fff;
+      @include _mqmax(){
+        font-size: 20px;
+      }
     }
   }
 </style>
