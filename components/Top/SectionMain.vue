@@ -1,15 +1,13 @@
 <template>
   <div>
-    <SectionMain01 class="section01" />
-    <SectionMain02 class="section02" />
-    <SectionMain03 class="section03" />
-    <SectionMain04 class="section04" />
-    <SectionMain05 class="section05" />
+    <SectionMain01 class="section01 section-area" v-observe-visibility="visibilityChanged1" :class="{active: isVisible1}" />
+    <SectionMain02 class="section02 section-area" v-observe-visibility="visibilityChanged2" :class="{active: isVisible2}" />
+    <SectionMain03 class="section03 section-area" v-observe-visibility="visibilityChanged3" :class="{active: isVisible3}" />
+    <SectionMain04 class="section04 section-area" v-observe-visibility="visibilityChanged4" :class="{active: isVisible4}" />
+    <SectionMain05 class="section05 section-area" v-observe-visibility="visibilityChanged5" :class="{active: isVisible5}" />
   </div>
 </template>
 <script>
-
-
   import SectionMain01 from './SectionMain01'
   import SectionMain02 from './SectionMain02'
   import SectionMain03 from './SectionMain03'
@@ -18,6 +16,37 @@
   export default {
     name: 'SectionMain',
     components: { SectionMain02, SectionMain01, SectionMain03, SectionMain04, SectionMain05 },
+    data(){
+      return {
+        isVisible1: true,
+        isVisible2: true,
+        isVisible3: true,
+        isVisible4: true,
+        isVisible5: true
+      }
+    },
+    methods: {
+      visibilityChanged1(isVisible) {
+        this.isVisible1 = isVisible;
+        console.log(this.isVisible1);
+      },
+      visibilityChanged2(isVisible) {
+        this.isVisible2 = isVisible;
+        console.log(this.isVisible1);
+      },
+      visibilityChanged3(isVisible) {
+        this.isVisible3 = isVisible;
+        console.log(this.isVisible1);
+      },
+      visibilityChanged4(isVisible) {
+        this.isVisible4 = isVisible;
+        console.log(this.isVisible1);
+      },
+      visibilityChanged5(isVisible) {
+        this.isVisible5 = isVisible;
+        console.log(this.isVisible1);
+      }
+    },
   }
 </script>
 <style scoped lang="scss">
@@ -43,6 +72,15 @@
         margin-left: auto;
         max-width: 156px;
       }
+    }
+  }
+  .section-area {
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    &.active {
+      opacity: 1;
     }
   }
 </style>
