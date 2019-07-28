@@ -72,8 +72,8 @@
   .section-block {
     padding-left: 20px;
     background-image: url("~assets/img/top/section04_bg_text.png");
-    background-position: left 20px bottom 183px;
-    padding-bottom: 121px;
+    background-position: left 20px bottom 81px;
+    padding-bottom: 160px;
     @include _mqmax(){
       background-size: 75.2%;
       background-position: left 0 bottom 36px;

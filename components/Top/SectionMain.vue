@@ -4,6 +4,7 @@
     <SectionMain02 class="section02" />
     <SectionMain03 class="section03" />
     <SectionMain04 class="section04" />
+    <SectionMain05 class="section05" />
   </div>
 </template>
 <script>
@@ -13,9 +14,10 @@
   import SectionMain02 from './SectionMain02'
   import SectionMain03 from './SectionMain03'
   import SectionMain04 from './SectionMain04'
+  import SectionMain05 from './SectionMain05'
   export default {
     name: 'SectionMain',
-    components: { SectionMain02, SectionMain01, SectionMain03, SectionMain04 },
+    components: { SectionMain02, SectionMain01, SectionMain03, SectionMain04, SectionMain05 },
   }
 </script>
 <style scoped lang="scss">

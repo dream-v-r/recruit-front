@@ -125,6 +125,15 @@
         }
       }
     }
+    .section05 & {
+      > .comment {
+        left: 206px;
+        top: 56px;
+      }
+      > .title {
+
+      }
+    }
   }
 
 </style>
