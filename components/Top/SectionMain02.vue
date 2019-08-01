@@ -85,17 +85,23 @@
 
   .section-inner {
     position: relative;
+    @include _mqmax(){
+      padding-left: 20px;
+    }
     &::before {
       content: '';
       position: absolute;
       background-image: url("~assets/img/top/section_bg.jpg");
       background-repeat: repeat;
       z-index: -1;
-      width: calc(83.089311% + 50vw);
+      width: calc(83.089311% + ((100vw - 1366px)/2);
       padding-top: 41.72767%;
       top: -60px;
       left: 0;
       margin-left: 16.398243%;
+      @include _mqmax(xl) {
+        width: 83.08311%;
+      }
     }
     > .img01 {
       /*position: absolute;*/
