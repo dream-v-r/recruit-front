@@ -102,6 +102,12 @@
       @include _mqmax(xl) {
         width: 83.08311%;
       }
+      @include _mqmax(){
+        width: 73.23943%;
+        margin-left: 26.76057%;
+        padding-top: 72.666666%;
+        top: -10.4%;
+      }
     }
     > .img01 {
       /*position: absolute;*/
