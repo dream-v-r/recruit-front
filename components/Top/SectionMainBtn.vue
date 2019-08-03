@@ -30,5 +30,9 @@
     text-align: center;
     padding: 15px 0;
     border-radius: 30px;
+    transition: 0.3s;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 </style>

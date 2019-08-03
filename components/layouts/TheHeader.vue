@@ -1,5 +1,5 @@
 <template>
-  <header class="site-header">
+  <header class="site-header" :class="{ active: hamburger }">
     <AppLogo class="logo" />
     <HeaderNav />
   </header>
@@ -8,9 +8,13 @@
 <script>
 import AppLogo from '../App/AppLogo'
 import HeaderNav from '../App/HeaderNav'
+import { mapGetters } from 'vuex'
 export default {
   name: 'TheHeader',
-  components: { HeaderNav, AppLogo }
+  components: { HeaderNav, AppLogo },
+  computed: {
+    ...mapGetters(['hamburger'])
+  },
 }
 </script>
 
@@ -25,6 +29,13 @@ export default {
   top: 0;
   left: 0;
   z-index: 10;
+  transition: .3s;
+  @include _mqmax(){
+    min-width: 320px;
+    &.active {
+      background-color: $mainColor;
+    }
+  }
   > .logo {
     padding: 13px 0;
     @include _mqmax() {

@@ -15,7 +15,10 @@
           alt="日本一エンジニアにやさしい会社"
         >
       </h1>
-      <nuxt-link to="message" class="btn">
+      <nuxt-link
+        to="message"
+        class="btn"
+      >
         メッセージ
       </nuxt-link>
     </div>
@@ -49,6 +52,12 @@
     }
   }
   .main-area {
+    > .title {
+      @include _mqmax() {
+        max-width: 330px;
+        margin: auto;
+      }
+    }
     > .btn {
       text-decoration: none;
       color: #fff;
@@ -63,6 +72,12 @@
       font-weight: bold;
       position: relative;
       margin-top: 8.931185%;
+      overflow: hidden;
+      @include _mqmax(){
+        max-width: 200px;
+        padding: 15px 0;
+        font-size: 14px;
+      }
       &::before {
         content: '';
         position: absolute;
@@ -75,6 +90,27 @@
         top: 0;
         bottom: 0;
         margin: auto;
+        @include _mqmax() {
+          left: 45px;
+          width: 8px;
+          height: 8px;
+        }
+      }
+      &::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        z-index: -1;
+        transition: .3s;
+        box-shadow: inset 0 0 0 10em rgba(255,255,255,.3);
+      }
+      &:hover {
+        &::after {
+          width: 100%;
+        }
       }
     }
   }
