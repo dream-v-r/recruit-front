@@ -97,9 +97,6 @@
 
   .section-inner {
     position: relative;
-    @include _mqmax(){
-      padding-left: 20px;
-    }
     &::before {
       content: '';
       position: absolute;
@@ -128,7 +125,7 @@
       @include _mqmax(){
         max-width: 80%;
         top: 9.33333%;
-        right: 0;
+        margin-left: auto;
       }
     }
     > .img02 {
@@ -136,12 +133,10 @@
       margin-left: 292px;
       max-width: 46.852122%;
       @include _mqmax(){
-        position: relative;
         max-width: 80%;
-        margin-right: auto;
+        margin-top: 5.333333%;
         margin-left: 0;
-        z-index: 2;
-        margin-top: -37.13333%;
+        margin-right: auto;
       }
     }
   }
