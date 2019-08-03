@@ -51,8 +51,6 @@
     > .inner {
       max-width: 1366px;
       margin: auto;
-      > .block {
-      }
     }
   }
 
