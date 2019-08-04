@@ -9,18 +9,20 @@
       loop
     />
     <div class="main-area block">
-      <h1 class="title">
-        <img
-          src="~/assets/img/top/mainvisual_title.png"
-          alt="日本一エンジニアにやさしい会社"
+      <div class="areaInner">
+        <h1 class="title">
+          <img
+            src="~/assets/img/top/mainvisual_title.png"
+            alt="日本一エンジニアにやさしい会社"
+          >
+        </h1>
+        <nuxt-link
+          to="message"
+          class="btn"
         >
-      </h1>
-      <nuxt-link
-        to="message"
-        class="btn"
-      >
-        メッセージ
-      </nuxt-link>
+          メッセージ
+        </nuxt-link>
+      </div>
     </div>
   </div>
 </template>
@@ -42,23 +44,31 @@
       max-height: 100%;
     }
     > .block {
+      width: 100%;
+      height: 100%;
       text-align: center;
       position: absolute;
-      top: 19.033674%;
+      top: 0;
       right: 0;
       left: 0;
       margin: auto;
       z-index: 1;
     }
   }
+
   .main-area {
-    > .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .areaInner {
+    }
+    .title {
       @include _mqmax() {
         max-width: 330px;
         margin: auto;
       }
     }
-    > .btn {
+    .btn {
       text-decoration: none;
       color: #fff;
       display: block;
@@ -73,7 +83,7 @@
       position: relative;
       margin-top: 8.931185%;
       overflow: hidden;
-      @include _mqmax(){
+      @include _mqmax() {
         max-width: 200px;
         padding: 15px 0;
         font-size: 14px;
@@ -105,7 +115,7 @@
         height: 100%;
         z-index: -1;
         transition: .3s;
-        box-shadow: inset 0 0 0 10em rgba(255,255,255,.3);
+        box-shadow: inset 0 0 0 10em rgba(255, 255, 255, .3);
       }
       &:hover {
         &::after {
