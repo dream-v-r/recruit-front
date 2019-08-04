@@ -1,13 +1,15 @@
 <template>
   <div class="main-visual">
-    <video
-      src="~/assets/movie/mainvisual.mp4"
-      class="movie"
-      autoplay
-      playsinline
-      muted
-      loop
-    />
+    <div class="movie-block">
+      <video
+        src="~/assets/movie/mainvisual.mp4"
+        class="movie"
+        autoplay
+        playsinline
+        muted
+        loop
+      />
+    </div>
     <div class="main-area block">
       <div class="areaInner">
         <h1 class="title">
@@ -37,11 +39,18 @@
   .main-visual {
     position: relative;
     width: 100%;
-    > .movie {
+    > .movie-block {
       top: 0;
       left: 0;
       width: 100%;
       max-height: 100%;
+      overflow: hidden;
+      > .movie {
+        width: 100%;
+        @include _mqmax() {
+          width: 1180px;
+        }
+      }
     }
     > .block {
       width: 100%;
