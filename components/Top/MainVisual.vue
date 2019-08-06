@@ -39,6 +39,15 @@
   .main-visual {
     position: relative;
     width: 100%;
+    &::before {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-color: rgba(#000, 0.5);
+      left: 0;
+      top: 0;
+    }
     > .movie-block {
       top: 0;
       left: 0;
@@ -47,9 +56,9 @@
       overflow: hidden;
       > .movie {
         width: 100%;
-        @include _mqmax() {
-          width: 1180px;
-        }
+        height: 100vh;
+        object-fit: cover;
+        display: block;
       }
     }
     > .block {
