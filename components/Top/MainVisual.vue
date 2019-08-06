@@ -44,7 +44,7 @@
       content: '';
       width: 100%;
       height: 100%;
-      background-color: rgba(#000, 0.5);
+      background-color: rgba($mainColor, 0.4);
       left: 0;
       top: 0;
     }
