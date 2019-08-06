@@ -1,5 +1,8 @@
 <template>
-  <header class="site-header" :class="{ active: hamburger }">
+  <header
+    class="site-header"
+    :class="{ active: hamburger }"
+  >
     <AppLogo class="logo" />
     <HeaderNav />
   </header>

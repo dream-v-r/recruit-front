@@ -62,6 +62,8 @@
       left: 0;
       margin: auto;
       z-index: 1;
+      padding-right: 20px;
+      padding-left: 20px;
     }
   }
 
