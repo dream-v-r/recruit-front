@@ -33,6 +33,7 @@ export default {
 .hamburger-menu {
   width: 55px;
   height: 55px;
+  background-color: $mainColor;
   &.active {
     > .icon1 {
       opacity: 0;

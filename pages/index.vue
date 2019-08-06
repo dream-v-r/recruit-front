@@ -1,6 +1,7 @@
 <template>
   <main>
     <div class="top-main">
+      <mainVisual class="mainVisual" />
       <div class="news">
         <TheNews />
       </div>
@@ -16,9 +17,10 @@
   import TheColumnBanner from '../components/layouts/TheColumnBanner'
   import TheGallery from '../components/layouts/TheGallery'
   import TheNews from '../components/layouts/TheNews'
+  import MainVisual from '../components/Top/MainVisual'
 
   export default {
-    components: { TheNews, TheGallery, TheColumnBanner, SectionMain }
+    components: { MainVisual, TheNews, TheGallery, TheColumnBanner, SectionMain }
   }
 </script>
 
@@ -38,6 +40,9 @@
       border-bottom: 1px solid #999;
     }
     > .news {
+      margin-top: -65px;
+      position: relative;
+      z-index: 1;
       @include _mqmax() {
         padding-left: 20px;
         padding-right: 20px;

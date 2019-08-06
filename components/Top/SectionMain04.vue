@@ -3,7 +3,6 @@
     <div class="inner">
       <div class="section-block block">
         <div class="section-inner">
-          <div class="bg"></div>
           <div class="img01">
             <img
               src="~/assets/img/top/section04_img01.jpg"
@@ -62,15 +61,12 @@
   .main-section {
     position: relative;
     > .inner {
-      max-width: 1596px;
-      margin-left: auto;
-      > .block {
-      }
+      max-width: 1366px;
+      margin: auto;
     }
   }
 
   .section-block {
-    padding-left: 20px;
     background-image: url("~assets/img/top/section04_bg_text.png");
     background-position: left 20px bottom 81px;
     padding-bottom: 160px;
@@ -82,7 +78,7 @@
     }
     > .feature {
       position: absolute;
-      top: -43px;
+      top: -110px;
       left: 51.61054%;
       max-width: 40.42690%;
       @include _mqmax(){
@@ -101,38 +97,46 @@
 
   .section-inner {
     position: relative;
-    > .bg {
+    &::before {
+      content: '';
+      position: absolute;
       background-image: url("~assets/img/top/section_bg.jpg");
       background-repeat: repeat;
-      padding-top: 35.339%;
-      width: calc(100% - 230px);
-      margin-left: auto;
+      z-index: -1;
+      width: calc(83.089311% + ((100vw - 1366px)/2);
+      padding-top: 41.72767%;
+      top: -60px;
+      left: 0;
+      margin-left: 16.398243%;
+      @include _mqmax(xl) {
+        width: 83.08311%;
+      }
       @include _mqmax(){
-        width: calc(100% - 95px);
-        padding-top: 77.6%;
+        width: 73.23943%;
+        margin-left: 26.76057%;
+        padding-top: 72.666666%;
+        top: -10.4%;
       }
     }
     > .img01 {
-      position: absolute;
-      max-width: 40.10025%;
+      /*position: absolute;*/
+      max-width: 46.852122%;
       top: 67px;
       @include _mqmax(){
         max-width: 80%;
         top: 9.33333%;
-        right: 0;
+        margin-left: auto;
       }
     }
     > .img02 {
-      margin-top: -47px;
-      margin-left: 21.22986%;
-      max-width: 40.10025%;
+      margin-top: 84px;
+      margin-left: 292px;
+      max-width: 46.852122%;
       @include _mqmax(){
-        position: relative;
         max-width: 80%;
-        margin-right: auto;
+        margin-top: 5.333333%;
         margin-left: 0;
-        z-index: 2;
-        margin-top: -37.13333%;
+        margin-right: auto;
       }
     }
   }
