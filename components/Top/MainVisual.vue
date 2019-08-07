@@ -8,7 +8,7 @@
         playsinline
         muted
         loop
-      />
+      ></video>
     </div>
     <div class="main-area block">
       <div class="areaInner">
