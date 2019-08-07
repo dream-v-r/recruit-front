@@ -2,13 +2,14 @@
   <div class="main-visual">
     <div class="movie-block">
       <video
-        src="~/assets/movie/mainvisual.mp4"
         class="movie"
         autoplay
         playsinline
         muted
         loop
-      ></video>
+      >
+        <source src="~/assets/movie/mainvisual.mp4">
+      </video>
     </div>
     <div class="main-area block">
       <div class="areaInner">
