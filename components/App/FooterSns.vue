@@ -6,8 +6,9 @@
     <ul class="sns-list">
       <li class="sns-item item">
         <a
-          href="#"
+          href="https://www.facebook.com/dreamvision.pr/"
           class="sns-link link"
+          target="_blank"
         >
           <img
             src="~/assets/img/icon_facebook.png"
@@ -17,8 +18,9 @@
       </li>
       <li class="sns-item item">
         <a
-          href="#"
+          href="https://twitter.com/dv_co_jp"
           class="sns-link link"
+          target="_blank"
         >
           <img
             src="~/assets/img/icon_twitter.png"
@@ -28,8 +30,9 @@
       </li>
       <li class="sns-item item">
         <a
-          href="#"
+          href="https://www.instagram.com/dreamvision_pr"
           class="sns-link link"
+          target="_blank"
         >
           <img
             src="~/assets/img/icon_insta.png"

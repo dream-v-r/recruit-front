@@ -23,7 +23,7 @@ export default {
 
 <style scoped lang="scss">
 .site-header {
-  position: fixed;
+  position: absolute;
   padding-left: 2.19619%;
   display: flex;
   justify-content: space-between;
