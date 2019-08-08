@@ -6,21 +6,17 @@
         <TheNews />
       </div>
       <SectionMain class="section" />
-      <TheColumnBanner class="banner" />
-      <TheGallery class="gallery" />
     </div>
   </main>
 </template>
 
 <script>
   import SectionMain from '../components/Top/SectionMain'
-  import TheColumnBanner from '../components/layouts/TheColumnBanner'
-  import TheGallery from '../components/layouts/TheGallery'
   import TheNews from '../components/layouts/TheNews'
   import MainVisual from '../components/Top/MainVisual'
 
   export default {
-    components: { MainVisual, TheNews, TheGallery, TheColumnBanner, SectionMain }
+    components: { MainVisual, TheNews, SectionMain }
   }
 </script>
 
