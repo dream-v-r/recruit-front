@@ -24,7 +24,11 @@
         movieUrl="https://www.youtube.com/embed/9QWXL6mFWEo"
         class="vol2"
       />
-      <ThePeopleSlider class="vol2" />
+      <ThePeopleSlider
+        url="/people_index"
+        class="vol2"
+        title="一覧に戻る"
+      />
     </div>
   </main>
 </template>
