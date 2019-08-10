@@ -25,13 +25,17 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['ress', '@/assets/scss/main.scss'],
+  css: [
+    'ress', '@/assets/scss/main.scss',
+    'swiper/dist/css/swiper.css'
+  ],
 
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [
-    "~plugins/observe-visibility"
+    { src: "~plugins/observe-visibility" },
+    { src: "~plugins/vue-awesome-swiper", ssr: false }
   ],
 
   /*
@@ -82,6 +86,10 @@ export default {
       require('autoprefixer')({
         grid: true
       })
+    ],
+
+    vendor: [
+      'vue-awesome-swiper'
     ]
   }
 }
