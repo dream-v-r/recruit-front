@@ -26,7 +26,7 @@
       />
 
       <ThePeopleSlider
-        url="people_index"
+        url="/people_index"
         class="vol1"
         title="一覧に戻る"
       />
