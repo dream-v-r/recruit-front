@@ -31,7 +31,9 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    "~plugins/observe-visibility"
+    '~plugins/observe-visibility',
+    '~plugins/scroll.js',
+    { src: '~/plugins/routerOption.js', ssr: false }
   ],
 
   /*

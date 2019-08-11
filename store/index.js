@@ -52,5 +52,9 @@ export const getters = {
 export const mutations = {
   hamburgerChange(state) {
     state.hamburger = !state.hamburger
+  },
+  hamburgerClose(state) {
+    state.hamburger = false;
   }
 }
+
