@@ -18,7 +18,7 @@
     text-align: center;
     position: relative;
     @include _mqmax(){
-      background: url("~assets/img/culture/bg_keyvisual_sp.jpg") center center;
+      background: url("~assets/img/people/bg_keyvisual_sp.jpg") center center;
       background-size: cover;
       height: 420px;
     }

@@ -6,6 +6,11 @@
       <System03 class="careerup" />
       <System04 class="careerup" />
       <System05 class="careerup" />
+      <ThePeopleSlider
+        url="/people_index"
+        class="careerup"
+        title="READ MORE"
+      />
     </div>
   </main>
 </template>
@@ -16,9 +21,10 @@
   import System03 from '../../components/Job/System03'
   import System04 from '../../components/Job/System04'
   import System05 from '../../components/Job/System05'
+  import ThePeopleSlider from '../../components/layouts/ThePeopleSlider'
 
   export default {
-    components: { KeyVisual, Requirements02, System03, System04, System05 }
+    components: { KeyVisual, Requirements02, System03, System04, System05, ThePeopleSlider }
   }
 </script>
 
