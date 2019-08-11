@@ -4,7 +4,7 @@
     <div class="inner">
       <ul class="peopleList">
         <li class="peopleListItem peopleListItem--vol1">
-          <a href="/people_vol1">
+          <nuxt-link to="/people_vol1">
             <div class="info">
               <span class="post">インフラエンジニアリーダー</span>
               <span class="category">経験者</span>
@@ -12,7 +12,7 @@
               <span class="year">2015年入社 | 中途採用</span>
               <span class="more">READ MORE</span>
             </div>
-          </a>
+          </nuxt-link>
         </li>
         <li class="peopleListItem peopleListItem--vol2">
           <a href="/people_vol2">
