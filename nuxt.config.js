@@ -34,7 +34,9 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    { src: "~plugins/observe-visibility" },
+    '~plugins/observe-visibility',
+    '~plugins/scroll.js',
+    { src: '~/plugins/routerOption.js', ssr: false },
     { src: "~plugins/vue-awesome-swiper", ssr: false }
   ],
 

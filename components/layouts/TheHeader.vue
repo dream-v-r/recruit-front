@@ -23,7 +23,7 @@ export default {
 
 <style scoped lang="scss">
 .site-header {
-  position: absolute;
+  position: fixed;
   padding-left: 2.19619%;
   display: flex;
   justify-content: space-between;
@@ -32,7 +32,10 @@ export default {
   top: 0;
   left: 0;
   z-index: 10;
-  transition: .3s;
+  transition: .2s;
+  &.isFixed {
+    background-color: $mainColor;
+  }
   @include _mqmax(){
     min-width: 320px;
     &.active {
