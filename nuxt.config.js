@@ -1,18 +1,28 @@
 // import pkg from './package'
 
+const description = 'ドリームビジョン株式会社の採用情報をご紹介しております。ドリームビジョンは日本一エンジニアにやさしい企業を目指しております。'
+
 export default {
   mode: 'universal',
-
+  server: {
+    port: 8000,
+    host: '0.0.0.0'
+  },
   /*
    ** Headers of the page
    */
   head: {
-    title: '採用情報 - ドリームビジョン株式会社',
+    title: '採用情報 - %s - ドリームビジョン株式会社',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'ドリームビジョン株式会社の採用情報をご紹介しております。ドリームビジョンは日本一エンジニアにやさしい企業を目指しております。' },
-      { name: 'keywords', content: '採用情報,エンジニア,クリエイティブ,Web,IT,システム開発,ネットワーク,インフラ,小伝馬町,ドリームビジョン株式会社,新卒採用,中途採用'},
+      { hid: 'description', name: 'description', content: description },
+      { hid: 'og:site_name', property: 'og:site_name', content: '採用情報 - ドリームビジョン株式会社' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'http://www.dream-v.co.jp/recruit/' },
+      { hid: 'og:title', property: 'og:title', content: '採用情報 - ドリームビジョン株式会社' },
+      { hid: 'og:description', property: 'og:description', content: description },
+      { name: 'keywords', content: '採用情報,エンジニア,クリエイティブ,Web,IT,システム開発,ネットワーク,インフラ,小伝馬町,ドリームビジョン株式会社,新卒採用,中途採用'}
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },

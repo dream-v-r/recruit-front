@@ -16,7 +16,13 @@
   import MainVisual from '../components/Top/MainVisual'
 
   export default {
-    components: { MainVisual, TheNews, SectionMain }
+    components: { MainVisual, TheNews, SectionMain },
+    head () {
+      return {
+        titleTemplate: null,
+        title: '採用情報 - ドリームビジョン株式会社',
+      }
+    }
   }
 </script>
 
