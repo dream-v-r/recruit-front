@@ -25,7 +25,7 @@
             <SectionMainFeature
               title="福利厚生・社風"
               detail="大手IT企業にも負けない様々な福利厚生や<br>社員サポートを行っております。"
-              url="culture"
+              url="culture-company-style"
               class="content"
             />
           </div>

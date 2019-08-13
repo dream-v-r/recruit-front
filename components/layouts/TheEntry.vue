@@ -6,19 +6,18 @@
         alt="Entry"
       >
     </h2>
-    <BaseBtn
-      title="エントリーはこちら"
-      url="entry"
+    <a
+      href="http://www.dream-v.co.jp/recruit/entry/"
       class="btn"
-    />
+    >
+    エントリーはこちら
+    </a>
   </div>
 </template>
 
 <script>
-  import BaseBtn from '../Base/BaseBtn'
   export default {
-    name: 'TheEntry',
-    components: { BaseBtn }
+    name: 'TheEntry'
   }
 </script>
 
@@ -45,9 +44,19 @@
   >.btn {
     width: 250px;
     margin: auto;
+    color: #fff;
+    background-color: #f58a00;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 14px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
     @include _mqmax() {
       width: 183px;
       margin-top: 17px;
+      font-size: 12px;
+      padding: 9px 0;
     }
   }
 }

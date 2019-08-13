@@ -1,7 +1,7 @@
 <template>
   <li class="nav-item">
     <nuxt-link
-      :to="url"
+      :to="`/${url}`"
       class="link"
     >
       <div class="title1">
