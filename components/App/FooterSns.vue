@@ -42,8 +42,9 @@
       </li>
       <li class="sns-item item">
         <a
-          href="#"
+          href="http://line.me/R/ti/p/%40dream-v_recruit"
           class="sns-link link"
+          target="_blank"
         >
           <img
             src="~/assets/img/icon_line.png"
