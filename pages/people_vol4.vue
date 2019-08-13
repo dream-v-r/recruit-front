@@ -26,13 +26,25 @@
 </template>
 
 <script>
+  import Meta from '~/assets/mixins/meta'
   import DetailKeyVisual from '../components/People/DetailKeyVisual'
   import DetailInfo from '../components/People/DetailInfo'
   import DetailContent from '../components/People/DetailContent'
   import ThePeopleSlider from '../components/layouts/ThePeopleSlider'
 
   export default {
-    components: { DetailKeyVisual, DetailInfo, DetailContent, ThePeopleSlider }
+    components: { DetailKeyVisual, DetailInfo, DetailContent, ThePeopleSlider },
+    mixins: [Meta],
+    data () {
+      return {
+        meta: {
+          title: '採用情報 - 社員紹介-4-ドリームビジョン株式会社',
+          description: 'ドリームビジョン株式会社の社員(vol.4)をご紹介しております。ドリームビジョンは日本一エンジニアにやさしい企業を目指しております。',
+          keywords: '採用情報,エンジニア,クリエイティブ,Web,IT,システム開発,ネットワーク,インフラ,小伝馬町,ドリームビジョン株式会社,新卒採用,社員紹介,インタビュー,仕事,vol.4',
+          url: 'people_vol4'
+        }
+      }
+    }
   }
 </script>
 
