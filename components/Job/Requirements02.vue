@@ -3,9 +3,9 @@
     <nav>
       <ul>
         <li>
-          <a href="/job/newgrads">
+          <nuxt-link to="/job/newgrads">
             新卒採用
-          </a>
+          </nuxt-link>
         </li>
         <li>
           <span>キャリア採用</span>

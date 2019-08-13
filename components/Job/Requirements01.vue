@@ -6,9 +6,9 @@
           <span>新卒採用</span>
         </li>
         <li>
-          <a href="/job/career">
+          <nuxt-link to="/job/career">
             キャリア採用
-          </a>
+          </nuxt-link>
         </li>
       </ul>
     </nav>

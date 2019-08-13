@@ -3,9 +3,9 @@
     <nav>
       <ul>
         <li>
-          <a href="/culture-company-style">
+          <nuxt-link to="/culture-company-style">
             社員アンケートから<br>ひも解く社風
-          </a>
+          </nuxt-link>
         </li>
         <li>
           <span>福利厚生</span>

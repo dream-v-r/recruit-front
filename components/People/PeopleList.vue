@@ -4,7 +4,7 @@
     <div class="inner">
       <ul class="peopleList">
         <li class="peopleListItem peopleListItem--vol1">
-          <a href="/people_vol1">
+          <nuxt-link to="/people_vol1">
             <div class="info">
               <span class="post">インフラエンジニアリーダー</span>
               <span class="category">経験者</span>
@@ -12,10 +12,10 @@
               <span class="year">2015年入社 | 中途採用</span>
               <span class="more">READ MORE</span>
             </div>
-          </a>
+          </nuxt-link>
         </li>
         <li class="peopleListItem peopleListItem--vol2">
-          <a href="/people_vol2">
+          <nuxt-link to="/people_vol2">
             <div class="info">
               <span class="post">開発エンジニアリーダー</span>
               <span class="category">経験者</span>
@@ -23,10 +23,10 @@
               <span class="year">2017年入社 | 中途採用</span>
               <span class="more">READ MORE</span>
             </div>
-          </a>
+          </nuxt-link>
         </li>
         <li class="peopleListItem peopleListItem--vol3">
-          <a href="/people_vol3">
+          <nuxt-link to="/people_vol3">
             <div class="info">
               <span class="post">開発エンジニア</span>
               <span class="category">経験者</span>
@@ -34,10 +34,10 @@
               <span class="year">2016年入社 | 中途採用</span>
               <span class="more">READ MORE</span>
             </div>
-          </a>
+          </nuxt-link>
         </li>
         <li class="peopleListItem peopleListItem--vol4">
-          <a href="/people_vol4">
+          <nuxt-link to="/people_vol4">
             <div class="info">
               <span class="post">インフラエンジニア</span>
               <span class="category">未経験者</span>
@@ -45,10 +45,10 @@
               <span class="year">2017年入社 | 中途採用</span>
               <span class="more">READ MORE</span>
             </div>
-          </a>
+          </nuxt-link>
         </li>
         <li class="peopleListItem peopleListItem--vol5">
-          <a href="/people_vol5">
+          <nuxt-link to="/people_vol5">
             <div class="info">
               <span class="post">開発エンジニア</span>
               <span class="category">未経験(新卒)</span>
@@ -56,10 +56,10 @@
               <span class="year">2017年入社 | 新卒採用</span>
               <span class="more">READ MORE</span>
             </div>
-          </a>
+          </nuxt-link>
         </li>
         <li class="peopleListItem peopleListItem--vol6">
-          <a href="/people_vol6">
+          <nuxt-link to="/people_vol6">
             <div class="info">
               <span class="post">ITサポート</span>
               <span class="category">未経験者</span>
@@ -67,10 +67,10 @@
               <span class="year">2018年入社 | 中途採用</span>
               <span class="more">READ MORE</span>
             </div>
-          </a>
+          </nuxt-link>
         </li>
         <li class="peopleListItem peopleListItem--vol7">
-          <a href="/people_vol7">
+          <nuxt-link to="/people_vol7">
             <div class="info">
               <span class="post">営業</span>
               <span class="category">経験者(営業)</span>
@@ -78,7 +78,7 @@
               <span class="year">2015年入社</span>
               <span class="more">READ MORE</span>
             </div>
-          </a>
+          </nuxt-link>
         </li>
       </ul>
     </div>

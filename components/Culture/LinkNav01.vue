@@ -6,9 +6,9 @@
           <span>社員アンケートから<br>ひも解く社風</span>
         </li>
         <li>
-          <a href="/culture-welfare">
+          <nuxt-link to="/culture-welfare">
             福利厚生
-          </a>
+          </nuxt-link>
         </li>
       </ul>
     </nav>

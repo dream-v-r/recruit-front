@@ -8,7 +8,7 @@
       </div>
       <swiper :options="swiperOption">
         <swiper-slide>
-          <a href="people_vol1">
+          <nuxt-link to="people_vol1">
             <img
               src="~assets/img/slider/img_slider_01_pc.png"
               alt="新貝 哲平"
@@ -24,10 +24,10 @@
               <span class="name">新貝 哲平</span>
               <span class="year">2016年入社 | 中途採用</span>
             </div>
-          </a>
+          </nuxt-link>
         </swiper-slide>
         <swiper-slide>
-          <a href="/people_vol2">
+          <nuxt-link to="/people_vol2">
             <img
               src="~assets/img/slider/img_slider_02_pc.png"
               alt="小田島 貴宏"
@@ -43,10 +43,10 @@
               <span class="name">小田島 貴宏</span>
               <span class="year">2017年入社 | 中途採用</span>
             </div>
-          </a>
+          </nuxt-link>
         </swiper-slide>
         <swiper-slide>
-          <a href="/people_vol3">
+          <nuxt-link to="/people_vol3">
             <img
               src="~assets/img/slider/img_slider_03_pc.png"
               alt="大津 裕之"
@@ -62,10 +62,10 @@
               <span class="name">大津 裕之</span>
               <span class="year">2016年入社 | 中途採用</span>
             </div>
-          </a>
+          </nuxt-link>
         </swiper-slide>
         <swiper-slide>
-          <a href="/people_vol4">
+          <nuxt-link to="/people_vol4">
             <img
               src="~assets/img/slider/img_slider_04_pc.png"
               alt="森田 麻里子"
@@ -81,10 +81,10 @@
               <span class="name">森田 麻里子</span>
               <span class="year">2017年入社 | 中途採用</span>
             </div>
-          </a>
+          </nuxt-link>
         </swiper-slide>
         <swiper-slide>
-          <a href="/people_vol5">
+          <nuxt-link to="/people_vol5">
             <img
               src="~assets/img/slider/img_slider_05_pc.png"
               alt="山崎 篤"
@@ -100,10 +100,10 @@
               <span class="name">山崎 篤</span>
               <span class="year">2018年入社 | 中途採用</span>
             </div>
-          </a>
+          </nuxt-link>
         </swiper-slide>
         <swiper-slide>
-          <a href="/people_vol6">
+          <nuxt-link to="/people_vol6">
             <img
               src="~assets/img/slider/img_slider_06_pc.png"
               alt="神谷 彩奈"
@@ -119,10 +119,10 @@
               <span class="name">神谷 彩奈</span>
               <span class="year">2018年入社 | 中途採用</span>
             </div>
-          </a>
+          </nuxt-link>
         </swiper-slide>
         <swiper-slide>
-          <a href="/people_vol7">
+          <nuxt-link to="/people_vol7">
             <img
               src="~assets/img/slider/img_slider_07_pc.png"
               alt="新貝 哲平"
@@ -138,7 +138,7 @@
               <span class="name">野崎 優人</span>
               <span class="year">2016年入社 | 中途採用</span>
             </div>
-          </a>
+          </nuxt-link>
         </swiper-slide>
         <div class="swiper-button-prev" slot="button-prev"></div>
         <div class="swiper-button-next" slot="button-next"></div>
