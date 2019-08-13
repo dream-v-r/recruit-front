@@ -5,7 +5,7 @@ const description = 'ドリームビジョン株式会社の採用情報をご�
 export default {
   mode: 'universal',
   server: {
-    port: 8000,
+    port: 3000,
     host: '0.0.0.0'
   },
   /*

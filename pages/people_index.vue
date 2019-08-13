@@ -20,8 +20,8 @@
         meta: {
           title: '社員紹介-一覧',
           description: 'ドリームビジョン株式会社の社員をご紹介しております。ドリームビジョンは日本一エンジニアにやさしい企業を目指しております。',
-          type: 'article',
-          url: 'http://www.dream-v.co.jp/recruit/people_index'
+          keywords: '採用情報,エンジニア,クリエイティブ,Web,IT,システム開発,ネットワーク,インフラ,小伝馬町,ドリームビジョン株式会社,新卒採用,社員紹介,インタビュー,仕事',
+          url: 'people_index'
         },
       }
     },
