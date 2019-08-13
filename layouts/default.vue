@@ -1,6 +1,6 @@
 <template>
   <div v-scroll="handleScroll">
-    <TheHeader :class="{isFixed: isFixed}"/>
+    <TheHeader :class="{isFixed: isFixed}" :style="{ left: positionLeft }" />
     <nuxt/>
     <TheEntry/>
     <TheFooter/>
@@ -17,7 +17,13 @@
     data() {
       return {
         offsetY: 0,
+        offsetX: 0,
         isFixed: false
+      }
+    },
+    computed: {
+      positionLeft() {
+        return `-${this.offsetX}px`
       }
     },
     mounted() {
@@ -25,6 +31,7 @@
     },
     methods: {
       handleScroll: function() {
+        this.offsetX = window.scrollX;
         if (this.offsetY < window.scrollY) {
           this.isFixed = true
         } else {
