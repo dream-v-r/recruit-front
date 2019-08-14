@@ -15,6 +15,9 @@ export default {
    */
   head: {
     titleTemplate: '採用情報 - %s - ドリームビジョン株式会社',
+    script: [
+      { src: '/userHeat.js' },
+    ],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -60,7 +63,10 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
-    '@bazzite/nuxt-optimized-images'
+    '@bazzite/nuxt-optimized-images',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-135026501-1'
+    }]
   ],
   optimizedImages: {
     optimizeImages: true
