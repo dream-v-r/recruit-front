@@ -1,4 +1,6 @@
 // import pkg from './package'
+import { resolve } from 'path'
+const sitePath = /recruit/
 
 const description = 'ドリームビジョン株式会社の採用情報をご紹介しております。ドリームビジョンは日本一エンジニアにやさしい企業を目指しております。'
 
@@ -103,5 +105,11 @@ export default {
     vendor: [
       'vue-awesome-swiper'
     ]
+  },
+  generate: {
+    dir: resolve(__dirname, `./dist${sitePath}`),
+  },
+  router: {
+    base: process.env.NODE_ENV === 'development' ? '/' : sitePath,
   }
 }
