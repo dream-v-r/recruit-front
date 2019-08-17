@@ -24,7 +24,7 @@
           <SectionMainFeature
             title="会社概要"
             detail="私たちドリームビジョン株式会社の基本情報を<br>ご紹介しています。"
-            url="about"
+            url="http://www.dream-v.co.jp/company/outline.html"
             class="content"
           />
         </div>
