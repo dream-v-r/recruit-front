@@ -4,6 +4,7 @@
       v-if="!blank"
       :to="`/${url}`"
       class="link"
+      :class="{ disable: disable }"
     >
       <div class="title2">
         {{ title2 }}
@@ -41,12 +42,19 @@ export default {
   },
   data() {
     return {
-      blank: false
+      blank: false,
+      disable:  false
     }
   },
   created() {
     if (this.url === 'http://www.dream-v.co.jp/company/outline.html') {
       this.blank = true
+    }
+    if (this.url === 'seminar') {
+      this.disable = true
+    }
+    if (this.url === 'seminar') {
+      this.disable = true
     }
   }
 }
@@ -60,6 +68,10 @@ export default {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
+    &.disable {
+      opacity: .5;
+      pointer-events: none;
+    }
     @include _mqmax() {
       font-size: 14px;
       padding: 10px 0;

@@ -1,10 +1,22 @@
 <template>
-  <nuxt-link
-    :to="url"
-    class="section-mainBtn"
-  >
-    Read More
-  </nuxt-link>
+  <div>
+    <nuxt-link
+      v-if="!blank"
+      :to="url"
+      class="section-mainBtn"
+      :class="{ disable: disable }"
+    >
+      Read More
+    </nuxt-link>
+    <a
+      v-if="blank"
+      :href="url"
+      class="section-mainBtn"
+      target="_blank"
+    >
+      Read More
+    </a>
+  </div>
 </template>
 
 <script>
@@ -14,6 +26,20 @@
       url: {
         type: String,
         default: ''
+      }
+    },
+    data() {
+      return {
+        blank: false,
+        disable: false
+      }
+    },
+    created() {
+      if (this.url === 'http://www.dream-v.co.jp/company/outline.html') {
+        this.blank = true
+      }
+      if (this.url === 'seminar') {
+        this.disable = true
       }
     }
   }
@@ -31,6 +57,13 @@
     padding: 15px 0;
     border-radius: 30px;
     transition: 0.3s;
+    &.disable {
+      background: #ccc;
+      pointer-events: none;
+      &:hover {
+        opacity: 1;
+      }
+    }
     &:hover {
       opacity: 0.8;
     }
