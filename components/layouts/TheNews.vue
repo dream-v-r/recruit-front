@@ -7,20 +7,11 @@
       <ul class="list">
         <li class="item news-item">
           <time
-            datetime="0000.00.00"
+            datetime="2019-08-19"
             class="date"
-          >0000.00.00</time>
+          >2019.08.19</time>
           <p class="text">
-            記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイト...
-          </p>
-        </li>
-        <li class="item news-item">
-          <time
-            datetime="0000.00.00"
-            class="date"
-          >0000.00.00</time>
-          <p class="text">
-            記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイト...
+            採用サイトを公開しました。
           </p>
         </li>
       </ul>
