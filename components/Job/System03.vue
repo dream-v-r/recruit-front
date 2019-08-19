@@ -49,7 +49,7 @@
       </ul>
 
       <SystemFeature
-        url="culture"
+        url="/culture-welfare"
         class="content"
       />
 

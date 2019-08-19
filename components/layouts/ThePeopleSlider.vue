@@ -8,7 +8,7 @@
       </div>
       <swiper :options="swiperOption">
         <swiper-slide>
-          <nuxt-link to="people_vol1">
+          <nuxt-link to="/people_vol1">
             <img
               src="~assets/img/slider/img_slider_01_pc.png"
               alt="新貝 哲平"
@@ -125,12 +125,12 @@
           <nuxt-link to="/people_vol7">
             <img
               src="~assets/img/slider/img_slider_07_pc.png"
-              alt="新貝 哲平"
+              alt="野崎 優人"
               class="pc"
             >
             <img
               src="~assets/img/slider/img_slider_07_sp.png"
-              alt="新貝 哲平"
+              alt="野崎 優人"
               class="sp"
             >
             <div class="infoBox">
