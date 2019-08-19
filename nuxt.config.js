@@ -16,7 +16,7 @@ export default {
   head: {
     titleTemplate: '採用情報 - %s - ドリームビジョン株式会社',
     script: [
-      { src: '/userHeat.js' },
+      { src: '/recruit/userHeat.js' },
     ],
     meta: [
       { charset: 'utf-8' },

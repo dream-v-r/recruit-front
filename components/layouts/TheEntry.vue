@@ -52,6 +52,10 @@
     display: block;
     text-align: center;
     text-decoration: none;
+    transition: .3s;
+    &:hover {
+      opacity: 0.8;
+    }
     @include _mqmax() {
       width: 183px;
       margin-top: 17px;

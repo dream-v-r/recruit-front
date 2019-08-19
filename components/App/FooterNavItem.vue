@@ -68,9 +68,12 @@ export default {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
+    display: block;
     &.disable {
-      opacity: .5;
       pointer-events: none;
+      .title2 {
+        opacity: .5;
+      }
     }
     @include _mqmax() {
       font-size: 14px;
