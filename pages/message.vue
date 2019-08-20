@@ -8,6 +8,7 @@
 </template>
 
 <script>
+  import Meta from '~/assets/mixins/meta'
   import KeyVisual from '../components/Message/KeyVisual'
   import Section01 from '../components/Message/Section01'
   import Section02 from '../components/Message/Section02'
@@ -15,12 +16,15 @@
 
   export default {
     components: { KeyVisual, Section01, Section02, Section03 },
-    head () {
+    mixins: [Meta],
+    data () {
       return {
-        title: '採用情報 - メッセージ - ドリームビジョン株式会社',
-        description: 'ドリームビジョン株式会社の会長・社長のメッセージをご紹介しております。ドリームビジョンは日本一エンジニアにやさしい企業を目指しております。',
-        keywords: '採用情報,エンジニア,クリエイティブ,Web,IT,システム開発,ネットワーク,インフラ,小伝馬町,ドリームビジョン株式会社,新卒採用,メッセージ,役員メッセージ,会長,社長',
-        url: 'message'
+        meta: {
+          title: 'メッセージ',
+          description: 'ドリームビジョン株式会社の会長・社長のメッセージをご紹介しております。ドリームビジョンは日本一エンジニアにやさしい企業を目指しております。',
+          keywords: '採用情報,エンジニア,クリエイティブ,Web,IT,システム開発,ネットワーク,インフラ,小伝馬町,ドリームビジョン株式会社,新卒採用,メッセージ,役員メッセージ,会長,社長',
+          url: 'message'
+        }
       }
     }
   }
