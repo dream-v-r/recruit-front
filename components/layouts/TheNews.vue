@@ -28,7 +28,7 @@
 <style scoped lang="scss">
 .news-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   padding-top: 35px;
   padding-bottom: 18px;
   @include _mqmax(){
