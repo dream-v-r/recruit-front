@@ -40,6 +40,7 @@
           </transition>
         </div>
       </div>
+      <iframe src="https://snapwidget.com/embed/725645" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:1000px; height:200px"></iframe>
     </div>
   </section>
 </template>
@@ -95,6 +96,9 @@
 </script>
 
 <style scoped lang="scss">
+  .long-caption {
+    font-size: 12px;
+  }
   .site-gallery {
     background-image: url("~assets/img/top/section_bg.jpg");
     background-repeat: repeat;

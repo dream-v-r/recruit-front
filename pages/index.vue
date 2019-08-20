@@ -6,6 +6,7 @@
         <TheNews />
       </div>
       <SectionMain class="section" />
+      <TheGallery />
     </div>
   </main>
 </template>
@@ -14,9 +15,10 @@
   import SectionMain from '../components/Top/SectionMain'
   import TheNews from '../components/layouts/TheNews'
   import MainVisual from '../components/Top/MainVisual'
+  import TheGallery from '../components/layouts/TheGallery'
 
   export default {
-    components: { MainVisual, TheNews, SectionMain },
+    components: { TheGallery, MainVisual, TheNews, SectionMain },
     head () {
       return {
         titleTemplate: null,
