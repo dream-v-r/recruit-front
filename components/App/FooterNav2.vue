@@ -1,20 +1,22 @@
 <template>
   <ul class="footer-nav2">
     <li class="nav-item -first">
-      <nuxt-link
-        to="about"
+      <a
+        href="http://www.dream-v.co.jp/company/outline.html"
         class="link -first"
+        target="_blank"
       >
         会社概要
-      </nuxt-link>
+      </a>
     </li>
     <li class="nav-item -second">
-      <nuxt-link
-        to="privacy"
+      <a
+        href="http://www.dream-v.co.jp/privacy/"
         class="link -second"
+        target="_blank"
       >
         プライバシーポリシー
-      </nuxt-link>
+      </a>
     </li>
   </ul>
 </template>
