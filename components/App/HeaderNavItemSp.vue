@@ -2,7 +2,7 @@
   <li class="nav-item">
     <nuxt-link
       v-if="!blank"
-      :to="url"
+      :to="`/${url}`"
       class="link"
       :class="{ disable: disable }"
     >
