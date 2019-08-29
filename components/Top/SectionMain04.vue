@@ -36,9 +36,9 @@
             class="title"
           />
           <SectionMainFeature
-            title="採用情報"
+            title="募集要項"
             detail="新卒・中途採用の情報をご紹介します。"
-            url="/job/newgrads"
+            url="/job/career"
             class="content"
           />
         </div>

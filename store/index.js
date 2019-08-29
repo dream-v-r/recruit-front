@@ -26,9 +26,9 @@ export const state = () => ({
     },
     {
       id: 5,
-      title1: '採用情報',
+      title1: '募集要項',
       title2: 'recruit',
-      url: 'job/newgrads'
+      url: 'job/career'
     },
     {
       id: 6,
