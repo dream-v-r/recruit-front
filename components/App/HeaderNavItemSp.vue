@@ -1,7 +1,7 @@
 <template>
   <li class="nav-item">
     <nuxt-link
-      v-if="!blank"
+      v-if="!blank && !aLink"
       :to="`/${url}`"
       class="link"
       :class="{ disable: disable }"
@@ -14,6 +14,15 @@
       v-if="blank"
       :href="url"
       target="_blank"
+      class="link"
+    >
+      <div class="title2">
+        {{ title2 }}
+      </div>
+    </a>
+    <a
+      v-if="aLink"
+      :href="url"
       class="link"
     >
       <div class="title2">
@@ -39,15 +48,16 @@
     data() {
       return {
         blank: false,
-        disable: false
+        disable: false,
+        aLink: false
       }
     },
     created() {
       if (this.url === 'http://www.dream-v.co.jp/company/outline.html') {
         this.blank = true
       }
-      if (this.url === 'seminar') {
-        this.disable = true
+      if (this.url === 'http://www.dream-v.co.jp/recruit/seminar/') {
+        this.aLink= true
       }
     }
   }
