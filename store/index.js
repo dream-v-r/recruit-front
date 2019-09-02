@@ -26,15 +26,15 @@ export const state = () => ({
     },
     {
       id: 5,
-      title1: '採用情報',
+      title1: '募集要項',
       title2: 'recruit',
-      url: 'job/newgrads'
+      url: 'job/career'
     },
     {
       id: 6,
       title1: '説明会',
       title2: 'event',
-      url: 'seminar'
+      url: 'http://www.dream-v.co.jp/recruit/seminar/'
     }
   ],
   hamburger: false
