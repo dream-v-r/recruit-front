@@ -1,7 +1,7 @@
 <template>
   <div>
     <nuxt-link
-      v-if="!blank"
+      v-if="!blank && !aLink"
       :to="url"
       class="section-mainBtn"
       :class="{ disable: disable }"
@@ -13,6 +13,13 @@
       :href="url"
       class="section-mainBtn"
       target="_blank"
+    >
+      Read More
+    </a>
+    <a
+      v-if="aLink"
+      :href="url"
+      class="section-mainBtn"
     >
       Read More
     </a>
@@ -31,15 +38,16 @@
     data() {
       return {
         blank: false,
-        disable: false
+        disable: false,
+        aLink: false
       }
     },
     created() {
       if (this.url === 'http://www.dream-v.co.jp/company/outline.html') {
         this.blank = true
       }
-      if (this.url === 'seminar') {
-        this.disable = true
+      if (this.url === 'http://www.dream-v.co.jp/recruit/seminar/') {
+        this.aLink= true
       }
     }
   }
