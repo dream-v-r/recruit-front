@@ -21,7 +21,7 @@
         class="vol1"
       />
       <DetailMovie
-        movieUrl="https://www.youtube.com/embed/33M132t1kuw"
+        movieUrl="https://www.youtube.com/embed/8dTOGBvWG2A"
         class="vol1"
       />
 
