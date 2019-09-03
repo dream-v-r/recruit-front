@@ -22,7 +22,7 @@
             <div class="infoBox">
               <span class="post">インフラエンジニア</span>
               <span class="name">新貝 哲平</span>
-              <span class="year">2016年入社 | 中途採用</span>
+              <span class="year">2015年入社 | 中途採用</span>
             </div>
           </nuxt-link>
         </swiper-slide>
@@ -98,7 +98,7 @@
             <div class="infoBox">
               <span class="post">開発エンジニア</span>
               <span class="name">山崎 篤</span>
-              <span class="year">2018年入社 | 中途採用</span>
+              <span class="year">2017年入社 | 中途採用</span>
             </div>
           </nuxt-link>
         </swiper-slide>
@@ -136,7 +136,7 @@
             <div class="infoBox">
               <span class="post">営業</span>
               <span class="name">野崎 優人</span>
-              <span class="year">2016年入社 | 中途採用</span>
+              <span class="year">2015年入社 | 中途採用</span>
             </div>
           </nuxt-link>
         </swiper-slide>

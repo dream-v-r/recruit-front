@@ -5,7 +5,7 @@
       <DetailInfo
         number="07"
         title="考え方が広がることで視野が広がり、新たな成長のチャンスも生まれてくる。"
-        year="2016年入社 | 中途採用"
+        year="2015年入社 | 中途採用"
         name="野崎 優人"
         ruby="NOZAKI YUTO"
         post="営業"
