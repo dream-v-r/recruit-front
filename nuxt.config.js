@@ -52,7 +52,8 @@ export default {
     '~plugins/observe-visibility',
     '~plugins/scroll.js',
     { src: '~/plugins/routerOption.js', ssr: false },
-    { src: "~plugins/vue-awesome-swiper", ssr: false }
+    { src: "~plugins/vue-awesome-swiper", ssr: false },
+    { src: '~plugins/vue-scrollto', ssr: false }
   ],
 
   /*
