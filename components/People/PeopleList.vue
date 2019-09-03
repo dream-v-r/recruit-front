@@ -9,7 +9,7 @@
               <span class="post">インフラエンジニアリーダー</span>
               <span class="category">経験者</span>
               <span class="name">新貝 哲平</span>
-              <span class="year">2015年入社 | 中途採用</span>
+              <span class="year">2016年入社 | 中途採用</span>
               <span class="more">READ MORE</span>
             </div>
           </nuxt-link>
@@ -53,7 +53,7 @@
               <span class="post">開発エンジニア</span>
               <span class="category">未経験(新卒)</span>
               <span class="name">山崎 篤</span>
-              <span class="year">2017年入社 | 新卒採用</span>
+              <span class="year">2018年入社 | 新卒採用</span>
               <span class="more">READ MORE</span>
             </div>
           </nuxt-link>
@@ -75,7 +75,7 @@
               <span class="post">営業</span>
               <span class="category">経験者(営業)</span>
               <span class="name">野崎 優人</span>
-              <span class="year">2015年入社</span>
+              <span class="year">2016年入社</span>
               <span class="more">READ MORE</span>
             </div>
           </nuxt-link>
