@@ -2,11 +2,11 @@
   <ul class="footer-nav2">
     <li class="nav-item -first">
       <a
-        href="http://www.dream-v.co.jp/company/outline.html"
+        href="http://www.dream-v.co.jp/"
         class="link -first"
         target="_blank"
       >
-        会社概要
+        コーポレートサイト
       </a>
     </li>
     <li class="nav-item -second">
