@@ -1,10 +1,12 @@
 <template>
-  <section class="section03" id="service">
-    <div class="sec-contents">
+  <section class="section03">
+    <div class="sec-contents" id="service">
       <h2 class="title">サービス紹介</h2>
-      <p class="text">「人材とIT・クリエイティブの総合カンパニー」ならではのサービスを展開しております。<br>ドリームビジョンはこれまでシステムソリューション、クリエイティブに特化した人材ビジネスを軸に展開して参りました。<br>それらの人材から受諾開発のサービスもスタートし、「人材とIT・クリエイティブの総合カンパニー」ならではのサービスを展開しております。</p>
-      <p class="text">展開するサービスで共通するのは、「IT」と「クリエイティブ」。<br>この2つに関わることに課題を持つ企業、その業界で働く求職者の方々の手助けになる様々な事業を展開しています。</p>
-      <div class="inner js_syncTarget">
+      <div class="head">
+        <p class="text">「人材とIT・クリエイティブの総合カンパニー」ならではのサービスを展開しております。<br>ドリームビジョンはこれまでシステムソリューション、クリエイティブに特化した人材ビジネスを軸に展開して参りました。<br>それらの人材から受諾開発のサービスもスタートし、「人材とIT・クリエイティブの総合カンパニー」ならではのサービスを展開しております。</p>
+        <p class="text">展開するサービスで共通するのは、「IT」と「クリエイティブ」。<br>この2つに関わることに課題を持つ企業、その業界で働く求職者の方々の手助けになる様々な事業を展開しています。</p>
+      </div>
+      <div class="inner">
         <div class="col">
           <img
             src="~/assets/img/about/section03_img01.png"
@@ -58,33 +60,47 @@
   .section03 {
     color: #333;
     line-height: 1;
-  }
-  .sec-contents {
-    max-width: 1000px;
-    margin: 0 auto 102px;
-    @include _mqmax(){
-    }
-    .title {
-      color: #fff;
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
-      background-color: #029ae4;
-      padding: 20px 0;
-      margin-bottom: 30px;
+    .sec-contents {
+      max-width: 1000px;
+      margin: -94px auto 102px;
+      padding-top: 94px;
       @include _mqmax(){
+        max-width: none;
+        margin: -55px auto 54px;
+        padding-top: 55px;
       }
-    }
-    .text {
-      font-size: 16px;
-      line-height: 2;
+      .title {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #029ae4;
+        padding: 20px 0;
+        margin-bottom: 30px;
+        @include _mqmax(){
+          font-size: 25px;
+          padding: 22px 0 23px;
+          margin-bottom: 36px;
+        }
+      }
       @include _mqmax(){
+        .head {
+          padding: 0 20px;
+        }
       }
-      &:not(:last-of-type) {
-        margin-bottom: 32px;
-      }
-      &:last-of-type {
-        margin-bottom: 58px;
+      .text {
+        font-size: 16px;
+        line-height: 2;
+        @include _mqmax(){
+          font-size: 15px;
+          line-height: 1.8;
+        }
+        &:not(:last-of-type) {
+          margin-bottom: 32px;
+        }
+        &:last-of-type {
+          margin-bottom: 58px;
+        }
       }
     }
   }
@@ -93,15 +109,26 @@
     flex-wrap: wrap;
     justify-content: space-between;
     @include _mqmax(){
+      padding: 0 20px;
     }
     .col {
       width: 306px;
+      @include _mqmax(){
+        width: 100%;
+      }
       &:not(:last-child) {
         margin-bottom: 60px;
+        @include _mqmax(){
+          margin-bottom: 50px;
+        }
       }
     }
     .img {
       margin-bottom: 21px;
+      @include _mqmax(){
+        width: 100%;
+        margin-bottom: 25px;
+      }
     }
     .label {
       color: #999;
@@ -114,13 +141,25 @@
       font-size: 22px;
       font-weight: bold;
       margin-bottom: 22px;
+      @include _mqmax(){
+        font-size: 25px;
+        margin-bottom: 25px;
+      }
     }
     .lead {
       font-size: 14px;
       line-height: 1.7857142;
       margin-bottom: 52px;
+      @include _mqmax(){
+        font-size: 15px;
+        line-height: 1.7333333;
+        margin-bottom: 24px;
+      }
       &.is-mb {
         margin-bottom: 27px;
+        @include _mqmax(){
+          margin-bottom: 24px;
+        }
       }
     }
     .link {
@@ -138,6 +177,12 @@
       background: linear-gradient( to right, rgba(2, 117, 174, 1), rgba(20, 69, 163, 1));
       border-radius: 25px;
       padding: 18px 0;
+      @include _mqmax(){
+        width: 100%;
+        max-width: 250px;
+        border-radius: 30px;
+        padding: 20px 0;
+      }
       &:hover {
         opacity: .7;
       }
