@@ -53,9 +53,6 @@
       }
     },
     created() {
-      if (this.url === 'http://www.dream-v.co.jp/company/outline.html') {
-        this.blank = true
-      }
       if (this.url === 'http://www.dream-v.co.jp/recruit/seminar/') {
         this.aLink= true
       }

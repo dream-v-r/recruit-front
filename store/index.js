@@ -22,7 +22,7 @@ export const state = () => ({
       id: 4,
       title1: '会社概要',
       title2: 'about us',
-      url: 'http://www.dream-v.co.jp/company/outline.html',
+      url: 'about',
     },
     {
       id: 5,

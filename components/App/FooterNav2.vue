@@ -53,7 +53,7 @@ export default {
     padding-right: 18px;
     display: block;
     @include _mqmax(){
-      padding-right: 45px;
+      padding-right: 35px;
     }
     &::before,&::after {
       content: '';
@@ -68,7 +68,7 @@ export default {
       margin: auto;
       right: 0;
       @include _mqmax(){
-        right: 25px;
+        right: 17px;
       }
     }
     &::after {
@@ -81,7 +81,7 @@ export default {
       margin: auto;
       right: -3px;
       @include _mqmax(){
-        right: 23px;
+        right: 15px;
       }
     }
     &.-first {
