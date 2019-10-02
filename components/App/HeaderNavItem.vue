@@ -67,7 +67,7 @@ export default {
     }
   },
   created() {
-    if (this.url === 'http://www.dream-v.co.jp/recruit/seminar/') {
+    if (this.url === 'https://www.dream-v.co.jp/recruit/seminar/') {
       this.aLink= true
     }
   }

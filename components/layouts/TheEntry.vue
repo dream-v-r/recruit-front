@@ -7,7 +7,7 @@
       >
     </h2>
     <a
-      href="http://www.dream-v.co.jp/recruit/entry/"
+      href="https://www.dream-v.co.jp/recruit/entry/"
       class="btn"
     >
     エントリーはこちら

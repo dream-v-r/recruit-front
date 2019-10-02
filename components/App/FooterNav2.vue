@@ -2,7 +2,7 @@
   <ul class="footer-nav2">
     <li class="nav-item -first">
       <a
-        href="http://www.dream-v.co.jp/"
+        href="https://www.dream-v.co.jp/"
         class="link -first"
         target="_blank"
       >
@@ -11,7 +11,7 @@
     </li>
     <li class="nav-item -second">
       <a
-        href="http://www.dream-v.co.jp/privacy/"
+        href="https://www.dream-v.co.jp/privacy/"
         class="link -second"
         target="_blank"
       >

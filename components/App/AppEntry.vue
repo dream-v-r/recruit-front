@@ -1,6 +1,6 @@
 <template>
   <a
-    href="http://www.dream-v.co.jp/recruit/entry/"
+    href="https://www.dream-v.co.jp/recruit/entry/"
     class="entry-link"
   >
     <span class="title">entry</span>

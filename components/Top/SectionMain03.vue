@@ -24,7 +24,7 @@
           <SectionMainFeature
             title="説明会"
             detail="会社説明会を随時開催しています。<br>企業や業界について知りたいことがありましたら<br>お気軽にご参加ください。"
-            url="http://www.dream-v.co.jp/recruit/seminar/"
+            url="https://www.dream-v.co.jp/recruit/seminar/"
             class="content"
           />
         </div>

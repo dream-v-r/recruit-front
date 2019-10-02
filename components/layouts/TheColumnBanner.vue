@@ -1,7 +1,7 @@
 <template>
   <section class="site-columnBanner">
     <div class="inner">
-      <a href="http://www.dream-v.co.jp/recruit/column/">
+      <a href="https://www.dream-v.co.jp/recruit/column/">
         <img
           src="~/assets/img/banner_column.jpg"
           alt="Column IT業界やエンジニアの仕事のことなど、ご紹介します。"
