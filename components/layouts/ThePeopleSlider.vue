@@ -6,143 +6,145 @@
           こんな社員がいます！
         </h3>
       </div>
-      <swiper :options="swiperOption">
-        <swiper-slide>
-          <nuxt-link to="/people_vol1">
-            <img
-              src="~assets/img/slider/img_slider_01_pc.png"
-              alt="新貝 哲平"
-              class="pc"
-            >
-            <img
-              src="~assets/img/slider/img_slider_01_sp.png"
-              alt="新貝 哲平"
-              class="sp"
-            >
-            <div class="infoBox">
-              <span class="post">インフラエンジニア</span>
-              <span class="name">新貝 哲平</span>
-              <span class="year">2015年入社 | 中途採用</span>
-            </div>
-          </nuxt-link>
-        </swiper-slide>
-        <swiper-slide>
-          <nuxt-link to="/people_vol2">
-            <img
-              src="~assets/img/slider/img_slider_02_pc.png"
-              alt="小田島 貴宏"
-              class="pc"
-            >
-            <img
-              src="~assets/img/slider/img_slider_02_sp.png"
-              alt="小田島 貴宏"
-              class="sp"
-            >
-            <div class="infoBox">
-              <span class="post">開発エンジニア</span>
-              <span class="name">小田島 貴宏</span>
-              <span class="year">2017年入社 | 中途採用</span>
-            </div>
-          </nuxt-link>
-        </swiper-slide>
-        <swiper-slide>
-          <nuxt-link to="/people_vol3">
-            <img
-              src="~assets/img/slider/img_slider_03_pc.png"
-              alt="大津 裕之"
-              class="pc"
-            >
-            <img
-              src="~assets/img/slider/img_slider_03_sp.png"
-              alt="大津 裕之"
-              class="sp"
-            >
-            <div class="infoBox">
-              <span class="post">開発エンジニア</span>
-              <span class="name">大津 裕之</span>
-              <span class="year">2016年入社 | 中途採用</span>
-            </div>
-          </nuxt-link>
-        </swiper-slide>
-        <swiper-slide>
-          <nuxt-link to="/people_vol4">
-            <img
-              src="~assets/img/slider/img_slider_04_pc.png"
-              alt="森田 麻里子"
-              class="pc"
-            >
-            <img
-              src="~assets/img/slider/img_slider_04_sp.png"
-              alt="森田 麻里子"
-              class="sp"
-            >
-            <div class="infoBox">
-              <span class="post">インフラエンジニア</span>
-              <span class="name">森田 麻里子</span>
-              <span class="year">2017年入社 | 中途採用</span>
-            </div>
-          </nuxt-link>
-        </swiper-slide>
-        <swiper-slide>
-          <nuxt-link to="/people_vol5">
-            <img
-              src="~assets/img/slider/img_slider_05_pc.png"
-              alt="山崎 篤"
-              class="pc"
-            >
-            <img
-              src="~assets/img/slider/img_slider_05_sp.png"
-              alt="山崎 篤"
-              class="sp"
-            >
-            <div class="infoBox">
-              <span class="post">開発エンジニア</span>
-              <span class="name">山崎 篤</span>
-              <span class="year">2017年入社 | 中途採用</span>
-            </div>
-          </nuxt-link>
-        </swiper-slide>
-        <swiper-slide>
-          <nuxt-link to="/people_vol6">
-            <img
-              src="~assets/img/slider/img_slider_06_pc.png"
-              alt="神谷 彩奈"
-              class="pc"
-            >
-            <img
-              src="~assets/img/slider/img_slider_06_sp.png"
-              alt="神谷 彩奈"
-              class="sp"
-            >
-            <div class="infoBox">
-              <span class="post">ITサポート</span>
-              <span class="name">神谷 彩奈</span>
-              <span class="year">2018年入社 | 中途採用</span>
-            </div>
-          </nuxt-link>
-        </swiper-slide>
-        <swiper-slide>
-          <nuxt-link to="/people_vol7">
-            <img
-              src="~assets/img/slider/img_slider_07_pc.png"
-              alt="野崎 優人"
-              class="pc"
-            >
-            <img
-              src="~assets/img/slider/img_slider_07_sp.png"
-              alt="野崎 優人"
-              class="sp"
-            >
-            <div class="infoBox">
-              <span class="post">営業</span>
-              <span class="name">野崎 優人</span>
-              <span class="year">2015年入社 | 中途採用</span>
-            </div>
-          </nuxt-link>
-        </swiper-slide>
-        <div class="swiper-button-prev" slot="button-prev"></div>
-        <div class="swiper-button-next" slot="button-next"></div>
-      </swiper>
+      <no-ssr>
+        <swiper :options="swiperOption">
+          <swiper-slide>
+            <nuxt-link to="/people_vol1">
+              <img
+                src="~assets/img/slider/img_slider_01_pc.png"
+                alt="新貝 哲平"
+                class="pc"
+              >
+              <img
+                src="~assets/img/slider/img_slider_01_sp.png"
+                alt="新貝 哲平"
+                class="sp"
+              >
+              <div class="infoBox">
+                <span class="post">インフラエンジニア</span>
+                <span class="name">新貝 哲平</span>
+                <span class="year">2015年入社 | 中途採用</span>
+              </div>
+            </nuxt-link>
+          </swiper-slide>
+          <swiper-slide>
+            <nuxt-link to="/people_vol2">
+              <img
+                src="~assets/img/slider/img_slider_02_pc.png"
+                alt="小田島 貴宏"
+                class="pc"
+              >
+              <img
+                src="~assets/img/slider/img_slider_02_sp.png"
+                alt="小田島 貴宏"
+                class="sp"
+              >
+              <div class="infoBox">
+                <span class="post">開発エンジニア</span>
+                <span class="name">小田島 貴宏</span>
+                <span class="year">2017年入社 | 中途採用</span>
+              </div>
+            </nuxt-link>
+          </swiper-slide>
+          <swiper-slide>
+            <nuxt-link to="/people_vol3">
+              <img
+                src="~assets/img/slider/img_slider_03_pc.png"
+                alt="大津 裕之"
+                class="pc"
+              >
+              <img
+                src="~assets/img/slider/img_slider_03_sp.png"
+                alt="大津 裕之"
+                class="sp"
+              >
+              <div class="infoBox">
+                <span class="post">開発エンジニア</span>
+                <span class="name">大津 裕之</span>
+                <span class="year">2016年入社 | 中途採用</span>
+              </div>
+            </nuxt-link>
+          </swiper-slide>
+          <swiper-slide>
+            <nuxt-link to="/people_vol4">
+              <img
+                src="~assets/img/slider/img_slider_04_pc.png"
+                alt="森田 麻里子"
+                class="pc"
+              >
+              <img
+                src="~assets/img/slider/img_slider_04_sp.png"
+                alt="森田 麻里子"
+                class="sp"
+              >
+              <div class="infoBox">
+                <span class="post">インフラエンジニア</span>
+                <span class="name">森田 麻里子</span>
+                <span class="year">2017年入社 | 中途採用</span>
+              </div>
+            </nuxt-link>
+          </swiper-slide>
+          <swiper-slide>
+            <nuxt-link to="/people_vol5">
+              <img
+                src="~assets/img/slider/img_slider_05_pc.png"
+                alt="山崎 篤"
+                class="pc"
+              >
+              <img
+                src="~assets/img/slider/img_slider_05_sp.png"
+                alt="山崎 篤"
+                class="sp"
+              >
+              <div class="infoBox">
+                <span class="post">開発エンジニア</span>
+                <span class="name">山崎 篤</span>
+                <span class="year">2017年入社 | 中途採用</span>
+              </div>
+            </nuxt-link>
+          </swiper-slide>
+          <swiper-slide>
+            <nuxt-link to="/people_vol6">
+              <img
+                src="~assets/img/slider/img_slider_06_pc.png"
+                alt="神谷 彩奈"
+                class="pc"
+              >
+              <img
+                src="~assets/img/slider/img_slider_06_sp.png"
+                alt="神谷 彩奈"
+                class="sp"
+              >
+              <div class="infoBox">
+                <span class="post">ITサポート</span>
+                <span class="name">神谷 彩奈</span>
+                <span class="year">2018年入社 | 中途採用</span>
+              </div>
+            </nuxt-link>
+          </swiper-slide>
+          <swiper-slide>
+            <nuxt-link to="/people_vol7">
+              <img
+                src="~assets/img/slider/img_slider_07_pc.png"
+                alt="野崎 優人"
+                class="pc"
+              >
+              <img
+                src="~assets/img/slider/img_slider_07_sp.png"
+                alt="野崎 優人"
+                class="sp"
+              >
+              <div class="infoBox">
+                <span class="post">営業</span>
+                <span class="name">野崎 優人</span>
+                <span class="year">2015年入社 | 中途採用</span>
+              </div>
+            </nuxt-link>
+          </swiper-slide>
+          <div class="swiper-button-prev" slot="button-prev"></div>
+          <div class="swiper-button-next" slot="button-next"></div>
+        </swiper>
+      </no-ssr>
       <nuxt-link
         :to="url"
         class="base-btn"
@@ -200,7 +202,7 @@
     text-decoration: none;
     width: 320px;
     margin: 0 auto;
-    @include _mqmax(){
+    @include _mqmax() {
       font-size: 12px;
       padding: 9px 0;
     }
@@ -209,6 +211,7 @@
   .slider {
     background: url(~assets/img/slider/bg_slider.jpg) repeat;
     padding: 0 0 60px;
+
     .inner {
       max-width: 1000px;
       margin: 0 auto;
@@ -216,11 +219,13 @@
       @include _mqmax() {
         max-width: 100%;
       }
+
       .title {
         margin: -35px 0 80px;
-        @include _mqmax(){
+        @include _mqmax() {
           margin: -24px 0 50px;
         }
+
         h3 {
           background: #FFF;
           border-bottom: 4px solid #029ae4;
@@ -232,6 +237,7 @@
           line-height: 70px;
           height: 70px;
           position: relative;
+
           &:before {
             content: "";
             position: absolute;
@@ -242,6 +248,7 @@
             border-top: 12px solid #FFF;
             z-index: 2;
           }
+
           &:after {
             content: "";
             position: absolute;
@@ -252,7 +259,8 @@
             border-top: 14px solid #029ae4;
             z-index: 1;
           }
-          @include _mqmax(){
+
+          @include _mqmax() {
             font-size: 20px;
             line-height: 48px;
             height: 48px;
@@ -260,15 +268,18 @@
           }
         }
       }
+
       .swiper-container {
         margin: 0 auto 60px;;
         @include _mqmax() {
           margin: 0 auto 30px;;
         }
       }
+
       .swiper-slide {
         a {
           text-decoration: none;
+
           img {
             width: 90%;
             position: relative;
@@ -278,6 +289,7 @@
               margin: 0 auto;
             }
           }
+
           .infoBox {
             background: #FFF;
             box-sizing: border-box;
@@ -286,22 +298,25 @@
             padding: 1px 20px 20px;
             position: relative;
             z-index: 2;
+
             .post {
               background: linear-gradient(to right, #0275ae, #1445a3);
               color: #FFF;
               display: block;
-              margin: -14px 0 10px ;
+              margin: -14px 0 10px;
               text-align: center;
               font-size: 13px;
               line-height: 30px;
               height: 30px;
             }
+
             .name {
               color: #333;
               display: block;
               font-size: 20px;
               font-weight: bold;
             }
+
             .year {
               color: #999;
               font-size: 12px;
@@ -310,12 +325,14 @@
           }
         }
       }
+
       .swiper-button-prev, .swiper-button-next {
         background: #029ae4;
         border-radius: 37px;
         width: 74px;
         height: 74px;
         margin-top: -37px;
+
         &:before {
           content: '';
           width: 20px;
@@ -328,11 +345,13 @@
           margin-top: -10px;
         }
       }
+
       .swiper-button-prev {
         left: 0;
         @include _mqmax() {
           left: -37px;
         }
+
         &:before {
           right: 30%;
           transform: rotate(-135deg);
@@ -341,11 +360,13 @@
           }
         }
       }
+
       .swiper-button-next {
         right: 0;
         @include _mqmax() {
           right: -37px;
         }
+
         &:before {
           left: 30%;
           transform: rotate(45deg);
