@@ -34,7 +34,7 @@ export const state = () => ({
       id: 6,
       title1: '説明会',
       title2: 'event',
-      url: 'http://www.dream-v.co.jp/recruit/seminar/'
+      url: 'https://www.dream-v.co.jp/recruit/seminar/'
     }
   ],
   hamburger: false
