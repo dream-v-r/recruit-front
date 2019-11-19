@@ -4,7 +4,7 @@
     <div class="inner">
       <div class="title">
         <h3>
-          充實！福利厚生！！！
+          充實！福利厚生
         </h3>
       </div>
       <ul class="welfareTile">
