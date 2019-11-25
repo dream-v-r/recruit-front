@@ -6,7 +6,7 @@
         <div class="jobpanel clear filter pmpl">
             <div class="jobpanel_thumbnail">
                 <img
-                    src="~/assets/img/career_entry/job_img-02.png"
+                    src="~/assets/img/career_entry/job_img-07.png"
                     alt=""
                   >
             </div>
@@ -46,7 +46,7 @@
         <div class="jobpanel clear filter network">
             <div class="jobpanel_thumbnail">
                 <img
-                    src="~/assets/img/career_entry/job_img-07.png"
+                    src="~/assets/img/career_entry/job_img-02.png"
                     alt=""
                   >
             </div>
@@ -83,7 +83,7 @@
             </div>
         </div>
 
-        <div class="jobpanel clear filter development frontend">
+        <div class="jobpanel clear filter frontend">
             <div class="jobpanel_thumbnail">
                 <img
                     src="~/assets/img/career_entry/job_img-05.png"
@@ -206,7 +206,7 @@
         <div class="jobpanel clear filter network">
             <div class="jobpanel_thumbnail">
                 <img
-                    src="~/assets/img/career_entry/job_img-06.png"
+                    src="~/assets/img/career_entry/job_img-01.png"
                     alt=""
                   >
             </div>
@@ -286,7 +286,7 @@
         <div class="jobpanel clear filter network">
             <div class="jobpanel_thumbnail">
                 <img
-                    src="~/assets/img/career_entry/job_img-01.png"
+                    src="~/assets/img/career_entry/job_img-06.png"
                     alt=""
                   >
             </div>
@@ -446,7 +446,7 @@
 .jobpanel_main {
   width: 75%;
   float: right;
-  padding-top: 9px;
+  padding-top: 0;
 }
 @media screen and (max-width: 767px) {
   .jobpanel_main {
@@ -457,16 +457,15 @@
 .jobpanel_head {
   display: table;
   width: 100%;
-  margin-bottom: 12px;
+  margin-bottom: 5px;
 }
 .jobpanel_title {
-  color: #2886c6;
-  line-height: 1.333333;
-  letter-spacing: -0.05em;
-  padding-right: 10px;
-  text-decoration: none;
-  font-size: 1.4em;
-  font-weight: bold;
+    color: #2886c6;
+    line-height: 1;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
   &:hover {
     text-decoration: underline;
   }
@@ -495,7 +494,7 @@
   main: 0;
   p {
     font-size: 14px;
-    line-height: 1.42857;
+    line-height: 1.4;
     margin-bottom: 8px;
   }
 }
