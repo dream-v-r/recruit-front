@@ -52,6 +52,18 @@
           >
         </a>
       </li>
+      <li class="sns-item item">
+        <a
+          href="https://www.youtube.com/channel/UCpDPn_TTYthHtPWGUVnz6Jw"
+          class="sns-link link2"
+          target="_blank"
+        >
+          <img
+            src="~/assets/img/icon_youtube.png"
+            alt="youtube"
+          >
+        </a>
+      </li>
     </ul>
   </div>
 </template>
@@ -93,6 +105,10 @@ export default {
 .sns-item {
   > .link {
     width: 30px;
+    height: 30px;
+  }
+  > .link2 {
+    width: auto;
     height: 30px;
   }
 }
