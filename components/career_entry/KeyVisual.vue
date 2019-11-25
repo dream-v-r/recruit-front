@@ -2,9 +2,9 @@
   <section class="key-visual">
     <div class="inner">
       <h2 class="title">
-        キャリアエントリー
+        キャリア採用エントリー
       </h2>
-      <span class="ruby">CAREER ENTRY</span>
+      <span class="ruby">CAREER RECRUITMENT ENTRY</span>
       <p>ドリームビジョンのキャリア向け求人情報です。</p>
     </div>
   </section>
