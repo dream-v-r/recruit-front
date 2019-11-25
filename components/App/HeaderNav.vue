@@ -23,6 +23,7 @@
       </ul>
     </transition>
     <AppEntry class="entry " />
+	<AppCareerEntry class="entry " />
     <AppBtn class="appBtn" />
   </nav>
 </template>
@@ -32,11 +33,12 @@ import { mapGetters } from 'vuex'
 import HeaderNavItem from './HeaderNavItem'
 import HeaderNavItemSp from './HeaderNavItemSp'
 import AppEntry from './AppEntry'
+import AppCareerEntry from './AppCareerEntry'
 import AppBtn from './AppBtn'
 
 export default {
   name: 'HeaderNav',
-  components: { AppBtn, AppEntry, HeaderNavItem, HeaderNavItemSp },
+  components: { AppBtn, AppEntry, AppCareerEntry, HeaderNavItem, HeaderNavItemSp },
   computed: {
     ...mapGetters(['pageList', 'hamburger'])
   }
@@ -67,9 +69,9 @@ export default {
     }
   }
   > .entry {
-    width: 194px;
+    width: 120px;
     @include _mqmax() {
-      width: 55px;
+      width: 75px;
     }
   }
   .appBtn {

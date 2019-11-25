@@ -1,15 +1,15 @@
 <template>
   <a
-    href="https://rikunabi-direct.jp/2020/corporation/detail/rd00036185" target="_blank"
+    href="https://www.dream-v.co.jp/recruit/career_entry/"
     class="entry-link"
   >
-    <span class="title"><span class="title2">新卒採用</span>entry</span>
+    <span class="title"><span class="title2">キャリア採用</span>entry</span>
   </a>
 </template>
 
 <script>
 export default {
-  name: 'AppEntry'
+  name: 'AppCareerEntry'
 }
 </script>
 
@@ -23,18 +23,31 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
   font-weight: bold;
   @include _mqmax() {
     font-size: 10px;
-	margin-left: 10px;
+    margin: 0 1px;
   }
   > .title {
+    position: relative;
+    &::before {
+    content: '';
+    background-color: #fff;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    margin: auto;
+    right: 99px;
+    border: solid 1px #fff;
+      @include _mqmax() {
+        display: none;
+      }
+    }
 	> .title2{
 	display:block;
 	font-size:13px;
 	font-weight: normal;
-	@include _mqmax() {
+		@include _mqmax() {
 		font-size: 10px;
 	}
 	}
