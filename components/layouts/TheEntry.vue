@@ -3,14 +3,20 @@
     <h2 class="title">
       <img
         src="~/assets/img/text_entry.png"
-        alt="Entry"
+        alt="新卒採用Entry"
       >
     </h2>
     <a
-      href="https://www.dream-v.co.jp/recruit/entry/"
-      class="btn"
+      href="https://rikunabi-direct.jp/2020/corporation/detail/rd00036185"
+      class="btn" target="_blank"
     >
-    エントリーはこちら
+    新卒採用エントリーはこちら
+    </a>
+    <a
+      href="https://www.dream-v.co.jp/recruit/career_entry/"
+      class="btn2"
+    >
+    キャリア採用エントリーはこちら
     </a>
   </div>
 </template>
@@ -43,6 +49,28 @@
   }
   >.btn {
     width: 250px;
+    margin: 20px auto;
+    color: #fff;
+    background-color: #f58a00;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 14px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+    &:hover {
+      opacity: 0.8;
+    }
+    @include _mqmax() {
+      width: 200px;
+      margin-top: 17px;
+      font-size: 12px;
+      padding: 9px 0;
+    }
+  }
+   >.btn2 {
+    width: 250px;
     margin: auto;
     color: #fff;
     background-color: #f58a00;
@@ -57,7 +85,7 @@
       opacity: 0.8;
     }
     @include _mqmax() {
-      width: 183px;
+      width: 200px;
       margin-top: 17px;
       font-size: 12px;
       padding: 9px 0;
