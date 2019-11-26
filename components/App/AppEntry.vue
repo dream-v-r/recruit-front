@@ -70,7 +70,7 @@ export default {
 
 @include _mqmax() {
   .entry-link .title:before {
-    top: -33px;
+    top: -34px;
   }
 }
 
