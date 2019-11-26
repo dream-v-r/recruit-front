@@ -75,24 +75,34 @@
       background-color: #fff;
       width: 8px;
       height: 8px;
-      top: 0;
+      top: -1px;
       bottom: 0;
       margin: auto;
-      right: 2em;
+      right: 37px;
     }
-
+	@media screen and (max-width: 768px) {
+		&::before {
+		right: 23px;
+		top: 0;
+		}
+	}
     &::after {
       width: 8px;
       height: 8px;
       border-top: 1px solid #fff;
       border-right: 1px solid #fff;
-      top: -4px;
+      top: -5px;
       bottom: 0;
       margin: auto;
-      right: 1.8em;
+      right: 35px;
     }
-  }
-
+	@media screen and (max-width: 768px) {
+    &::after {
+		right: 21px;
+		top: -4px;
+		}
+	}
+}
   .btn2 {
     width: 300px;
     margin: auto;
