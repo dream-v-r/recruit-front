@@ -403,6 +403,10 @@
     padding: 0 20px 20px;
   }
 }
+.narrowing_result{
+    margin: -70px auto 0;
+    padding-top: 70px;
+}
 
 .jobpanel {
   display: flex;
