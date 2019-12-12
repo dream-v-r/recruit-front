@@ -74,6 +74,8 @@
 <style scoped lang="scss">
 .section01 {
     background-color: #f7f7f7;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
 }
 .career_entry_filter {
   padding: 20px;
@@ -125,19 +127,19 @@
     }
   }
 }
-@media screen and (max-width: 767px) {
+@include _mqmax(){
   .career_entry_filter .row {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 767px) {
+@include _mqmax(){
   .career_entry_filter .row div {
     width: 100%;
     margin: -1px 0;
     padding: 0;
   }
 }
-@media screen and (max-width: 767px) {
+@include _mqmax(){
   .career_entry_filter .row div:hover {
     color: #fff;
     background: #029ae4;
@@ -146,7 +148,7 @@
 .career_entry_filter_pc {
   display: block;
 }
-@media screen and (max-width: 767px) {
+@include _mqmax(){
   .career_entry_filter_pc {
     display: none;
   }
@@ -158,7 +160,7 @@
 .career_entry_filter_sp {
   display: none;
 }
-@media screen and (max-width: 767px) {
+@include _mqmax(){
   .career_entry_filter_sp {
     display: block;
     width: 100%;

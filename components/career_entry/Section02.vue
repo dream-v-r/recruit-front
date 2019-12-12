@@ -398,17 +398,12 @@
   width: 1000px;
   margin: 0 auto;
   padding: 0 0 50px;
-}
-@media screen and (max-width: 767px) {
-  .inner {
+@include _mqmax(){
     max-width: 100%;
     padding: 0 20px 20px;
   }
 }
-.narrowing_result{
-    margin: -55px auto 0;
-    padding-top: 55px;
-}
+
 .jobpanel {
   display: flex;
 /*align-items: center;*/
@@ -450,9 +445,7 @@
   width: 75%;
   float: right;
   padding-top: 0;
-}
-@media screen and (max-width: 767px) {
-  .jobpanel_main {
+@include _mqmax(){
     width: 100%;
     float: none;
   }
@@ -494,7 +487,7 @@
 .jobpanel_body {
   float: left;
   width: 65%;
-  main: 0;
+  margin: 0;
   p {
     font-size: 14px;
     line-height: 1.4;
@@ -527,9 +520,7 @@
   padding: 15px 14px 10px;
   box-sizing: border-box;
   line-height: 1;
-}
-@media screen and (max-width: 767px) {
-  .jobpanel_foot {
+@include _mqmax(){
     float: none;
     width: 100%;
   }
