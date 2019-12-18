@@ -46,6 +46,7 @@
     width: 700px;
     margin: 20px auto 0;
     flex-direction: row;
+    align-items: center;
   }
 
   .btn {
@@ -80,7 +81,7 @@
       margin: auto;
       right: 37px;
     }
-	@media screen and (max-width: 768px) {
+@include _mqmax(){
 		&::before {
 		right: 23px;
 		top: 0;
@@ -96,7 +97,7 @@
       margin: auto;
       right: 35px;
     }
-	@media screen and (max-width: 768px) {
+@include _mqmax(){
     &::after {
 		right: 21px;
 		top: -4px;
@@ -122,49 +123,36 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@include _mqmax(){
   .site-entry {
     padding-top: 38px;
     padding-bottom: 38px;
     background-position: center;
-  }
-}
 
-@media screen and (max-width: 768px) {
-  .site-entry .title {
-    max-width: 260px;
-    margin: auto;
-  }
-}
+    .title {
+      max-width: 260px;
+      margin: auto;
+    }
 
-@media screen and (max-width: 768px) {
-  .site-entry .btn_wrap {
-    flex-direction: column;
-    width: 100%;
-  }
-}
+    .btn_wrap {
+      flex-direction: column;
+      width: 100%;
+    }
 
-@media screen and (max-width: 768px) {
-  .site-entry .btn {
-    margin: 0 auto;
-  }
-}
+    .btn {
+      margin: 0 auto;
+      width: 230px;
+      margin-top: 17px;
+      font-size: 12px;
+      padding: 9px 0;
+    }
 
-@media screen and (max-width: 768px) {
-  .site-entry .btn {
-    width: 230px;
-    margin-top: 17px;
-    font-size: 12px;
-    padding: 9px 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .site-entry .btn2 {
-    width: 230px;
-    margin-top: 17px;
-    font-size: 12px;
-    padding: 9px 0;
+    .btn2 {
+      width: 230px;
+      margin-top: 17px;
+      font-size: 12px;
+      padding: 9px 0;
+    }
   }
 }
 </style>
