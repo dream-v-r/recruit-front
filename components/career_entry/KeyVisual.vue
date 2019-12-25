@@ -5,7 +5,7 @@
         キャリア採用エントリー
       </h2>
       <span class="ruby">CAREER RECRUITMENT ENTRY</span>
-      <p>ドリームビジョンのキャリア向けお仕事情報です。</p>
+      <p>ドリームビジョンのキャリア向け採用情報です。</p>
     </div>
   </section>
 </template>
