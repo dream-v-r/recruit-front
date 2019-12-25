@@ -1,9 +1,9 @@
 <template>
   <section class="key-visual">
     <div class="inner">
-      <h2 class="title">
+      <h1 class="title">
         社員紹介
-      </h2>
+      </h1>
       <span class="ruby">PEOPLE</span>
       <p>自分らしい働き方をしている、社員の声をご紹介します。</p>
     </div>
