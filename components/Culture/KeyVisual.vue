@@ -1,9 +1,9 @@
 <template>
   <section class="key-visual">
     <div class="inner">
-      <h2 class="title">
+      <h1 class="title">
         福利厚生・社風
-      </h2>
+      </h1>
       <span class="ruby">CULTURE</span>
       <p>大手IT企業にも負けない様々な福利厚生や社員サポートを行っております。</p>
     </div>
