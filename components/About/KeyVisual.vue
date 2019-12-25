@@ -1,9 +1,9 @@
 <template>
   <section class="key-visual">
     <div class="inner">
-      <h2 class="title">
+      <h1 class="title">
         会社概要
-      </h2>
+      </h1>
       <span class="ruby">ABOUT US</span>
       <p>ドリームビジョンは「雇用創出」を通じ、社会の課題を解決してゆく、<br>人材とIT・クリエイティブの総合カンパニーです。</p>
     </div>
