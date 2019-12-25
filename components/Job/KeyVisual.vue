@@ -1,9 +1,9 @@
 <template>
   <section class="key-visual">
     <div class="inner">
-      <h2 class="title">
+      <h1 class="title">
         募集要項
-      </h2>
+      </h1>
       <span class="ruby">RECRUIT</span>
       <p>ドリームビジョンは「日本一エンジニアにやさしい会社」を目指しています。</p>
     </div>
