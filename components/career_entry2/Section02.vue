@@ -4,7 +4,7 @@
         <div class="narrowing_result" id="narrowing_result"></div>
 
 <a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&jk=d6386b2121dad3ed&_ga=2.89532700.608485934.1573449546-1621123813.1549018844" target="_blank">
-        <div class="jobpanel clear filter pmpl network server">
+        <div class="jobpanel clear filter pmpl network">
             <div class="jobpanel_thumbnail">
                 <img
                     src="~/assets/img/career_entry/job_img-10.png"
@@ -114,7 +114,7 @@
         </a>
 
         <a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%B5%E3%83%BC%E3%83%90%E8%A8%AD%E8%A8%88&jk=b7aeb1d9e5eedd53&_ga=2.201753878.608485934.1573449546-1621123813.1549018844" target="_blank">
-         <div class="jobpanel clear filter network server">
+         <div class="jobpanel clear filter network">
             <div class="jobpanel_thumbnail">
                 <img
                     src="~/assets/img/career_entry/job_img-14.png"
@@ -188,7 +188,7 @@
         </a>
 
         <a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&jk=40bb421482018767&_ga=2.89736604.608485934.1573449546-1621123813.1549018844" target="_blank">
-        <div class="jobpanel clear filter network server">
+        <div class="jobpanel clear filter pmpl development">
             <div class="jobpanel_thumbnail">
                 <img
                     src="~/assets/img/career_entry/job_img-16.png"
@@ -225,7 +225,7 @@
         </a>
 
         <a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%B5%E3%83%BC%E3%83%90%E8%A8%AD%E8%A8%88&jk=6c2eb58e58cd8cbe&_ga=2.89736604.608485934.1573449546-1621123813.1549018844" target="_blank">
-        <div class="jobpanel clear filter server">
+        <div class="jobpanel clear filter server network">
             <div class="jobpanel_thumbnail">
                 <img
                     src="~/assets/img/career_entry/job_img-17.png"
@@ -262,7 +262,7 @@
         </a>
 
         <a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A7%8B%E7%AF%89&jk=94137cba0ef5cc5d&_ga=2.229606939.608485934.1573449546-1621123813.1549018844" target="_blank">
-        <div class="jobpanel clear filter network server development">
+        <div class="jobpanel clear filter development">
             <div class="jobpanel_thumbnail">
                 <img
                     src="~/assets/img/career_entry/job_img-18.png"
