@@ -1,9 +1,9 @@
 <template>
   <section class="key-visual">
     <div class="inner">
-      <h2 class="title">
+      <h1 class="title">
         先輩社員インタビュー
-      </h2>
+      </h1>
       <span class="ruby">INTERVIEW</span>
     </div>
   </section>

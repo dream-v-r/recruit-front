@@ -1,16 +1,16 @@
 <template>
   <main>
-    <KeyVisual class="career_entry" />
-    <Section01 class="career_entry" />
-    <Section02 class="career_entry" />
+    <KeyVisual class="career_entry2" />
+    <Section01 class="career_entry2" />
+    <Section02 class="career_entry2" />
   </main>
 </template>
 
 <script>
   import Meta from '~/assets/mixins/meta'
-  import KeyVisual from '../components/Career_entry/KeyVisual'
-  import Section01 from '../components/Career_entry/Section01'
-  import Section02 from '../components/Career_entry/Section02'
+  import KeyVisual from '../components/Career_entry2/KeyVisual'
+  import Section01 from '../components/Career_entry2/Section01'
+  import Section02 from '../components/Career_entry2/Section02'
 
   export default {
     components: { KeyVisual, Section01, Section02 },
