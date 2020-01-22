@@ -1,25 +1,23 @@
 <template>
   <section class="key-visual">
     <div class="inner">
-      <h1 class="title">
-        キャリア採用エントリー
-      </h1>
-      <span class="ruby">CAREER RECRUITMENT ENTRY</span>
-      <p>ドリームビジョンのキャリア向け採用情報です。</p>
+      <h2 class="title">
+        会社概要
+      </h2>
+      <span class="ruby">ABOUT US</span>
+      <p>ドリームビジョンは「雇用創出」を通じ、社会の課題を解決してゆく、<br>人材とIT・クリエイティブの総合カンパニーです。</p>
     </div>
   </section>
 </template>
 
 <style scoped lang="scss">
   .key-visual {
-    background: url("~assets/img/career_entry/bg_keyvisual_pc.png") center center;
-    background-size: cover;
+    background: url("~assets/img/about/bg_keyvisual_pc.jpg") center center;
     height: 500px;
     text-align: center;
     position: relative;
     @include _mqmax(){
-      background: url("~assets/img/career_entry/bg_keyvisual_sp.png") center center;
-      background-size: cover;
+      background: url("~assets/img/about/bg_keyvisual_sp.jpg") center center;
       height: 420px;
     }
     &:after {
@@ -41,7 +39,7 @@
     .inner {
       padding: 200px 0 0;
       @include _mqmax(){
-        padding: 120px 0 0;
+        padding: 114px 0 0;
       }
       .title {
         color: #FFF;

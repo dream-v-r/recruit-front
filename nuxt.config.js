@@ -14,7 +14,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    titleTemplate: '%s - 採用情報 - ドリームビジョン株式会社',
+    titleTemplate: '採用情報 - %s - ドリームビジョン株式会社',
     script: [
       { src: '/recruit/userHeat.js' },
     ],

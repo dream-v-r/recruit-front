@@ -2,23 +2,23 @@
   <section class="key-visual">
     <div class="inner">
       <h2 class="title">
-        社員紹介
+        福利厚生・社風
       </h2>
-      <span class="ruby">PEOPLE</span>
-      <p>自分らしい働き方をしている、社員の声をご紹介します。</p>
+      <span class="ruby">CULTURE</span>
+      <p>大手IT企業にも負けない様々な福利厚生や社員サポートを行っております。</p>
     </div>
   </section>
 </template>
 
 <style scoped lang="scss">
   .key-visual {
-    background: url("~assets/img/people/bg_keyvisual_pc.jpg") center center;
+    background: url("~assets/img/culture/bg_keyvisual_pc.jpg") center center;
     background-size: cover;
     height: 500px;
     text-align: center;
     position: relative;
     @include _mqmax(){
-      background: url("~assets/img/people/bg_keyvisual_sp.jpg") center center;
+      background: url("~assets/img/culture/bg_keyvisual_sp.jpg") center center;
       background-size: cover;
       height: 420px;
     }

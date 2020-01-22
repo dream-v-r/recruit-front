@@ -72,7 +72,6 @@ export default {
     width: 120px;
     @include _mqmax() {
       width: 75px;
-      height: 55px;
     }
   }
   .appBtn {
