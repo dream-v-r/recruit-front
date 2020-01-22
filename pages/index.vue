@@ -6,7 +6,6 @@
         <TheNews />
       </div>
       <SectionMain class="section" />
-      <TheColumnBanner />
     </div>
   </main>
 </template>
