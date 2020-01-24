@@ -2,39 +2,39 @@
   <section class="section02">
     <div class="sec-contents" id="company">
       <dl class="sec-def">
-        <dt><a href="/">HOME<span>ホーム</span></a></dt>
+        <dt><a href="/recruit/">HOME<span>ホーム</span></a></dt>
         <dd></dd>
-        <dt><a href="/message/">MESSAGE<span>メッセージ</span></a></dt>
+        <dt><a href="/recruit/message/">MESSAGE<span>メッセージ</span></a></dt>
         <dd></dd>
-        <dt><a href="/people_index/">MEMBER<span>社員紹介</span></a></dt>
+        <dt><a href="/recruit/people_index/">PEOPLE<span>社員紹介</span></a></dt>
         <dd>
           <ul class="list">
-            <li><a href="/people_vol1/">社員紹介Vol.1</a></li>
-            <li><a href="/people_vol2/">社員紹介Vol.2</a></li>
-            <li><a href="/people_vol3/">社員紹介Vol.3</a></li>
-            <li><a href="/people_vol4/">社員紹介Vol.4</a></li>
-            <li><a href="/people_vol5/">社員紹介Vol.5</a></li>
-            <li><a href="/people_vol6/">社員紹介Vol.6</a></li>
-            <li><a href="/people_vol7/">社員紹介Vol.7</a></li>
+            <li><a href="/recruit/people_vol1/">先輩社員インタビューVol.1</a></li>
+            <li><a href="/recruit/people_vol2/">先輩社員インタビューVol.2</a></li>
+            <li><a href="/recruit/people_vol3/">先輩社員インタビューVol.3</a></li>
+            <li><a href="/recruit/people_vol4/">先輩社員インタビューVol.4</a></li>
+            <li><a href="/recruit/people_vol5/">先輩社員インタビューVol.5</a></li>
+            <li><a href="/recruit/people_vol6/">先輩社員インタビューVol.6</a></li>
+            <li><a href="/recruit/people_vol7/">先輩社員インタビューVol.7</a></li>
           </ul>
         </dd>
-        <dt><a href="/culture-company-style/">CULTURE<span>福利厚生・社風</span></a></dt>
+        <dt><a href="/recruit/culture-company-style/">CULTURE<span>福利厚生・社風</span></a></dt>
         <dd>
           <ul class="list">
-            <li><a href="/culture-company-style/">社員アンケートからひも解く社風</a></li>
-            <li><a href="/culture-welfare/">福利厚生</a></li>
+            <li><a href="/recruit/culture-company-style/">社員アンケートからひも解く社風</a></li>
+            <li><a href="/recruit/culture-welfare/">福利厚生</a></li>
           </ul>
         </dd>
-        <dt><a href="/about/">COMPANY<span>会社概要</span></a></dt>
+        <dt><a href="/recruit/about/">ABOUT US<span>会社概要</span></a></dt>
         <dd></dd>
-        <dt><a href="/job/career/">RECRUIT<span>募集要項</span></a></dt>
+        <dt><a href="/recruit/job/career/">RECRUIT<span>募集要項</span></a></dt>
         <dd>
           <ul class="list">
-            <li><a href="/job/newgrads/">新卒採用</a></li>
-            <li><a href="/job/career/">キャリア採用</a></li>
+            <li><a href="/recruit/job/newgrads/">新卒採用</a></li>
+            <li><a href="/recruit/job/career/">キャリア採用</a></li>
           </ul>
         </dd>
-        <dt><a href="/seminar/">SEMINAR<span>説明会</span></a></dt>
+        <dt><a href="/recruit/seminar/">EVENT<span>説明会</span></a></dt>
         <dd></dd>
         <dt><a href="https://rikunabi-direct.jp/2020/corporation/detail/rd00036185" target="_blank">NEW GRADUATE ENTRY
         <img
@@ -44,16 +44,16 @@
         <span>新卒採用エントリー</span></a>
         </dt>
         <dd></dd>
-        <dt><a href="/career_entry/">CAREER ENTRY<span>キャリア採用エントリー</span></a></dt>
+        <dt><a href="/recruit/career_entry/">CAREER RECRUITMENT ENTRY<span>キャリア採用エントリー</span></a></dt>
         <dd></dd>
-        <dt><a href="https://www.dream-v.co.jp/" target="_blank">CORPORATE SITE
+        <dt><a href="/" target="_blank">CORPORATE SITE
         <img
           src="~/assets/img/sitemap/externallink.png"
           alt="別タブでページが開きます"
         >
         <span>コーポレートサイト</span></a></dt>
         <dd></dd>
-        <dt><a href="https://www.dream-v.co.jp/privacy/" target="_blank">PRIVACY POLICY
+        <dt><a href="/privacy/" target="_blank">PRIVACY POLICY
         <img
           src="~/assets/img/sitemap/externallink.png"
           alt="別タブでページが開きます"
@@ -124,7 +124,7 @@
       line-height: 1;
       font-weight: bold;
       border-top: 2px solid #029AE4;
-      padding: 10px 0 22px 10px;
+      padding: 10px 0 10px 10px;
       @include _mqmax(){
         width: 100%;
         border-top: none;
@@ -142,45 +142,46 @@
        }
     }
   }
+dt a, dd a {
+  padding-left: 2em;
+  position: relative;
+  text-decoration: none;
+  color: #029AE4;
+}
 
+dt a:hover, dd a:hover {
+  color: #f58a00;
+}
 
+dt a:before, dd a:before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  border-top: 1px solid #2383c5;
+  border-right: 1px solid #2383c5;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
 
-  dt a, dd a,{
-    padding-left: 2em;
-    position:relative;
-    text-decoration: none;
-    color: #029AE4;
-  }
-    dt a:hover, dd a:hover,{
-    color: #f58a00;
-  }
-  dt a:before, dd a:before,{
-      content: '';
-      width: 6px;
-      height: 6px;
-      display: inline-block;
-      border-top: 1px solid #2383c5;
-      border-right: 1px solid #2383c5;
-      -webkit-transform: rotate(45deg);
-      transform: rotate(45deg);
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      margin: auto;
-  }
-  dt a img, dd a img{
-    padding: 3px;
-  }
-  dt a span, dd a span,{
-    display: block;
-    font-weight: normal;
-    color: #555;
-    font-size: 12px;
-    line-height: 1.4;
-    padding-left: 28px;
+dt a img, dd a img {
+  padding: 3px;
+}
+
+dt a span, dd a span {
+  display: block;
+  font-weight: normal;
+  color: #555;
+  font-size: 12px;
+  line-height: 1.4;
+  padding-left: 28px;
     @include _mqmax(){
       padding-left: 30px;
     }
-  }
+}
 </style>

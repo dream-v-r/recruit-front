@@ -4,7 +4,7 @@
       <h1 class="title">
         サイトマップ
       </h1>
-      <span class="ruby">SITEMAP</span>
+      <span class="ruby">SITE MAP</span>
     </div>
   </section>
 </template>

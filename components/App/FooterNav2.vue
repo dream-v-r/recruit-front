@@ -20,7 +20,7 @@
     </li>
     <li class="nav-item -second">
       <a
-        href="sitemap/"
+        href="https://www.dream-v.co.jp/recruit/sitemap/"
         class="link2 -second"
       >
         サイトマップ
