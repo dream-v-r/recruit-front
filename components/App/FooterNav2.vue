@@ -96,10 +96,10 @@ export default {
     color: #fff;
     text-decoration: none;
     font-size: 11px;
-    padding-right: 18px;
+    padding-right: 10px;
     display: block;
     @include _mqmax(){
-      padding-right: 35px;
+      padding-right: 10px;
     }
   }
 }
