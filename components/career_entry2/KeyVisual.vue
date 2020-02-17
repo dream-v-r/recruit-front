@@ -1,24 +1,24 @@
 <template>
   <section class="key-visual">
     <div class="inner">
-      <h2 class="title">
-        社員紹介
-      </h2>
-      <span class="ruby">PEOPLE</span>
-      <p>自分らしい働き方をしている、社員の声をご紹介します。</p>
+      <h1 class="title">
+        キャリア採用エントリー
+      </h1>
+      <span class="ruby">CAREER RECRUITMENT ENTRY</span>
+      <p>ドリームビジョンのキャリア向け採用情報です。</p>
     </div>
   </section>
 </template>
 
 <style scoped lang="scss">
   .key-visual {
-    background: url("~assets/img/people/bg_keyvisual_pc.jpg") center center;
+    background: url("~assets/img/career_entry/bg_keyvisual_pc.png") center center;
     background-size: cover;
     height: 500px;
     text-align: center;
     position: relative;
     @include _mqmax(){
-      background: url("~assets/img/people/bg_keyvisual_sp.jpg") center center;
+      background: url("~assets/img/career_entry/bg_keyvisual_sp.png") center center;
       background-size: cover;
       height: 420px;
     }
