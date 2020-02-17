@@ -42,6 +42,13 @@
         gallery: [
           {
             title: '',
+            detail: '\u5148\u9031\u306e\u91d1\u66dc\u65e5\u3001\n\u30a4\u30f3\u30d5\u30e9\u30a8\u30f3\u30b8\u30cb\u30a2\u306e\u30e1\u30f3\u30d0\u30fc\uff08\u4e00\u90e8\uff09\u3067\n\u5c11\u3057\u9045\u3081\u306e\u65b0\u5e74\u4f1a\u3092\u3084\u308a\u307e\u3057\u305f\u3002\n\n\u5c11\u4eba\u6570\u304b\u3089\u59cb\u307e\u3063\u305f\u3053\u306e\u30c1\u30fc\u30e0\u3001\n\u4eca\u3067\u306f\u3059\u3063\u304b\u308a\u4ef2\u9593\u304c\u5897\u3048\u3066\u5927\u304d\u306a\u30c1\u30fc\u30e0\u306b\u306a\u308a\u307e\u3057\u305f\u3002\n\n\u305d\u3057\u3066\u3053\u308c\u304b\u3089\u3082\u3063\u3068\u3082\u3063\u3068\u5927\u304d\u3044\u30c1\u30fc\u30e0\u306b\n\u3057\u3066\u3044\u304d\u305f\u3044\u3068\u601d\u3063\u3066\u304a\u308a\u307e\u3059\uff01 \u25bc\u25bd\u73fe\u5728\u4ef2\u9593\u3092\u52df\u96c6\u4e2d\u3067\u3059\uff01\u25bc\u25bd\n...',
+            img: "https://scontent.xx.fbcdn.net/v/t51.2885-15/84698559_669642270451473_3354235073526907138_n.jpg?_nc_cat=101&_nc_ohc=xKSWdcV-6o0AX8XHCcG&_nc_ht=scontent.xx&oh=9d8f9fe6819039845c74b6af0c2d7ebb&oe=5EFDDC21",
+            isDetail: false,
+            URL:"https://www.instagram.com/p/B8qWwu2H4u8/"
+          },
+          {
+            title: '',
             detail: '\u30c9\u30ea\u30fc\u30e0\u30d3\u30b8\u30e7\u30f3\u3067\u306f\u3001\u6280\u8853\u30b9\u30ad\u30eb\u3084\u5c02\u9580\u77e5\u8b58\u306e\u7fd2\u5f97\u306b\u95a2\u3059\u308b\u66f8\u7c4d\u3092\u67083,000\u5186\u5206\u307e\u3067\u8cfc\u5165\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002\n\n\u4eca\u6708\u79c1\u304c\u8cfc\u5165\u3057\u305f\u66f8\u7c4d\u306f\u3053\u3061\u3089\u2193\u2193\n\u3010WordPress \u4ed5\u4e8b\u306e\u73fe\u5834\u3067\u30b5\u30c3\u3068\u4f7f\u3048\u308b\uff01\u30c7\u30b6\u30a4\u30f3\u6559\u79d1\u66f8\u3011\n\nWordPress\u306e\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u304b\u3089\u7ba1\u7406\u753b\u9762\u306e\u30ab\u30b9\u30bf\u30de\u30a4\u30ba\u3001Web\u30b5\u30a4\u30c8\u306e\u9ad8\u901f\u5316\u306b\u3064\u3044\u3066\u307e\u3067\u7db2\u7f85\u3057\u3066\u3044\u308b\u826f\u66f8\u3067\u3059\u3002\n\u8f09\u3063...',
             img: "https://scontent.xx.fbcdn.net/v/t51.2885-15/84297647_472352203445120_1799020495293166916_n.jpg?_nc_cat=105&_nc_ohc=dWtEktXLBaoAX9Gjm1g&_nc_ht=scontent.xx&oh=b719135e535999e15b8f73d96d3e54f1&oe=5E8D8A22",
             isDetail: false,
@@ -60,13 +67,6 @@
             img: "https://scontent.xx.fbcdn.net/v/t51.2885-15/84026016_101162654759032_4750301197389349175_n.jpg?_nc_cat=107&_nc_ohc=9vIdcwa70l4AX_8J6pC&_nc_ht=scontent.xx&oh=12e46592d1783963ccdac3b9799c8c17&oe=5EBC4BE2",
             isDetail: false,
             URL:"https://www.instagram.com/p/B72vJqMH8gL/"
-          },
-          {
-            title: '',
-            detail: '\u3010youtube\u52d5\u753b#8\u3092\u516c\u958b\u3057\u307e\u3057\u305f\uff01\u3011 \u4eca\u56de\u306f\u9577\u5e74\u4eba\u4e8b\u3092\u3084\u3063\u3066\u304d\u305f\u3001\n\u5bae\u57ce\u304c\u9762\u63a5\u3067\u805e\u304f\u3053\u3068\u30d9\u30b9\u30c8\uff13\u3067\u3059\u3002\n\u3082\u3061\u308d\u3093\u3001\u62c5\u5f53\u8005\u3084\u4f01\u696d\u306b\u3088\u3063\u3066\u5927\u5207\u306b\u3057\u3066\u3044\u308b\u3053\u3068\u306f\u9055\u3046\u3068\u601d\u3044\u307e\u3059\u306e\u3067\u3002\u65b0\u5352\u3001\u4e2d\u9014\u95a2\u4fc2\u306a\u304f\u53c2\u8003\u306b\u3057\u3066\u3044\u305f\u3060\u3051\u308c\u3070\u3068\u601d\u3044\u307e\u3059\u3002 \u25bc\u25bc\u3054\u8996\u8074\u306f\u3053\u3061\u3089\u25bc\u25bc\nhttps://youtu.be/abEVwaPoj2o\n\n#\u30c9\u30ea\u30fc\u30e0\u30d3\u30b8\u30e7\u30f3  #\u4eba\u4e8b\u306f\u30e6...',
-            img: "https://scontent.xx.fbcdn.net/v/t51.2885-15/83740500_154565569310708_5733197492613157860_n.jpg?_nc_cat=108&_nc_ohc=ok4wcsxuCXEAX8gaLGx&_nc_ht=scontent.xx&oh=b110b69f20a536ca5a6425d1c97adf6e&oe=5EDB7125",
-            isDetail: false,
-            URL:"https://www.instagram.com/p/B7sZp4GH7Ar/"
           }
         ]
       }
