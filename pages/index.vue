@@ -6,7 +6,6 @@
         <TheNews />
       </div>
       <SectionMain class="section" />
-      <TheColumnBanner />
     </div>
   </main>
 </template>
@@ -15,10 +14,9 @@
   import SectionMain from '../components/Top/SectionMain'
   import TheNews from '../components/layouts/TheNews'
   import MainVisual from '../components/Top/MainVisual'
-  import TheColumnBanner from '../components/layouts/TheColumnBanner'
 
   export default {
-    components: { TheColumnBanner, MainVisual, TheNews, SectionMain },
+    components: { MainVisual, TheNews, SectionMain },
     head () {
       return {
         titleTemplate: null,

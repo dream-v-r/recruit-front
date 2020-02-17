@@ -7,6 +7,7 @@
         playsinline
         muted
         loop
+        poster="/recruit/video_thumbnail.png"
       >
         <source src="~/assets/movie/mainvisual.mp4">
       </video>

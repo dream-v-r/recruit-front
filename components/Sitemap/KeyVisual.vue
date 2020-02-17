@@ -2,9 +2,9 @@
   <section class="key-visual">
     <div class="inner">
       <h1 class="title">
-        メッセージ
+        サイトマップ
       </h1>
-      <span class="ruby">MESSAGE</span>
+      <span class="ruby">SITE MAP</span>
     </div>
   </section>
 </template>

@@ -26,6 +26,7 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'http://www.dream-v.co.jp/recruit/' },
       { hid: 'og:title', property: 'og:title', content: '採用情報 - ドリームビジョン株式会社' },
+      { hid: 'og:image', property: 'og:image', content: 'https://www.dream-v.co.jp/assets/images/common/shared/ogp.png' },
       { hid: 'og:description', property: 'og:description', content: description },
       { name: 'keywords', content: '採用情報,エンジニア,クリエイティブ,Web,IT,システム開発,ネットワーク,インフラ,小伝馬町,ドリームビジョン株式会社,新卒採用,中途採用'}
     ],

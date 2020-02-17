@@ -18,6 +18,14 @@
         プライバシーポリシー
       </a>
     </li>
+    <li class="nav-item -second">
+      <a
+        href="https://www.dream-v.co.jp/recruit/sitemap/"
+        class="link2 -second"
+      >
+        サイトマップ
+      </a>
+    </li>
   </ul>
 </template>
 
@@ -29,22 +37,21 @@ export default {
 
 <style scoped lang="scss">
 .footer-nav2 {
-  display: flex;
+    display: flex;
+    margin: 20px 0 0;
+    @include _mqmax(){
+      margin-top: 38px;
+      justify-content: center;
+      flex-direction: column;
+    }
   .nav-item {
     margin-right: 31px;
     position: relative;
     display: flex;
     align-items: center;
-    &.-second {
       @include _mqmax(){
-        margin: 0;
+            margin: 10px auto;
       }
-    }
-    &.-first {
-      @include _mqmax(){
-        margin-right: 23px;
-      }
-    }
   }
   .link {
     color: #fff;
@@ -84,10 +91,15 @@ export default {
         right: 15px;
       }
     }
-    &.-first {
-      @include _mqmax(){
-        border-right: 1px solid #fff;
-      }
+  }
+  .link2 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    padding-right: 10px;
+    display: block;
+    @include _mqmax(){
+      padding-right: 10px;
     }
   }
 }
