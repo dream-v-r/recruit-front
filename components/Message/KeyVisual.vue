@@ -1,9 +1,9 @@
 <template>
   <section class="key-visual">
     <div class="inner">
-      <h1 class="title">
+      <h2 class="title">
         メッセージ
-      </h1>
+      </h2>
       <span class="ruby">MESSAGE</span>
     </div>
   </section>

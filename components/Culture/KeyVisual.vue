@@ -2,22 +2,24 @@
   <section class="key-visual">
     <div class="inner">
       <h2 class="title">
-        会社概要
+        福利厚生・社風
       </h2>
-      <span class="ruby">ABOUT US</span>
-      <p>ドリームビジョンは「雇用創出」を通じ、社会の課題を解決してゆく、<br>人材とIT・クリエイティブの総合カンパニーです。</p>
+      <span class="ruby">CULTURE</span>
+      <p>大手IT企業にも負けない様々な福利厚生や社員サポートを行っております。</p>
     </div>
   </section>
 </template>
 
 <style scoped lang="scss">
   .key-visual {
-    background: url("~assets/img/about/bg_keyvisual_pc.jpg") center center;
+    background: url("~assets/img/culture/bg_keyvisual_pc.jpg") center center;
+    background-size: cover;
     height: 500px;
     text-align: center;
     position: relative;
     @include _mqmax(){
-      background: url("~assets/img/about/bg_keyvisual_sp.jpg") center center;
+      background: url("~assets/img/culture/bg_keyvisual_sp.jpg") center center;
+      background-size: cover;
       height: 420px;
     }
     &:after {
@@ -39,7 +41,7 @@
     .inner {
       padding: 200px 0 0;
       @include _mqmax(){
-        padding: 114px 0 0;
+        padding: 120px 0 0;
       }
       .title {
         color: #FFF;

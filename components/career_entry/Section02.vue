@@ -559,12 +559,4 @@ ul, ol {
 .iconjob04:before {
   background: url(~assets/img/career_entry/icon_job04.png) no-repeat;
 }
-.narrowing_result{
-    margin: 0;
-    padding-top: 0;
-    @include _mqmax(){
-        margin: -70px auto 0;
-        padding-top: 70px;
-  }
-}
 </style>

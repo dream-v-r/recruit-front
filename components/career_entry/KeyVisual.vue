@@ -1,9 +1,9 @@
 <template>
   <section class="key-visual">
     <div class="inner">
-      <h1 class="title">
+      <h2 class="title">
         キャリア採用エントリー
-      </h1>
+      </h2>
       <span class="ruby">CAREER RECRUITMENT ENTRY</span>
       <p>ドリームビジョンのキャリア向け採用情報です。</p>
     </div>
