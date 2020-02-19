@@ -1,7 +1,6 @@
 <template>
   <main>
     <KeyVisual class="career_entry2" />
-    <Section01 class="career_entry2" />
     <Section02 class="career_entry2" />
   </main>
 </template>
@@ -9,11 +8,10 @@
 <script>
   import Meta from '~/assets/mixins/meta'
   import KeyVisual from '../components/Career_entry2/KeyVisual'
-  import Section01 from '../components/Career_entry2/Section01'
   import Section02 from '../components/Career_entry2/Section02'
 
   export default {
-    components: { KeyVisual, Section01, Section02 },
+    components: { KeyVisual, Section02 },
     mixins: [Meta],
     data () {
       return {

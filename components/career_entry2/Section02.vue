@@ -3,20 +3,20 @@
     <div class="inner">
         <div class="narrowing_result" id="narrowing_result"></div>
 
-<a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&jk=d6386b2121dad3ed&_ga=2.89532700.608485934.1573449546-1621123813.1549018844" target="_blank">
+<a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/network-engineer/?network-engineer-career">
         <div class="jobpanel clear filter pmpl network">
             <div class="jobpanel_thumbnail">
                 <img
-                    src="~/assets/img/career_entry/job_img-10.png"
+                    src="~/assets/img/career_entry/job_img-15.png"
                     alt=""
                   >
             </div>
             <div class="jobpanel_main">
-                <p class="jobpanel_head">【インフラエンジニア】</p>
+                <p class="jobpanel_head">【ネットワークエンジニア】</p>
                 <div class="clear">
                     <div class="jobpanel_body">
-                      <p>プロジェクトリーダー候補募集！大手有名企業の上流案件中心に、ドリームビジョンの社員とし、チームで常駐(出向して)してインフラの設計・構築を行っていだきます。</p>
-                        <p>職種：インフラエンジニア</p>
+                      <p>ネットワークの設計、構築や監視、運用などのお仕事をお願いします。</p>
+                        <p>職種：ネットワークエンジニア</p>
                         <div class="Icons">
                             <ul class="Icons_list">
                                 <li>未経験者歓迎</li>
@@ -39,196 +39,11 @@
         </div>
         </a>
 
-        <a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=it%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&jk=6ed278c1f84f6fd7&_ga=2.197627304.608485934.1573449546-1621123813.1549018844" target="_blank">
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/server-engineer/?server-engineer-career">
         <div class="jobpanel clear filter server">
             <div class="jobpanel_thumbnail">
                 <img
-                    src="~/assets/img/career_entry/job_img-19.png"
-                    alt=""
-                  >
-            </div>
-            <div class="jobpanel_main">
-                <div class="jobpanel_head">
-                【サーバ運用監視】
-                </div>
-                <div class="clear">
-                    <div class="jobpanel_body">
-                        <p>未経験歓迎！まずは2ヶ月の研修からスタート！サーバー・ネットワークシステムが正しく機能するよう、ネットワークの運用、トラブルシューティングや監視、または構築サポートなどをお任せします。</p>
-                        <p>職種：サーバ運用監視</p>
-                        <div class="Icons">
-                            <ul class="Icons_list">
-                                <li>未経験者歓迎</li>
-                                <li>土日祝休み</li>
-                                <li>学歴不問</li>
-                                <li>服装自由</li>
-                                <li>残業少なめ（月20時間以内）</li>
-                                <li>自社サービスあり</li>
-                                <li>退職金制度</li>
-                                <li>ベンチャー企業</li>
-                                <li>急募</li>
-                                <li>業界経験者優遇</li>
-                                <li>産休・育休実績あり</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-
-        <a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E&jk=94d48fd37bab651f&_ga=2.92744090.608485934.1573449546-1621123813.1549018844" target="_blank">
-        <div class="jobpanel clear filter frontend">
-            <div class="jobpanel_thumbnail">
-                <img
-                    src="~/assets/img/career_entry/job_img-11.png"
-                    alt=""
-                  >
-            </div>
-            <div class="jobpanel_main">
-                <div class="jobpanel_head">
-                【フロントエンドエンジニア】
-                </div>
-                <div class="clear">
-                    <div class="jobpanel_body">
-                        <p>多数の福利厚生が自慢の会社で働きませんか?直取引の大手有名企業の案件中心に、ドリームビジョンの社員として、チームで常駐(出向して)してWebサイト/メディアの構築・運用を行っていただきます。</p>
-                        <p>職種：フロントエンドエンジニア</p>
-                        <div class="Icons">
-                            <ul class="Icons_list">
-                                <li>未経験者歓迎</li>
-                                <li>土日祝休み</li>
-                                <li>学歴不問</li>
-                                <li>服装自由</li>
-                                <li>残業少なめ（月20時間以内）</li>
-                                <li>自社サービスあり</li>
-                                <li>退職金制度</li>
-                                <li>ベンチャー企業</li>
-                                <li>急募</li>
-                                <li>業界経験者優遇</li>
-                                <li>産休・育休実績あり</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-
-        <a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%B5%E3%83%BC%E3%83%90%E8%A8%AD%E8%A8%88&jk=b7aeb1d9e5eedd53&_ga=2.201753878.608485934.1573449546-1621123813.1549018844" target="_blank">
-         <div class="jobpanel clear filter network">
-            <div class="jobpanel_thumbnail">
-                <img
-                    src="~/assets/img/career_entry/job_img-14.png"
-                    alt=""
-                  >
-            </div>
-            <div class="jobpanel_main">
-                <div class="jobpanel_head">
-                【データベースエンジニア】
-                </div>
-                <div class="clear">
-                    <div class="jobpanel_body">
-                        <p>年収900万円！福利厚生10種類以上！大手有名企業のクライアント先に常駐し、チームの一員として様々な案件に携わっていただきます。</p>
-                        <p>職種：データベースエンジニア</p>
-                        <div class="Icons">
-                            <ul class="Icons_list">
-                                <li>未経験者歓迎</li>
-                                <li>土日祝休み</li>
-                                <li>学歴不問</li>
-                                <li>服装自由</li>
-                                <li>残業少なめ（月20時間以内）</li>
-                                <li>自社サービスあり</li>
-                                <li>退職金制度</li>
-                                <li>ベンチャー企業</li>
-                                <li>急募</li>
-                                <li>業界経験者優遇</li>
-                                <li>産休・育休実績あり</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-
-        <a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&jk=9204889787905007&_ga=2.119021966.608485934.1573449546-1621123813.1549018844" target="_blank">
-        <div class="jobpanel clear filter network">
-            <div class="jobpanel_thumbnail">
-                <img
-                    src="~/assets/img/career_entry/job_img-15.png"
-                    alt=""
-                  >
-            </div>
-            <div class="jobpanel_main">
-                <div class="jobpanel_head">
-                【ネットワークエンジニア】
-                </div>
-                <div class="clear">
-                    <div class="jobpanel_body">
-                        <p>新卒!トレーナー教育有!将来のやりたいを叶える技術を！サーバー・ネットワークシステムが正しく機能するよう、ネットワークの運用、トラブルシューティングや監視、構築サポートなどをお任せします。</p>
-                         <p>職種：ネットワークエンジニア</p>
-                        <div class="Icons">
-                            <ul class="Icons_list">
-                                <li>未経験者歓迎</li>
-                                <li>土日祝休み</li>
-                                <li>学歴不問</li>
-                                <li>服装自由</li>
-                                <li>残業少なめ（月20時間以内）</li>
-                                <li>自社サービスあり</li>
-                                <li>退職金制度</li>
-                                <li>ベンチャー企業</li>
-                                <li>急募</li>
-                                <li>業界経験者優遇</li>
-                                <li>産休・育休実績あり</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-
-        <a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&jk=40bb421482018767&_ga=2.89736604.608485934.1573449546-1621123813.1549018844" target="_blank">
-        <div class="jobpanel clear filter pmpl development">
-            <div class="jobpanel_thumbnail">
-                <img
                     src="~/assets/img/career_entry/job_img-16.png"
-                    alt=""
-                  >
-            </div>
-            <div class="jobpanel_main">
-                <div class="jobpanel_head">
-                【システムエンジニア】
-                </div>
-                <div class="clear">
-                    <div class="jobpanel_body">
-                        <p>キャリアップできる環境をご提供します！直取引の大手有名企業の上流案件中心に、ドリームビジョンの社員として、チームで常駐(出向して)してインフラの設計・構築を行っていただきます。</p>
-                        <p>職種：システムエンジニア</p>
-                        <div class="Icons">
-                            <ul class="Icons_list">
-                                <li>未経験者歓迎</li>
-                                <li>土日祝休み</li>
-                                <li>学歴不問</li>
-                                <li>服装自由</li>
-                                <li>残業少なめ（月20時間以内）</li>
-                                <li>自社サービスあり</li>
-                                <li>退職金制度</li>
-                                <li>ベンチャー企業</li>
-                                <li>急募</li>
-                                <li>業界経験者優遇</li>
-                                <li>産休・育休実績あり</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-
-        <a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%B5%E3%83%BC%E3%83%90%E8%A8%AD%E8%A8%88&jk=6c2eb58e58cd8cbe&_ga=2.89736604.608485934.1573449546-1621123813.1549018844" target="_blank">
-        <div class="jobpanel clear filter server network">
-            <div class="jobpanel_thumbnail">
-                <img
-                    src="~/assets/img/career_entry/job_img-17.png"
                     alt=""
                   >
             </div>
@@ -238,7 +53,7 @@
                 </div>
                 <div class="clear">
                     <div class="jobpanel_body">
-                        <p>求む！！Linuxスペシャリスト！まずは出来る範囲で作業を行い、少しずつ環境に慣れながら、サーバー構築、データーベース側の作業、運用設計作業など出来る範囲を広めていきます。</p>
+                        <p>サーバ機器の構築やサーバの運用・保守などのお仕事をお願いします。</p>
                         <p>職種：サーバエンジニア</p>
                         <div class="Icons">
                             <ul class="Icons_list">
@@ -261,22 +76,22 @@
         </div>
         </a>
 
-        <a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A7%8B%E7%AF%89&jk=94137cba0ef5cc5d&_ga=2.229606939.608485934.1573449546-1621123813.1549018844" target="_blank">
-        <div class="jobpanel clear filter development">
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/system-engineer/?system-engineer-career">
+        <div class="jobpanel clear filter pmpl development">
             <div class="jobpanel_thumbnail">
                 <img
-                    src="~/assets/img/career_entry/job_img-18.png"
+                    src="~/assets/img/career_entry/job_img-17.png"
                     alt=""
                   >
             </div>
             <div class="jobpanel_main">
                 <div class="jobpanel_head">
-                【プログラマ】
+                【システムエンジニア】
                 </div>
                 <div class="clear">
                     <div class="jobpanel_body">
-                        <p>エンジニアファースト！キャリアビジョンを優先する働き方を。直取引の大手有名企業の上流案件中心に、ドリームビジョンの社員として、チームで常駐(出向して)してインフラの設計・構築を行っていただきます。</p>
-                        <p>職種：プログラマ</p>
+                        <p>要求分析や要件定義、基本設計から詳細設計、テストなどのお仕事をお願いします。</p>
+                        <p>職種：システムエンジニア</p>
                         <div class="Icons">
                             <ul class="Icons_list">
                                 <li>未経験者歓迎</li>
@@ -298,7 +113,7 @@
         </div>
         </a>
 
-        <a class="jobpanel_link" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&jk=a106dc71b39359ee&_ga=2.159220413.608485934.1573449546-1621123813.1549018844" target="_blank">
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/development-engineer/?development-engineer-career">
         <div class="jobpanel clear filter development">
             <div class="jobpanel_thumbnail">
                 <img
@@ -312,8 +127,156 @@
                 </div>
                 <div class="clear">
                     <div class="jobpanel_body">
-                        <p>どう成長していきたいか?どんな開発に携わりたいか?3年後にはどんなポジションについていたいのか?ドリームビジョンではすべての希望を効率的かつ的確に成長・案件・ポジションの階段を昇れます。</p>
+                        <p>設計書をもとにプログラミングやテスト、保守などのお仕事をお願いします。</p>
                         <p>職種：開発エンジニア</p>
+                        <div class="Icons">
+                            <ul class="Icons_list">
+                                <li>未経験者歓迎</li>
+                                <li>土日祝休み</li>
+                                <li>学歴不問</li>
+                                <li>服装自由</li>
+                                <li>残業少なめ（月20時間以内）</li>
+                                <li>自社サービスあり</li>
+                                <li>退職金制度</li>
+                                <li>ベンチャー企業</li>
+                                <li>急募</li>
+                                <li>業界経験者優遇</li>
+                                <li>産休・育休実績あり</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/front-end-engineer/?front-end-engineer-career">
+        <div class="jobpanel clear filter frontend">
+            <div class="jobpanel_thumbnail">
+                <img
+                    src="~/assets/img/career_entry/job_img-14.png"
+                    alt=""
+                  >
+            </div>
+            <div class="jobpanel_main">
+                <div class="jobpanel_head">
+                【フロントエンドエンジニア】
+                </div>
+                <div class="clear">
+                    <div class="jobpanel_body">
+                        <p>Webサービスやアプリケーションのフロントエンドの設計・開発などのお仕事をお願いします。</p>
+                        <p>職種：フロントエンドエンジニア</p>
+                        <div class="Icons">
+                            <ul class="Icons_list">
+                                <li>未経験者歓迎</li>
+                                <li>土日祝休み</li>
+                                <li>学歴不問</li>
+                                <li>服装自由</li>
+                                <li>残業少なめ（月20時間以内）</li>
+                                <li>自社サービスあり</li>
+                                <li>退職金制度</li>
+                                <li>ベンチャー企業</li>
+                                <li>急募</li>
+                                <li>業界経験者優遇</li>
+                                <li>産休・育休実績あり</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/pm-pl/?pm-plcareer">
+        <div class="jobpanel clear filter network">
+            <div class="jobpanel_thumbnail">
+                <img
+                    src="~/assets/img/career_entry/job_img-10.png"
+                    alt=""
+                  >
+            </div>
+            <div class="jobpanel_main">
+                <div class="jobpanel_head">
+                【PM/PL】
+                </div>
+                <div class="clear">
+                    <div class="jobpanel_body">
+                        <p>ブランク</p>
+                         <p>職種：PM/PL</p>
+                        <div class="Icons">
+                            <ul class="Icons_list">
+                                <li>未経験者歓迎</li>
+                                <li>土日祝休み</li>
+                                <li>学歴不問</li>
+                                <li>服装自由</li>
+                                <li>残業少なめ（月20時間以内）</li>
+                                <li>自社サービスあり</li>
+                                <li>退職金制度</li>
+                                <li>ベンチャー企業</li>
+                                <li>急募</li>
+                                <li>業界経験者優遇</li>
+                                <li>産休・育休実績あり</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/web-director/?web-director-career">
+        <div class="jobpanel clear filter server network">
+            <div class="jobpanel_thumbnail">
+                <img
+                    src="~/assets/img/career_entry/job_img-19.png"
+                    alt=""
+                  >
+            </div>
+            <div class="jobpanel_main">
+                <div class="jobpanel_head">
+                【Webディレクター】
+                </div>
+                <div class="clear">
+                    <div class="jobpanel_body">
+                        <p>Webサービスやアプリケーション開発の企画やプロジェクト管理、Webマーケティングなどのお仕事をお願いします。</p>
+                        <p>職種：Webディレクター</p>
+                        <div class="Icons">
+                            <ul class="Icons_list">
+                                <li>未経験者歓迎</li>
+                                <li>土日祝休み</li>
+                                <li>学歴不問</li>
+                                <li>服装自由</li>
+                                <li>残業少なめ（月20時間以内）</li>
+                                <li>自社サービスあり</li>
+                                <li>退職金制度</li>
+                                <li>ベンチャー企業</li>
+                                <li>急募</li>
+                                <li>業界経験者優遇</li>
+                                <li>産休・育休実績あり</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/it-support/?it-support-career">
+         <div class="jobpanel clear filter network">
+            <div class="jobpanel_thumbnail">
+                <img
+                    src="~/assets/img/career_entry/job_img-11.png"
+                    alt=""
+                  >
+            </div>
+            <div class="jobpanel_main">
+                <div class="jobpanel_head">
+                【ITサポート】
+                </div>
+                <div class="clear">
+                    <div class="jobpanel_body">
+                        <p>ブランク</p>
+                        <p>職種：ITサポート</p>
                         <div class="Icons">
                             <ul class="Icons_list">
                                 <li>未経験者歓迎</li>
@@ -362,6 +325,7 @@
 <style scoped lang="scss">
 .section02 {
     background-color: #f7f7f7;
+    padding-top: 30px;
 }
 .inner {
   width: 1000px;
