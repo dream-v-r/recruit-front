@@ -3,7 +3,7 @@
     <div class="inner">
         <div class="narrowing_result" id="narrowing_result"></div>
 
-<a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/network-engineer/?network-engineer-career">
+<a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/network-engineer/?occupation=network-engineer-career">
         <div class="jobpanel clear filter pmpl network">
             <div class="jobpanel_thumbnail">
                 <img
@@ -12,26 +12,42 @@
                   >
             </div>
             <div class="jobpanel_main">
-                <p class="jobpanel_head">【ネットワークエンジニア】</p>
+                <h2 class="jobpanel_head">ネットワークエンジニア</h2>
                 <div class="clear">
                     <div class="jobpanel_body">
-                      <p>ネットワークの設計、構築や監視、運用などのお仕事をお願いします。</p>
-                        <p>職種：ネットワークエンジニア</p>
-                        <div class="Icons">
-                            <ul class="Icons_list">
-                                <li>未経験者歓迎</li>
-                                <li>土日祝休み</li>
-                                <li>学歴不問</li>
-                                <li>服装自由</li>
-                                <li>残業少なめ（月20時間以内）</li>
-                                <li>自社サービスあり</li>
-                                <li>退職金制度</li>
-                                <li>ベンチャー企業</li>
-                                <li>急募</li>
-                                <li>業界経験者優遇</li>
-                                <li>産休・育休実績あり</li>
-                            </ul>
-                        </div>
+                      <dl>
+                        <dt>
+                          <h2>職種</h2>
+                        </dt>
+                        <dd class="first">
+                          <p>ネットワークエンジニア</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>
+                          <h2>業務内容</h2>
+                        </dt>
+                        <dd>
+                          <p>ネットワークの設計、構築や監視、運用などのお仕事をお願いします。</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="first">
+                          <h2>雇用形態</h2>
+                        </dt>
+                        <dd>
+                          <p>正社員</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="last">
+                          <h2>応募資格</h2>
+                        </dt>
+                        <dd class="last">
+                          <p>インフラ、サーバ、ネットワーク関連の設計・構築・運用経験【経験が浅い方も歓迎】</p>
+                        </dd>
+                      </dl>
+                      <p class="jobdetails">詳細を見る>></p>
                     </div>
                 </div>
             </div>
@@ -39,7 +55,7 @@
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/server-engineer/?server-engineer-career">
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/server-engineer/?occupation=server-engineer-career">
         <div class="jobpanel clear filter server">
             <div class="jobpanel_thumbnail">
                 <img
@@ -48,35 +64,50 @@
                   >
             </div>
             <div class="jobpanel_main">
-                <div class="jobpanel_head">
-                【サーバエンジニア】
-                </div>
+                <h2 class="jobpanel_head">サーバエンジニア</h2>
                 <div class="clear">
                     <div class="jobpanel_body">
-                        <p>サーバ機器の構築やサーバの運用・保守などのお仕事をお願いします。</p>
-                        <p>職種：サーバエンジニア</p>
-                        <div class="Icons">
-                            <ul class="Icons_list">
-                                <li>未経験者歓迎</li>
-                                <li>土日祝休み</li>
-                                <li>学歴不問</li>
-                                <li>服装自由</li>
-                                <li>残業少なめ（月20時間以内）</li>
-                                <li>自社サービスあり</li>
-                                <li>退職金制度</li>
-                                <li>ベンチャー企業</li>
-                                <li>急募</li>
-                                <li>業界経験者優遇</li>
-                                <li>産休・育休実績あり</li>
-                            </ul>
-                        </div>
+                      <dl>
+                        <dt>
+                          <h2>職種</h2>
+                        </dt>
+                        <dd class="first">
+                          <p>サーバエンジニア</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>
+                          <h2>業務内容</h2>
+                        </dt>
+                        <dd>
+                          <p>サーバ機器の構築やサーバの運用・保守などのお仕事をお願いします。</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="first">
+                          <h2>雇用形態</h2>
+                        </dt>
+                        <dd>
+                          <p>正社員</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="last">
+                          <h2>応募資格</h2>
+                        </dt>
+                        <dd class="last">
+                          <p>インフラ・サーバ・ネットワーク関連の設計・構築・運用経験【経験が浅い方も歓迎】</p>
+                        </dd>
+                      </dl>
+                      <p class="jobdetails">詳細を見る>></p>
                     </div>
                 </div>
             </div>
+
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/system-engineer/?system-engineer-career">
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/system-engineer/?occupation=system-engineer-career">
         <div class="jobpanel clear filter pmpl development">
             <div class="jobpanel_thumbnail">
                 <img
@@ -85,35 +116,50 @@
                   >
             </div>
             <div class="jobpanel_main">
-                <div class="jobpanel_head">
-                【システムエンジニア】
-                </div>
+                <h2 class="jobpanel_head">システムエンジニア</h2>
                 <div class="clear">
                     <div class="jobpanel_body">
-                        <p>要求分析や要件定義、基本設計から詳細設計、テストなどのお仕事をお願いします。</p>
-                        <p>職種：システムエンジニア</p>
-                        <div class="Icons">
-                            <ul class="Icons_list">
-                                <li>未経験者歓迎</li>
-                                <li>土日祝休み</li>
-                                <li>学歴不問</li>
-                                <li>服装自由</li>
-                                <li>残業少なめ（月20時間以内）</li>
-                                <li>自社サービスあり</li>
-                                <li>退職金制度</li>
-                                <li>ベンチャー企業</li>
-                                <li>急募</li>
-                                <li>業界経験者優遇</li>
-                                <li>産休・育休実績あり</li>
-                            </ul>
-                        </div>
+                      <dl>
+                        <dt>
+                          <h2>職種</h2>
+                        </dt>
+                        <dd class="first">
+                          <p>システムエンジニア</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>
+                          <h2>業務内容</h2>
+                        </dt>
+                        <dd>
+                          <p>要求分析や要件定義、基本設計から詳細設計、テストなどのお仕事をお願いします。</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="first">
+                          <h2>雇用形態</h2>
+                        </dt>
+                        <dd>
+                          <p>正社員</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="last">
+                          <h2>応募資格</h2>
+                        </dt>
+                        <dd class="last">
+                          <p>要求分析、要件定義、基本設計、詳細設計、テスト等の経験【経験が浅い方も歓迎】</p>
+                        </dd>
+                      </dl>
+                      <p class="jobdetails">詳細を見る>></p>
                     </div>
                 </div>
             </div>
+
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/development-engineer/?development-engineer-career">
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/development-engineer/?occupation=development-engineer-career">
         <div class="jobpanel clear filter development">
             <div class="jobpanel_thumbnail">
                 <img
@@ -122,35 +168,50 @@
                   >
             </div>
             <div class="jobpanel_main">
-                <div class="jobpanel_head">
-                【開発エンジニア】
-                </div>
+                <h2 class="jobpanel_head">開発エンジニア</h2>
                 <div class="clear">
                     <div class="jobpanel_body">
-                        <p>設計書をもとにプログラミングやテスト、保守などのお仕事をお願いします。</p>
-                        <p>職種：開発エンジニア</p>
-                        <div class="Icons">
-                            <ul class="Icons_list">
-                                <li>未経験者歓迎</li>
-                                <li>土日祝休み</li>
-                                <li>学歴不問</li>
-                                <li>服装自由</li>
-                                <li>残業少なめ（月20時間以内）</li>
-                                <li>自社サービスあり</li>
-                                <li>退職金制度</li>
-                                <li>ベンチャー企業</li>
-                                <li>急募</li>
-                                <li>業界経験者優遇</li>
-                                <li>産休・育休実績あり</li>
-                            </ul>
-                        </div>
+                      <dl>
+                        <dt>
+                          <h2>職種</h2>
+                        </dt>
+                        <dd class="first">
+                          <p>開発エンジニア</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>
+                          <h2>業務内容</h2>
+                        </dt>
+                        <dd>
+                          <p>設計書をもとにプログラミングやテスト、保守などのお仕事をお願いします。</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="first">
+                          <h2>雇用形態</h2>
+                        </dt>
+                        <dd>
+                          <p>正社員</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="last">
+                          <h2>応募資格</h2>
+                        </dt>
+                        <dd class="last">
+                          <p>Web・オープン系システムの開発経験（Java、PHP、.NETなど）【経験が浅い方も歓迎】</p>
+                        </dd>
+                      </dl>
+                      <p class="jobdetails">詳細を見る>></p>
                     </div>
                 </div>
             </div>
+
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/front-end-engineer/?front-end-engineer-career">
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/front-end-engineer/?occupation=front-end-engineer-career">
         <div class="jobpanel clear filter frontend">
             <div class="jobpanel_thumbnail">
                 <img
@@ -159,35 +220,50 @@
                   >
             </div>
             <div class="jobpanel_main">
-                <div class="jobpanel_head">
-                【フロントエンドエンジニア】
-                </div>
+                <h2 class="jobpanel_head">フロントエンドエンジニア</h2>
                 <div class="clear">
                     <div class="jobpanel_body">
-                        <p>Webサービスやアプリケーションのフロントエンドの設計・開発などのお仕事をお願いします。</p>
-                        <p>職種：フロントエンドエンジニア</p>
-                        <div class="Icons">
-                            <ul class="Icons_list">
-                                <li>未経験者歓迎</li>
-                                <li>土日祝休み</li>
-                                <li>学歴不問</li>
-                                <li>服装自由</li>
-                                <li>残業少なめ（月20時間以内）</li>
-                                <li>自社サービスあり</li>
-                                <li>退職金制度</li>
-                                <li>ベンチャー企業</li>
-                                <li>急募</li>
-                                <li>業界経験者優遇</li>
-                                <li>産休・育休実績あり</li>
-                            </ul>
-                        </div>
+                      <dl>
+                        <dt>
+                          <h2>職種</h2>
+                        </dt>
+                        <dd class="first">
+                          <p>フロントエンドエンジニア</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>
+                          <h2>業務内容</h2>
+                        </dt>
+                        <dd>
+                          <p>Webサービスやアプリケーションのフロントエンドの設計・開発などのお仕事をお願いします。</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="first">
+                          <h2>雇用形態</h2>
+                        </dt>
+                        <dd>
+                          <p>正社員</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="last">
+                          <h2>応募資格</h2>
+                        </dt>
+                        <dd class="last">
+                          <p>WebサービスのUI/UX設計・コーディング経験（HTML、CSS、JavaScript、PHPなど）【経験が浅い方も歓迎】</p>
+                        </dd>
+                      </dl>
+                      <p class="jobdetails">詳細を見る>></p>
                     </div>
                 </div>
             </div>
+
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/pm-pl/?pm-plcareer">
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/pm-pl/?occupation=pm-pl-career">
         <div class="jobpanel clear filter network">
             <div class="jobpanel_thumbnail">
                 <img
@@ -196,35 +272,50 @@
                   >
             </div>
             <div class="jobpanel_main">
-                <div class="jobpanel_head">
-                【PM/PL】
-                </div>
+                <h2 class="jobpanel_head">PM/PL</h2>
                 <div class="clear">
                     <div class="jobpanel_body">
-                        <p>ブランク</p>
-                         <p>職種：PM/PL</p>
-                        <div class="Icons">
-                            <ul class="Icons_list">
-                                <li>未経験者歓迎</li>
-                                <li>土日祝休み</li>
-                                <li>学歴不問</li>
-                                <li>服装自由</li>
-                                <li>残業少なめ（月20時間以内）</li>
-                                <li>自社サービスあり</li>
-                                <li>退職金制度</li>
-                                <li>ベンチャー企業</li>
-                                <li>急募</li>
-                                <li>業界経験者優遇</li>
-                                <li>産休・育休実績あり</li>
-                            </ul>
-                        </div>
+                      <dl>
+                        <dt>
+                          <h2>職種</h2>
+                        </dt>
+                        <dd class="first">
+                          <p>PM/PL</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>
+                          <h2>業務内容</h2>
+                        </dt>
+                        <dd>
+                          <p>ブランク</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="first">
+                          <h2>雇用形態</h2>
+                        </dt>
+                        <dd>
+                          <p>正社員</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="last">
+                          <h2>応募資格</h2>
+                        </dt>
+                        <dd class="last">
+                          <p>ブランク</p>
+                        </dd>
+                      </dl>
+                      <p class="jobdetails">詳細を見る>></p>
                     </div>
                 </div>
             </div>
+
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/web-director/?web-director-career">
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/web-director/?occupation=web-director-career">
         <div class="jobpanel clear filter server network">
             <div class="jobpanel_thumbnail">
                 <img
@@ -233,35 +324,50 @@
                   >
             </div>
             <div class="jobpanel_main">
-                <div class="jobpanel_head">
-                【Webディレクター】
-                </div>
+                <h2 class="jobpanel_head">Webディレクター</h2>
                 <div class="clear">
                     <div class="jobpanel_body">
-                        <p>Webサービスやアプリケーション開発の企画やプロジェクト管理、Webマーケティングなどのお仕事をお願いします。</p>
-                        <p>職種：Webディレクター</p>
-                        <div class="Icons">
-                            <ul class="Icons_list">
-                                <li>未経験者歓迎</li>
-                                <li>土日祝休み</li>
-                                <li>学歴不問</li>
-                                <li>服装自由</li>
-                                <li>残業少なめ（月20時間以内）</li>
-                                <li>自社サービスあり</li>
-                                <li>退職金制度</li>
-                                <li>ベンチャー企業</li>
-                                <li>急募</li>
-                                <li>業界経験者優遇</li>
-                                <li>産休・育休実績あり</li>
-                            </ul>
-                        </div>
+                      <dl>
+                        <dt>
+                          <h2>職種</h2>
+                        </dt>
+                        <dd class="first">
+                          <p>Webディレクター</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>
+                          <h2>業務内容</h2>
+                        </dt>
+                        <dd>
+                          <p>Webサービスやアプリケーション開発の企画やプロジェクト管理、Webマーケティングなどのお仕事をお願いします。</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="first">
+                          <h2>雇用形態</h2>
+                        </dt>
+                        <dd>
+                          <p>正社員</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="last">
+                          <h2>応募資格</h2>
+                        </dt>
+                        <dd class="last">
+                          <p>Webサイトのディレクション、Webマーケティングの経験【経験が浅い方も歓迎】</p>
+                        </dd>
+                      </dl>
+                      <p class="jobdetails">詳細を見る>></p>
                     </div>
                 </div>
             </div>
+
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/it-support/?it-support-career">
+        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/it-support/?occupation=it-support-career">
          <div class="jobpanel clear filter network">
             <div class="jobpanel_thumbnail">
                 <img
@@ -270,31 +376,46 @@
                   >
             </div>
             <div class="jobpanel_main">
-                <div class="jobpanel_head">
-                【ITサポート】
-                </div>
+                <h2 class="jobpanel_head">ITサポート</h2>
                 <div class="clear">
                     <div class="jobpanel_body">
-                        <p>ブランク</p>
-                        <p>職種：ITサポート</p>
-                        <div class="Icons">
-                            <ul class="Icons_list">
-                                <li>未経験者歓迎</li>
-                                <li>土日祝休み</li>
-                                <li>学歴不問</li>
-                                <li>服装自由</li>
-                                <li>残業少なめ（月20時間以内）</li>
-                                <li>自社サービスあり</li>
-                                <li>退職金制度</li>
-                                <li>ベンチャー企業</li>
-                                <li>急募</li>
-                                <li>業界経験者優遇</li>
-                                <li>産休・育休実績あり</li>
-                            </ul>
-                        </div>
+                      <dl>
+                        <dt>
+                          <h2>職種</h2>
+                        </dt>
+                        <dd class="first">
+                          <p>ITサポート</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>
+                          <h2>業務内容</h2>
+                        </dt>
+                        <dd>
+                          <p>ブランク</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="first">
+                          <h2>雇用形態</h2>
+                        </dt>
+                        <dd>
+                          <p>正社員</p>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt class="last">
+                          <h2>応募資格</h2>
+                        </dt>
+                        <dd class="last">
+                          <p>ブランク</p>
+                        </dd>
+                      </dl>
+                      <p class="jobdetails">詳細を見る>></p>
                     </div>
                 </div>
             </div>
+
         </div>
         </a>
 
@@ -341,12 +462,12 @@
   display: flex;
 /*align-items: center;*/
   padding: 20px;
-  margin-bottom: 20px;
   box-shadow: 0 0 4px 2px rgba(227, 230, 231, 0.1);
   position: relative;
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
+  flex-direction: row-reverse;
 }
 .clear {
   &:before, &:after {
@@ -359,8 +480,6 @@
     height: auto;
     float: left;
     display: block;
-    padding-right: 2%;
-
   img {
     width: auto;
     height: auto;
@@ -373,34 +492,44 @@
   }
 }
 .jobpanel_main {
-  width: 70%;
+  width: 72%;
   float: right;
   padding-top: 0;
+  padding-right: 2%;
 @include _mqmax(){
     width: 100%;
     float: none;
+    padding-right: 0;
   }
 }
 .jobpanel_head {
   display: table;
   width: 100%;
-  margin: 7px 0 12px;
+  margin: 0 0 17px;
   font-weight: bold;
-  color: #333;
+  font-size: 23px;
 }
 .jobpanel_link {
     color: #000;
     line-height: 1;
-    padding-right: 10px;
     text-decoration: none;
     font-size: 1.2em;
     font-weight: normal;
     display: block;
     background: #fff;
+    margin-bottom: 20px;
   &:hover {
     text-decoration: none;
-    background: #def0ff;
-    transition: 0.3s;
+    transition: 0.2s;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    transform: translateY(-0.1875em);
+    @include _mqmax(){
+      box-shadow: none;
+      transform: translateY(0);
+    }
+  }
+  @include _mqmax(){
+    padding-right: 0;
   }
 }
 .jobpanel_head .jobId {
@@ -435,19 +564,22 @@
   .jobpanel_body {
     float: none;
     width: 100%;
-    margin-bottom: 8px;
   }
+}
+.Icons{
+  margin-top: .5em;
 }
 .Icons_list {
   line-height: 1;
   li {
     display: inline-block;
-    color: #000000;
+    color: #2886c6;
     font-size: 11px;
     margin: 0 0 4px -1px;
     padding: 5px 7px;
-    background: #eefcff;
+    border: solid 1px #2886c6;
     border-radius: 4px;
+    background: #fff;
   }
 }
 .jobpanel_foot {
@@ -504,4 +636,85 @@ ul, ol {
         padding-top: 70px;
   }
 }
+
+
+
+
+
+
+dl {
+    display: flex;
+}
+dl dt{
+    border-bottom: none;
+    width: 4em;
+    margin: 0 30px 0 0;
+    padding: 5px;
+  @include _mqmax(){
+    border-bottom: 1px solid #029AE4;
+    margin: 0;
+  }
+}
+dl dt.first{
+    border-top: none;
+}
+dl dt.last {
+    border-bottom: none;
+}
+
+dl dt h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+dl dd {
+    border-bottom: none;
+    width: calc(100% - 4em);
+    padding: 5px;
+  @include _mqmax(){
+    border-bottom: 1px solid #CCC;
+  }
+}
+dl dd.first {
+    /*border-top: 1px solid #CCC;*/
+}
+dl dd.last {
+    border-bottom: none;
+}
+
+dl dd .caution {
+    display: block;
+    font-size: 12px;
+    line-height: 2;
+}
+.jobpanel_body dl dd p {
+  margin: 0;
+}
+.jobpanel_body .jobdetails {
+    padding: 5px 10px 0 0;
+    text-align: right;
+    color: #029ae4;
+    margin: 0;
+    font-weight: normal;
+  @include _mqmax(){
+    text-align: center;
+    padding: 1em;
+    margin: 15px 0 0;
+    background: #029ae4;
+    color: #fff;
+    font-weight: bold;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 </style>
