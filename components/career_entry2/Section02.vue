@@ -3,7 +3,7 @@
     <div class="inner">
         <div class="narrowing_result" id="narrowing_result"></div>
 
-<a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/network-engineer/?occupation=network-engineer-career">
+<a class="jobpanel_link" href="/recruit/jobs/network-engineer/?occupation=network-engineer-career">
         <div class="jobpanel clear filter pmpl network">
             <div class="jobpanel_thumbnail">
                 <img
@@ -55,7 +55,7 @@
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/server-engineer/?occupation=server-engineer-career">
+        <a class="jobpanel_link" href="/recruit/jobs/server-engineer/?occupation=server-engineer-career">
         <div class="jobpanel clear filter server">
             <div class="jobpanel_thumbnail">
                 <img
@@ -107,7 +107,7 @@
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/system-engineer/?occupation=system-engineer-career">
+        <a class="jobpanel_link" href="/recruit/jobs/system-engineer/?occupation=system-engineer-career">
         <div class="jobpanel clear filter pmpl development">
             <div class="jobpanel_thumbnail">
                 <img
@@ -159,7 +159,7 @@
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/development-engineer/?occupation=development-engineer-career">
+        <a class="jobpanel_link" href="/recruit/jobs/development-engineer/?occupation=development-engineer-career">
         <div class="jobpanel clear filter development">
             <div class="jobpanel_thumbnail">
                 <img
@@ -211,7 +211,7 @@
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/front-end-engineer/?occupation=front-end-engineer-career">
+        <a class="jobpanel_link" href="/recruit/jobs/front-end-engineer/?occupation=front-end-engineer-career">
         <div class="jobpanel clear filter frontend">
             <div class="jobpanel_thumbnail">
                 <img
@@ -263,7 +263,7 @@
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/pm-pl/?occupation=pm-pl-career">
+        <a class="jobpanel_link" href="/recruit/jobs/pm-pl/?occupation=pm-pl-career">
         <div class="jobpanel clear filter network">
             <div class="jobpanel_thumbnail">
                 <img
@@ -315,7 +315,7 @@
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/web-director/?occupation=web-director-career">
+        <a class="jobpanel_link" href="/recruit/jobs/web-director/?occupation=web-director-career">
         <div class="jobpanel clear filter server network">
             <div class="jobpanel_thumbnail">
                 <img
@@ -367,7 +367,7 @@
         </div>
         </a>
 
-        <a class="jobpanel_link" href="http://www.dream-v.co.jp/recruit/jobs/it-support/?occupation=it-support-career">
+        <a class="jobpanel_link" href="/recruit/jobs/it-support/?occupation=it-support-career">
          <div class="jobpanel clear filter network">
             <div class="jobpanel_thumbnail">
                 <img
@@ -457,7 +457,6 @@
     padding: 0 20px 20px;
   }
 }
-
 .jobpanel {
   display: flex;
 /*align-items: center;*/
@@ -554,16 +553,14 @@
   float: left;
   width: 100%;
   margin: 0;
+  @include _mqmax(){
+    float: none;
+    width: 100%;
+}
   p {
     font-size: 14px;
     line-height: 1.4;
     margin-bottom: 8px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .jobpanel_body {
-    float: none;
-    width: 100%;
   }
 }
 .Icons{
@@ -589,7 +586,7 @@
   padding: 15px 14px 10px;
   box-sizing: border-box;
   line-height: 1;
-@include _mqmax(){
+  @include _mqmax(){
     float: none;
     width: 100%;
   }
@@ -628,93 +625,74 @@ ul, ol {
 .iconjob04:before {
   background: url(~assets/img/career_entry/icon_job04.png) no-repeat;
 }
-.narrowing_result{
-    margin: 0;
-    padding-top: 0;
+.narrowing_result {
+  margin: 0;
+  padding-top: 0;
     @include _mqmax(){
-        margin: -70px auto 0;
-        padding-top: 70px;
+    margin: -70px auto 0;
+    padding-top: 70px;
   }
 }
-
-
-
-
-
-
 dl {
-    display: flex;
-}
-dl dt{
+  display: flex;
+  dt {
     border-bottom: none;
     width: 4em;
     margin: 0 30px 0 0;
     padding: 5px;
-  @include _mqmax(){
-    border-bottom: 1px solid #029AE4;
-    margin: 0;
+      @include _mqmax(){
+        border-bottom: 1px solid #029AE4;
+        margin: 0;
+      }
+    &.first {
+      border-top: none;
+    }
+    &.last {
+      border-bottom: none;
+    }
+    h2 {
+      font-size: 14px;
+      font-weight: normal;
+    }
   }
-}
-dl dt.first{
-    border-top: none;
-}
-dl dt.last {
-    border-bottom: none;
-}
-
-dl dt h2 {
-    font-size: 14px;
-    font-weight: normal;
-}
-dl dd {
+  dd {
     border-bottom: none;
     width: calc(100% - 4em);
     padding: 5px;
-  @include _mqmax(){
-    border-bottom: 1px solid #CCC;
+    @include _mqmax(){
+     border-bottom: 1px solid #CCC;
+    }
+    &.first {
+      /*border-top: 1px solid #CCC;*/
+    }
+    &.last {
+      border-bottom: none;
+    }
+    .caution {
+      display: block;
+      font-size: 12px;
+      line-height: 2;
+    }
   }
 }
-dl dd.first {
-    /*border-top: 1px solid #CCC;*/
-}
-dl dd.last {
-    border-bottom: none;
-}
-
-dl dd .caution {
-    display: block;
-    font-size: 12px;
-    line-height: 2;
-}
-.jobpanel_body dl dd p {
-  margin: 0;
-}
-.jobpanel_body .jobdetails {
+.jobpanel_body {
+  dl dd p {
+    margin: 0;
+  }
+  .jobdetails {
     padding: 5px 10px 0 0;
     text-align: right;
     color: #029ae4;
     margin: 0;
     font-weight: normal;
-  @include _mqmax(){
-    text-align: center;
-    padding: 1em;
-    margin: 15px 0 0;
-    background: #029ae4;
-    color: #fff;
-    font-weight: bold;
+      @include _mqmax(){
+        text-align: center;
+        padding: 1em;
+        margin: 15px 0 0;
+        background: #029ae4;
+        color: #fff;
+        font-weight: bold;
+      }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 </style>
