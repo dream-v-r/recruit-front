@@ -8,7 +8,7 @@
     </h2>
 	<div class="btn_wrap">
     <a
-      href="https://rikunabi-direct.jp/2020/corporation/detail/rd00036185"
+      href="https://rikunabi-direct.jp/2021/corporation/detail/rd00036185"
       class="btn" target="_blank"
     >
     新卒採用エントリーはこちら

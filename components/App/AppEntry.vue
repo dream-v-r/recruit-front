@@ -1,6 +1,6 @@
 <template>
   <a
-    href="https://rikunabi-direct.jp/2020/corporation/detail/rd00036185" target="_blank"
+    href="https://rikunabi-direct.jp/2021/corporation/detail/rd00036185" target="_blank"
     class="entry-link"
   >
     <span class="title"><span class="title2">新卒採用</span>entry</span>

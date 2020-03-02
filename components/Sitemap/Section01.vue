@@ -36,7 +36,7 @@
         </dd>
         <dt><a href="/recruit/seminar/">EVENT<span>説明会</span></a></dt>
         <dd></dd>
-        <dt><a href="https://rikunabi-direct.jp/2020/corporation/detail/rd00036185" target="_blank">NEW GRADUATE ENTRY
+        <dt><a href="https://rikunabi-direct.jp/2021/corporation/detail/rd00036185" target="_blank">NEW GRADUATE ENTRY
         <img
           src="~/assets/img/sitemap/externallink.png"
           alt="別タブで外部サイトが開きます"
