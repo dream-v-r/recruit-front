@@ -14,6 +14,17 @@
             採用サイトを公開しました。
           </p>
         </li>
+        <li class="item news-item">
+          <time
+            datetime="2020-03-01"
+            class="date"
+          >2020.03.01</time>
+          <p class="text">
+            <a href="https://rikunabi-direct.jp/2021/corporation/detail/rd00036185" target="_balank">
+            2021新卒採用のエントリーを開始しました。
+            </a>
+          </p>
+        </li>
       </ul>
     </div>
   </section>
@@ -49,6 +60,14 @@
   > .text {
     font-size: 14px;
     color: #ccc;
+    > a {
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: none;
+      &:hover {
+      text-decoration: underline;
+    }
+   }
   }
   + .news-item {
     border-top: 1px solid #ccc;
