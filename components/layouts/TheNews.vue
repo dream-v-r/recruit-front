@@ -7,15 +7,6 @@
       <ul class="list">
         <li class="item news-item">
           <time
-            datetime="2019-08-19"
-            class="date"
-          >2019.08.19</time>
-          <p class="text">
-            採用サイトを公開しました。
-          </p>
-        </li>
-        <li class="item news-item">
-          <time
             datetime="2020-03-01"
             class="date"
           >2020.03.01</time>
@@ -23,6 +14,15 @@
             <a href="https://rikunabi-direct.jp/2021/corporation/detail/rd00036185" target="_balank">
             2021新卒採用のエントリーを開始しました。
             </a>
+          </p>
+        </li>
+        <li class="item news-item">
+          <time
+            datetime="2019-08-19"
+            class="date"
+          >2019.08.19</time>
+          <p class="text">
+            採用サイトを公開しました。
           </p>
         </li>
       </ul>
@@ -58,21 +58,22 @@
     }
   }
   > .text {
-    font-size: 14px;
-    color: #ccc;
-    > a {
+  font-size: 14px;
+  color: #ccc;
+  a {
     font-size: 14px;
     color: #ccc;
     text-decoration: none;
-      &:hover {
+    &:hover {
       text-decoration: underline;
     }
-   }
   }
+}
   + .news-item {
     border-top: 1px solid #ccc;
   }
 }
+
 .site-news {
   background-color: #333;
   max-width: 1000px;
