@@ -12,17 +12,17 @@
             <nuxt-link to="/people_vol1">
               <img
                 src="~assets/img/slider/img_slider_01_pc.png"
-                alt="新貝 哲平"
+                alt="S.T."
                 class="pc"
               >
               <img
                 src="~assets/img/slider/img_slider_01_sp.png"
-                alt="新貝 哲平"
+                alt="S.T."
                 class="sp"
               >
               <div class="infoBox">
                 <span class="post">インフラエンジニア</span>
-                <span class="name">新貝 哲平</span>
+                <span class="name">S.T.</span>
                 <span class="year">2015年入社 | 中途採用</span>
               </div>
             </nuxt-link>
@@ -31,17 +31,17 @@
             <nuxt-link to="/people_vol2">
               <img
                 src="~assets/img/slider/img_slider_02_pc.png"
-                alt="小田島 貴宏"
+                alt="O.T."
                 class="pc"
               >
               <img
                 src="~assets/img/slider/img_slider_02_sp.png"
-                alt="小田島 貴宏"
+                alt="O.T."
                 class="sp"
               >
               <div class="infoBox">
                 <span class="post">開発エンジニア</span>
-                <span class="name">小田島 貴宏</span>
+                <span class="name">O.T.</span>
                 <span class="year">2017年入社 | 中途採用</span>
               </div>
             </nuxt-link>
@@ -50,17 +50,17 @@
             <nuxt-link to="/people_vol3">
               <img
                 src="~assets/img/slider/img_slider_03_pc.png"
-                alt="大津 裕之"
+                alt="O.H."
                 class="pc"
               >
               <img
                 src="~assets/img/slider/img_slider_03_sp.png"
-                alt="大津 裕之"
+                alt="O.H."
                 class="sp"
               >
               <div class="infoBox">
                 <span class="post">開発エンジニア</span>
-                <span class="name">大津 裕之</span>
+                <span class="name">O.H.</span>
                 <span class="year">2016年入社 | 中途採用</span>
               </div>
             </nuxt-link>
@@ -69,17 +69,17 @@
             <nuxt-link to="/people_vol4">
               <img
                 src="~assets/img/slider/img_slider_04_pc.png"
-                alt="森田 麻里子"
+                alt="M.M."
                 class="pc"
               >
               <img
                 src="~assets/img/slider/img_slider_04_sp.png"
-                alt="森田 麻里子"
+                alt="M.M."
                 class="sp"
               >
               <div class="infoBox">
                 <span class="post">インフラエンジニア</span>
-                <span class="name">森田 麻里子</span>
+                <span class="name">M.M.</span>
                 <span class="year">2017年入社 | 中途採用</span>
               </div>
             </nuxt-link>
@@ -88,17 +88,17 @@
             <nuxt-link to="/people_vol5">
               <img
                 src="~assets/img/slider/img_slider_05_pc.png"
-                alt="山崎 篤"
+                alt="Y.A."
                 class="pc"
               >
               <img
                 src="~assets/img/slider/img_slider_05_sp.png"
-                alt="山崎 篤"
+                alt="Y.A."
                 class="sp"
               >
               <div class="infoBox">
                 <span class="post">開発エンジニア</span>
-                <span class="name">山崎 篤</span>
+                <span class="name">Y.A.</span>
                 <span class="year">2017年入社 | 中途採用</span>
               </div>
             </nuxt-link>
@@ -107,17 +107,17 @@
             <nuxt-link to="/people_vol6">
               <img
                 src="~assets/img/slider/img_slider_06_pc.png"
-                alt="神谷 彩奈"
+                alt="K.A."
                 class="pc"
               >
               <img
                 src="~assets/img/slider/img_slider_06_sp.png"
-                alt="神谷 彩奈"
+                alt="K.A."
                 class="sp"
               >
               <div class="infoBox">
                 <span class="post">ITサポート</span>
-                <span class="name">神谷 彩奈</span>
+                <span class="name">K.A.</span>
                 <span class="year">2018年入社 | 中途採用</span>
               </div>
             </nuxt-link>
@@ -126,17 +126,17 @@
             <nuxt-link to="/people_vol7">
               <img
                 src="~assets/img/slider/img_slider_07_pc.png"
-                alt="野崎 優人"
+                alt="N.Y."
                 class="pc"
               >
               <img
                 src="~assets/img/slider/img_slider_07_sp.png"
-                alt="野崎 優人"
+                alt="N.Y."
                 class="sp"
               >
               <div class="infoBox">
                 <span class="post">営業</span>
-                <span class="name">野崎 優人</span>
+                <span class="name">N.Y.</span>
                 <span class="year">2015年入社 | 中途採用</span>
               </div>
             </nuxt-link>

@@ -6,8 +6,7 @@
         number="03"
         title="やりたいことを全力で突き詰めていく、自分のステップアップに繋がる。"
         year="2016年入社 | 中途採用"
-        name="大津 裕之"
-        ruby="OHTSU HIROYUKI"
+        name="O.H."
         post="開発エンジニア"
         class="vol3"
       />

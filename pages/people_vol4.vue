@@ -6,8 +6,7 @@
         number="04"
         title="未経験からでも仕事もプライベートも充実。イベントも盛りだくさんで、毎日楽しく過ごせています。"
         year="2017年入社 | 中途採用"
-        name="森田 麻里子"
-        ruby="MORITA MARIKO"
+        name="M.M."
         post="インフラエンジニア"
         class="vol4"
       />

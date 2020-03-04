@@ -6,8 +6,7 @@
         number="01"
         title="Recruit"
         year="2015年入社 | 中途採用"
-        name="新貝 哲平"
-        ruby="SINKAI TEPPEI"
+        name="S.T."
         post="インフラエンジニア"
         class="vol1"
       />

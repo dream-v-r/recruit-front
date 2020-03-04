@@ -6,8 +6,7 @@
         number="02"
         title="仕事を通じて人生も豊かに。 社員の人生を考えてくれる会社。"
         year="2017年入社 | 中途採用"
-        name="小田島 貴宏"
-        ruby="ODAZIMA TAKAHIRO"
+        name="O.T."
         post="開発エンジニア"
         class="vol2"
       />

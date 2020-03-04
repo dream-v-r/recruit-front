@@ -6,8 +6,7 @@
         number="05"
         title="興味だけだった自分が今は開発のスペシャリストになりたいと思っている"
         year="2017年入社 | 中途採用"
-        name="山崎 篤"
-        ruby="YAMAZAKI ATUSI"
+        name="Y.A."
         post="開発エンジニア"
         class="vol5"
       />

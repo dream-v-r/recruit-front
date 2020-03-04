@@ -6,8 +6,7 @@
         number="06"
         title="良い仲間たちと楽しい日々を。仕事もプライベートも充実。"
         year="2018年入社 | 中途採用"
-        name="神谷 彩奈"
-        ruby="KAMIYA AYANA"
+        name="K.A."
         post="ITサポート"
         class="vol6"
       />
