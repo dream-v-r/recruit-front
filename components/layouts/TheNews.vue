@@ -7,6 +7,17 @@
       <ul class="list">
         <li class="item news-item">
           <time
+            datetime="2020-03-04"
+            class="date"
+          >2020.03.04</time>
+          <p class="text">
+            <a href="https://www.dream-v.co.jp/recruit/seminar/">
+            3月30日（月）21新卒採用会社説明会開催決定！
+            </a>
+          </p>
+        </li>
+        <li class="item news-item">
+          <time
             datetime="2020-03-01"
             class="date"
           >2020.03.01</time>
