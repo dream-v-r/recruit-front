@@ -44,7 +44,7 @@
                           <h2>応募資格</h2>
                         </dt>
                         <dd class="last">
-                          <p>インフラ、サーバ、ネットワーク関連の設計・構築・運用経験【経験が浅い方も歓迎】</p>
+                          <p>インフラ、ネットワーク関連の設計・構築・運用経験</p>
                         </dd>
                       </dl>
                       <p class="jobdetails">詳細を見る>></p>
@@ -96,7 +96,7 @@
                           <h2>応募資格</h2>
                         </dt>
                         <dd class="last">
-                          <p>インフラ・サーバ・ネットワーク関連の設計・構築・運用経験【経験が浅い方も歓迎】</p>
+                          <p>インフラ、サーバ関連の設計・構築・運用経験</p>
                         </dd>
                       </dl>
                       <p class="jobdetails">詳細を見る>></p>
@@ -148,7 +148,7 @@
                           <h2>応募資格</h2>
                         </dt>
                         <dd class="last">
-                          <p>要求分析、要件定義、基本設計、詳細設計、テスト等の経験【経験が浅い方も歓迎】</p>
+                          <p>要求分析、要件定義、基本設計、詳細設計、テスト等の経験</p>
                         </dd>
                       </dl>
                       <p class="jobdetails">詳細を見る>></p>
@@ -184,7 +184,7 @@
                           <h2>業務内容</h2>
                         </dt>
                         <dd>
-                          <p>設計書をもとにプログラミングやテスト、保守などのお仕事をお願いします。</p>
+                          <p>プログラミングやテスト、保守などのお仕事をお願いします。</p>
                         </dd>
                       </dl>
                       <dl>
@@ -200,7 +200,7 @@
                           <h2>応募資格</h2>
                         </dt>
                         <dd class="last">
-                          <p>Web・オープン系システムの開発経験（Java、PHP、.NETなど）【経験が浅い方も歓迎】</p>
+                          <p>・Web、オープン系システムの開発経験（Java、PHP、.NETなど）<br>・モバイル・スマートフォンサイト、アプリの開発経験</p>
                         </dd>
                       </dl>
                       <p class="jobdetails">詳細を見る>></p>
@@ -252,7 +252,7 @@
                           <h2>応募資格</h2>
                         </dt>
                         <dd class="last">
-                          <p>WebサービスのUI/UX設計・コーディング経験（HTML、CSS、JavaScript、PHPなど）【経験が浅い方も歓迎】</p>
+                          <p>WebサービスのUI/UX設計・コーディング経験（HTML、CSS、JavaScript、PHPなど）</p>
                         </dd>
                       </dl>
                       <p class="jobdetails">詳細を見る>></p>
@@ -263,7 +263,7 @@
         </div>
         </a>
 
-        <a class="jobpanel_link" href="/recruit/jobs/pm-pl/?occupation=pm-pl-career">
+        <!--a class="jobpanel_link" href="/recruit/jobs/pm-pl/?occupation=pm-pl-career">
         <div class="jobpanel clear filter network">
             <div class="jobpanel_thumbnail">
                 <img
@@ -313,7 +313,7 @@
             </div>
 
         </div>
-        </a>
+        </a-->
 
         <a class="jobpanel_link" href="/recruit/jobs/web-director/?occupation=web-director-career">
         <div class="jobpanel clear filter server network">
@@ -356,7 +356,7 @@
                           <h2>応募資格</h2>
                         </dt>
                         <dd class="last">
-                          <p>Webサイトのディレクション、Webマーケティングの経験【経験が浅い方も歓迎】</p>
+                          <p>Webサイトのディレクション、Webマーケティングの経験</p>
                         </dd>
                       </dl>
                       <p class="jobdetails">詳細を見る>></p>
@@ -367,7 +367,7 @@
         </div>
         </a>
 
-        <a class="jobpanel_link" href="/recruit/jobs/it-support/?occupation=it-support-career">
+        <!--a class="jobpanel_link" href="/recruit/jobs/it-support/?occupation=it-support-career">
          <div class="jobpanel clear filter network">
             <div class="jobpanel_thumbnail">
                 <img
@@ -417,7 +417,7 @@
             </div>
 
         </div>
-        </a>
+        </a-->
 
     </div><!--inner-->
 
