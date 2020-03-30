@@ -5,7 +5,7 @@
         NEWS
       </h2>
       <ul class="list">
-        <li class="item news-item">
+        <!--li class="item news-item">
           <time
             datetime="2020-03-04"
             class="date"
@@ -15,7 +15,7 @@
             3月30日（月）21新卒採用会社説明会開催決定！
             </a>
           </p>
-        </li>
+        </li-->
         <li class="item news-item">
           <time
             datetime="2020-03-01"
