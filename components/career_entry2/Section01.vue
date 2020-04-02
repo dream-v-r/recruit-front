@@ -14,13 +14,13 @@
                     class="trigger" 
                     data-filter="network"
                 >
-                    <span>ネットワーク</span>
+                    <span>ネットワークエンジニア</span>
                 </div>
                 <div 
                     class="trigger" 
                     data-filter="server"
                 >
-                    <span>サーバ</span>
+                    <span>サーバエンジニア</span>
                 </div>
                 <div 
                     class="trigger" 
@@ -32,13 +32,13 @@
                     class="trigger" 
                     data-filter="development"
                 >
-                    <span>開発</span>
+                    <span>開発エンジニア</span>
                 </div>
                 <div 
                     class="trigger" 
                     data-filter="frontend"
                 >
-                    <span>フロントエンド</span>
+                    <span>フロントエンドエンジニア</span>
                 </div>
             </div>
         </div>
@@ -51,19 +51,19 @@
                 <a class="trigger active" data-filter="all" href="#" v-scroll-to="{el:'#narrowing_result'}">すべて表示</a>
             </div>
             <div>
-                <a class="trigger" data-filter="network" href="#" v-scroll-to="{el:'#narrowing_result'}">ネットワーク</a>
+                <a class="trigger" data-filter="network" href="#" v-scroll-to="{el:'#narrowing_result'}">ネットワークエンジニア</a>
             </div>
             <div>
-                <a class="trigger" data-filter="server" href="#" v-scroll-to="{el:'#narrowing_result'}">サーバ</a>
+                <a class="trigger" data-filter="server" href="#" v-scroll-to="{el:'#narrowing_result'}">サーバエンジニア</a>
             </div>
             <div>
                 <a class="trigger" data-filter="pmpl" href="#" v-scroll-to="{el:'#narrowing_result'}">PM/PL</a>
             </div>
             <div>
-                <a class="trigger" data-filter="development" href="#" v-scroll-to="{el:'#narrowing_result'}">開発</a>
+                <a class="trigger" data-filter="development" href="#" v-scroll-to="{el:'#narrowing_result'}">開発エンジニア</a>
             </div>
             <div>
-                <a class="trigger" data-filter="frontend" href="#" v-scroll-to="{el:'#narrowing_result'}">フロントエンド</a>
+                <a class="trigger" data-filter="frontend" href="#" v-scroll-to="{el:'#narrowing_result'}">フロントエンドエンジニア</a>
             </div>
         </div>
     </div>

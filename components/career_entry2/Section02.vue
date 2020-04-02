@@ -3,421 +3,368 @@
     <div class="inner">
         <div class="narrowing_result" id="narrowing_result"></div>
 
-<a class="jobpanel_link" href="/recruit/jobs/network-engineer/?occupation=network-engineer-career">
-        <div class="jobpanel clear filter pmpl network">
+        <div class="jobpanel clear filter pmpl">
             <div class="jobpanel_thumbnail">
                 <img
-                    src="~/assets/img/career_entry/job_img-15.png"
+                    src="~/assets/img/career_entry/job_img-07.png"
                     alt=""
                   >
             </div>
             <div class="jobpanel_main">
-                <h2 class="jobpanel_head">ネットワークエンジニア</h2>
+                <div class="jobpanel_head">
+                <a class="jobpanel_title" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&jk=d6386b2121dad3ed&_ga=2.89532700.608485934.1573449546-1621123813.1549018844" target="_blank">プロジェクトリーダー候補募集！経験を活かして働く！インフラエンジニア</a>
+                </div>
                 <div class="clear">
                     <div class="jobpanel_body">
-                      <dl>
-                        <dt>
-                          <h2>職種</h2>
-                        </dt>
-                        <dd class="first">
-                          <p>ネットワークエンジニア</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt>
-                          <h2>業務内容</h2>
-                        </dt>
-                        <dd>
-                          <p>ネットワークの設計、構築や監視、運用などのお仕事をお願いします。</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="first">
-                          <h2>雇用形態</h2>
-                        </dt>
-                        <dd>
-                          <p>正社員</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="last">
-                          <h2>応募資格</h2>
-                        </dt>
-                        <dd class="last">
-                          <p>インフラ、ネットワーク関連の設計・構築・運用経験</p>
-                        </dd>
-                      </dl>
-                      <p class="jobdetails">詳細を見る>></p>
+						<p>【仕事内容】直取引の大手有名企業の上流案件中心に、ドリームビジョンの社員とし、チームで常駐(出向して)してインフラの設計・構築を行います。大手有名企業中心のクライアント先に常駐し、チームの一員として様々な案件に携わります。</p>
+                        <div class="Icons">
+                            <ul class="Icons_list">
+                                <li>ベンチャー企業</li>
+                                <li>土日祝休み</li>
+                                <li>急募</li>
+                                <li>服装自由</li>
+                                <li>業界経験者優遇</li>
+                                <li>残業少なめ（月20時間以内）</li>
+                                <li>産休・育休実績あり</li>
+                                <li>自社サービスあり</li>
+                                <li>退職金制度</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="jobpanel_foot">
+                        <ul class="jobpanel_detail">
+                            <li class="jobpanel_item jobDetailIcon iconjob01">プロジェクトマネージャー/プロジェクトリーダー</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob03">正社員</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob02">300万円～700万円/年収</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob04">小伝馬町/馬喰町駅/馬喰横山駅</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            
         </div>
-        </a>
 
-        <a class="jobpanel_link" href="/recruit/jobs/server-engineer/?occupation=server-engineer-career">
-        <div class="jobpanel clear filter server">
-            <div class="jobpanel_thumbnail">
-                <img
-                    src="~/assets/img/career_entry/job_img-16.png"
-                    alt=""
-                  >
-            </div>
-            <div class="jobpanel_main">
-                <h2 class="jobpanel_head">サーバエンジニア</h2>
-                <div class="clear">
-                    <div class="jobpanel_body">
-                      <dl>
-                        <dt>
-                          <h2>職種</h2>
-                        </dt>
-                        <dd class="first">
-                          <p>サーバエンジニア</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt>
-                          <h2>業務内容</h2>
-                        </dt>
-                        <dd>
-                          <p>サーバ機器の構築やサーバの運用・保守などのお仕事をお願いします。</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="first">
-                          <h2>雇用形態</h2>
-                        </dt>
-                        <dd>
-                          <p>正社員</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="last">
-                          <h2>応募資格</h2>
-                        </dt>
-                        <dd class="last">
-                          <p>インフラ、サーバ関連の設計・構築・運用経験</p>
-                        </dd>
-                      </dl>
-                      <p class="jobdetails">詳細を見る>></p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        </a>
-
-        <a class="jobpanel_link" href="/recruit/jobs/system-engineer/?occupation=system-engineer-career">
-        <div class="jobpanel clear filter pmpl development">
-            <div class="jobpanel_thumbnail">
-                <img
-                    src="~/assets/img/career_entry/job_img-17.png"
-                    alt=""
-                  >
-            </div>
-            <div class="jobpanel_main">
-                <h2 class="jobpanel_head">システムエンジニア</h2>
-                <div class="clear">
-                    <div class="jobpanel_body">
-                      <dl>
-                        <dt>
-                          <h2>職種</h2>
-                        </dt>
-                        <dd class="first">
-                          <p>システムエンジニア</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt>
-                          <h2>業務内容</h2>
-                        </dt>
-                        <dd>
-                          <p>要求分析や要件定義、基本設計から詳細設計、テストなどのお仕事をお願いします。</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="first">
-                          <h2>雇用形態</h2>
-                        </dt>
-                        <dd>
-                          <p>正社員</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="last">
-                          <h2>応募資格</h2>
-                        </dt>
-                        <dd class="last">
-                          <p>要求分析、要件定義、基本設計、詳細設計、テスト等の経験</p>
-                        </dd>
-                      </dl>
-                      <p class="jobdetails">詳細を見る>></p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        </a>
-
-        <a class="jobpanel_link" href="/recruit/jobs/development-engineer/?occupation=development-engineer-career">
-        <div class="jobpanel clear filter development">
-            <div class="jobpanel_thumbnail">
-                <img
-                    src="~/assets/img/career_entry/job_img-12.png"
-                    alt=""
-                  >
-            </div>
-            <div class="jobpanel_main">
-                <h2 class="jobpanel_head">開発エンジニア</h2>
-                <div class="clear">
-                    <div class="jobpanel_body">
-                      <dl>
-                        <dt>
-                          <h2>職種</h2>
-                        </dt>
-                        <dd class="first">
-                          <p>開発エンジニア</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt>
-                          <h2>業務内容</h2>
-                        </dt>
-                        <dd>
-                          <p>プログラミングやテスト、保守などのお仕事をお願いします。</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="first">
-                          <h2>雇用形態</h2>
-                        </dt>
-                        <dd>
-                          <p>正社員</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="last">
-                          <h2>応募資格</h2>
-                        </dt>
-                        <dd class="last">
-                          <p>・Web、オープン系システムの開発経験（Java、PHP、.NETなど）<br>・モバイル・スマートフォンサイト、アプリの開発経験</p>
-                        </dd>
-                      </dl>
-                      <p class="jobdetails">詳細を見る>></p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        </a>
-
-        <a class="jobpanel_link" href="/recruit/jobs/front-end-engineer/?occupation=front-end-engineer-career">
-        <div class="jobpanel clear filter frontend">
-            <div class="jobpanel_thumbnail">
-                <img
-                    src="~/assets/img/career_entry/job_img-14.png"
-                    alt=""
-                  >
-            </div>
-            <div class="jobpanel_main">
-                <h2 class="jobpanel_head">フロントエンドエンジニア</h2>
-                <div class="clear">
-                    <div class="jobpanel_body">
-                      <dl>
-                        <dt>
-                          <h2>職種</h2>
-                        </dt>
-                        <dd class="first">
-                          <p>フロントエンドエンジニア</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt>
-                          <h2>業務内容</h2>
-                        </dt>
-                        <dd>
-                          <p>Webサービスやアプリケーションのフロントエンドの設計・開発などのお仕事をお願いします。</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="first">
-                          <h2>雇用形態</h2>
-                        </dt>
-                        <dd>
-                          <p>正社員</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="last">
-                          <h2>応募資格</h2>
-                        </dt>
-                        <dd class="last">
-                          <p>WebサービスのUI/UX設計・コーディング経験（HTML、CSS、JavaScript、PHPなど）</p>
-                        </dd>
-                      </dl>
-                      <p class="jobdetails">詳細を見る>></p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        </a>
-
-        <!--a class="jobpanel_link" href="/recruit/jobs/pm-pl/?occupation=pm-pl-career">
         <div class="jobpanel clear filter network">
             <div class="jobpanel_thumbnail">
                 <img
-                    src="~/assets/img/career_entry/job_img-10.png"
+                    src="~/assets/img/career_entry/job_img-02.png"
                     alt=""
                   >
             </div>
             <div class="jobpanel_main">
-                <h2 class="jobpanel_head">PM/PL</h2>
+                <div class="jobpanel_head">
+                <a class="jobpanel_title" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=it%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&jk=6ed278c1f84f6fd7&_ga=2.197627304.608485934.1573449546-1621123813.1549018844" target="_blank">ITエンジニア(インフラエンジニア)※未経験歓迎</a>
+                </div>
                 <div class="clear">
                     <div class="jobpanel_body">
-                      <dl>
-                        <dt>
-                          <h2>職種</h2>
-                        </dt>
-                        <dd class="first">
-                          <p>PM/PL</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt>
-                          <h2>業務内容</h2>
-                        </dt>
-                        <dd>
-                          <p>ブランク</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="first">
-                          <h2>雇用形態</h2>
-                        </dt>
-                        <dd>
-                          <p>正社員</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="last">
-                          <h2>応募資格</h2>
-                        </dt>
-                        <dd class="last">
-                          <p>ブランク</p>
-                        </dd>
-                      </dl>
-                      <p class="jobdetails">詳細を見る>></p>
+                        <p>まずは2ヶ月の研修からスタート!その後KDDIやNTTデータなど大手企業で、ネットワークの運用、構築サポート《どんなお仕事?》みなさんには、現場でそのサーバー・ネットワークシステムが正しく機能するよう、ネットワークの運用、トラブルシューティングや監視、または構築サポートのお仕事などをお任せします。</p>
+                        <div class="Icons">
+                            <ul class="Icons_list">
+                                <li>ベンチャー企業</li>
+                                <li>土日祝休み</li>
+                                <li>急募</li>
+                                <li>服装自由</li>
+                                <li>業界経験者優遇</li>
+                                <li>残業少なめ（月20時間以内）</li>
+                                <li>産休・育休実績あり</li>
+                                <li>自社サービスあり</li>
+                                <li>退職金制度</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="jobpanel_foot">
+                        <ul class="jobpanel_detail">
+                            <li class="jobpanel_item jobDetailIcon iconjob01">ネットワークエンジニア</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob03">正社員</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob02">300万円～700万円/年収</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob04">小伝馬町/馬喰町駅/馬喰横山駅</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
         </div>
-        </a-->
 
-        <a class="jobpanel_link" href="/recruit/jobs/web-director/?occupation=web-director-career">
-        <div class="jobpanel clear filter server network">
+        <div class="jobpanel clear filter frontend">
             <div class="jobpanel_thumbnail">
                 <img
-                    src="~/assets/img/career_entry/job_img-19.png"
+                    src="~/assets/img/career_entry/job_img-05.png"
                     alt=""
                   >
             </div>
             <div class="jobpanel_main">
-                <h2 class="jobpanel_head">Webディレクター</h2>
+                <div class="jobpanel_head">
+                <a class="jobpanel_title" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E&jk=94d48fd37bab651f&_ga=2.92744090.608485934.1573449546-1621123813.1549018844" target="_blank">多数の福利厚生が自慢の会社で働きませんか?フロントエンジニア募集!</a>
+                </div>
                 <div class="clear">
                     <div class="jobpanel_body">
-                      <dl>
-                        <dt>
-                          <h2>職種</h2>
-                        </dt>
-                        <dd class="first">
-                          <p>Webディレクター</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt>
-                          <h2>業務内容</h2>
-                        </dt>
-                        <dd>
-                          <p>Webサービスやアプリケーション開発の企画やプロジェクト管理、Webマーケティングなどのお仕事をお願いします。</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="first">
-                          <h2>雇用形態</h2>
-                        </dt>
-                        <dd>
-                          <p>正社員</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="last">
-                          <h2>応募資格</h2>
-                        </dt>
-                        <dd class="last">
-                          <p>Webサイトのディレクション、Webマーケティングの経験</p>
-                        </dd>
-                      </dl>
-                      <p class="jobdetails">詳細を見る>></p>
+                        <p>【仕事内容】直取引の大手有名企業の案件中心に、ドリームビジョンの社員として、チームで常駐(出向して)してWebサイト/メディアの構築・運用※本募集はドリームビジョン株式会社の正規雇用となります。</p>
+                        <div class="Icons">
+                            <ul class="Icons_list">
+                                <li>ベンチャー企業</li>
+                                <li>土日祝休み</li>
+                                <li>急募</li>
+                                <li>服装自由</li>
+                                <li>業界経験者優遇</li>
+                                <li>残業少なめ（月20時間以内）</li>
+                                <li>産休・育休実績あり</li>
+                                <li>自社サービスあり</li>
+                                <li>退職金制度</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="jobpanel_foot">
+                        <ul class="jobpanel_detail">
+                            <li class="jobpanel_item jobDetailIcon iconjob01">フロントエンドエンジニア</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob03">正社員</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob02">300万円～700万円/年収</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob04">小伝馬町/馬喰町駅/馬喰横山駅</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
         </div>
-        </a>
 
-        <!--a class="jobpanel_link" href="/recruit/jobs/it-support/?occupation=it-support-career">
-         <div class="jobpanel clear filter network">
+         <div class="jobpanel clear filter server">
             <div class="jobpanel_thumbnail">
                 <img
-                    src="~/assets/img/career_entry/job_img-11.png"
+                    src="~/assets/img/career_entry/job_img-08.png"
                     alt=""
                   >
             </div>
             <div class="jobpanel_main">
-                <h2 class="jobpanel_head">ITサポート</h2>
+                <div class="jobpanel_head">
+                <a class="jobpanel_title" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%B5%E3%83%BC%E3%83%90%E8%A8%AD%E8%A8%88&jk=b7aeb1d9e5eedd53&_ga=2.201753878.608485934.1573449546-1621123813.1549018844" target="_blank">【年収900万円福利厚生10種類以上】基盤構築エンジニア</a>
+                </div>
                 <div class="clear">
                     <div class="jobpanel_body">
-                      <dl>
-                        <dt>
-                          <h2>職種</h2>
-                        </dt>
-                        <dd class="first">
-                          <p>ITサポート</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt>
-                          <h2>業務内容</h2>
-                        </dt>
-                        <dd>
-                          <p>ブランク</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="first">
-                          <h2>雇用形態</h2>
-                        </dt>
-                        <dd>
-                          <p>正社員</p>
-                        </dd>
-                      </dl>
-                      <dl>
-                        <dt class="last">
-                          <h2>応募資格</h2>
-                        </dt>
-                        <dd class="last">
-                          <p>ブランク</p>
-                        </dd>
-                      </dl>
-                      <p class="jobdetails">詳細を見る>></p>
+                        <p>誰もがご存知の大手企業様内のインフラの設計・構築を行うポジションです。※本募集はドリームビジョン株式会社の正規雇用となります。【具体的な仕事内容】大手有名企業のクライアント先に常駐し、チームの一員として様々な案件に携わります。</p>
+                        <div class="Icons">
+                            <ul class="Icons_list">
+                                <li>ベンチャー企業</li>
+                                <li>土日祝休み</li>
+                                <li>急募</li>
+                                <li>服装自由</li>
+                                <li>業界経験者優遇</li>
+                                <li>残業少なめ（月20時間以内）</li>
+                                <li>産休・育休実績あり</li>
+                                <li>自社サービスあり</li>
+                                <li>退職金制度</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="jobpanel_foot">
+                        <ul class="jobpanel_detail">
+                            <li class="jobpanel_item jobDetailIcon iconjob01">サーバエンジニア</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob03">正社員</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob02">700万円～900万円/年収</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob04">田町駅</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
         </div>
-        </a-->
+
+        <div class="jobpanel clear filter network">
+            <div class="jobpanel_thumbnail">
+                <img
+                    src="~/assets/img/career_entry/job_img-09.png"
+                    alt=""
+                  >
+            </div>
+            <div class="jobpanel_main">
+                <div class="jobpanel_head">
+                <a class="jobpanel_title" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&jk=9204889787905007&_ga=2.119021966.608485934.1573449546-1621123813.1549018844" target="_blank">新卒！トレーナー教育有！将来のやりたいを叶える技術を ITエンジニア募集</a>
+                </div>
+                <div class="clear">
+                    <div class="jobpanel_body">
+                        <p>・ネットワーク・サーバーなどのインフラエンジニア・実務未経験の方、大歓迎!・じっくり2ヶ月間の研修からスタート※本募集はドリームビジョン株式会社の正規雇用となります。スマホのゲームアプリでもネットバンキングでも、そのウラ側にはネットワークシステムが必ず存在します。</p>
+                        <div class="Icons">
+                            <ul class="Icons_list">
+                                <li>ベンチャー企業</li>
+                                <li>土日祝休み</li>
+                                <li>急募</li>
+                                <li>服装自由</li>
+                                <li>業界経験者優遇</li>
+                                <li>残業少なめ（月20時間以内）</li>
+                                <li>産休・育休実績あり</li>
+                                <li>自社サービスあり</li>
+                                <li>退職金制度</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="jobpanel_foot">
+                        <ul class="jobpanel_detail">
+                            <li class="jobpanel_item jobDetailIcon iconjob01">ネットワークエンジニア</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob03">正社員</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob02">300万円～700万円/年収</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob04">小伝馬町/馬喰町駅/馬喰横山駅</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jobpanel clear filter network">
+            <div class="jobpanel_thumbnail">
+                <img
+                    src="~/assets/img/career_entry/job_img-01.png"
+                    alt=""
+                  >
+            </div>
+            <div class="jobpanel_main">
+                <div class="jobpanel_head">
+                <a class="jobpanel_title" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&jk=40bb421482018767&_ga=2.89736604.608485934.1573449546-1621123813.1549018844" target="_blank">キャリアップできる環境をご提供します！ネットワークエンジニア募集中！！</a>
+                </div>
+                <div class="clear">
+                    <div class="jobpanel_body">
+                        <p>【こんなことやります】直取引の大手有名企業の上流案件中心に、ドリームビジョンの社員として、チームで常駐(出向して)してインフラの設計・構築※本募集はドリームビジョン株式会社の正規雇用となります。</p>
+                        <div class="Icons">
+                            <ul class="Icons_list">
+                                <li>ベンチャー企業</li>
+                                <li>土日祝休み</li>
+                                <li>急募</li>
+                                <li>服装自由</li>
+                                <li>業界経験者優遇</li>
+                                <li>残業少なめ（月20時間以内）</li>
+                                <li>産休・育休実績あり</li>
+                                <li>自社サービスあり</li>
+                                <li>退職金制度</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="jobpanel_foot">
+                        <ul class="jobpanel_detail">
+                            <li class="jobpanel_item jobDetailIcon iconjob01">ネットワークエンジニア</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob03">正社員</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob02">300万円～700万円/年収</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob04">小伝馬町/馬喰町駅/馬喰横山駅</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jobpanel clear filter server">
+            <div class="jobpanel_thumbnail">
+                <img
+                    src="~/assets/img/career_entry/job_img-04.png"
+                    alt=""
+                  >
+            </div>
+            <div class="jobpanel_main">
+                <div class="jobpanel_head">
+                <a class="jobpanel_title" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%B5%E3%83%BC%E3%83%90%E8%A8%AD%E8%A8%88&jk=6c2eb58e58cd8cbe&_ga=2.89736604.608485934.1573449546-1621123813.1549018844" target="_blank">【求む！！Linuxスペシャリスト】日本一エンジニアにやさしい会社</a>
+                </div>
+                <div class="clear">
+                    <div class="jobpanel_body">
+                        <p>大手有名企業のクライアント先に常駐し、チームの一員として様々な案件に携わります。サーバー構築業務からデーターベース側の作業、運用設計作業まで幅広く行うことができます。まずは出来る範囲で作業を行い、少しずつ環境に慣れながら、出来る範囲を広めていくという流れになります。</p>
+                        <div class="Icons">
+                            <ul class="Icons_list">
+                                <li>ベンチャー企業</li>
+                                <li>土日祝休み</li>
+                                <li>急募</li>
+                                <li>服装自由</li>
+                                <li>業界経験者優遇</li>
+                                <li>残業少なめ（月20時間以内）</li>
+                                <li>産休・育休実績あり</li>
+                                <li>自社サービスあり</li>
+                                <li>退職金制度</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="jobpanel_foot">
+                        <ul class="jobpanel_detail">
+                            <li class="jobpanel_item jobDetailIcon iconjob01">サーバエンジニア</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob03">正社員</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob02">450万円～600万円/年収</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob04">田町駅</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jobpanel clear filter network">
+            <div class="jobpanel_thumbnail">
+                <img
+                    src="~/assets/img/career_entry/job_img-06.png"
+                    alt=""
+                  >
+            </div>
+            <div class="jobpanel_main">
+                <div class="jobpanel_head">
+                <a class="jobpanel_title" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A7%8B%E7%AF%89&jk=94137cba0ef5cc5d&_ga=2.229606939.608485934.1573449546-1621123813.1549018844" target="_blank">【エンジニアファースト】キャリアビジョンを優先するインフラエンジニア</a>
+                </div>
+                <div class="clear">
+                    <div class="jobpanel_body">
+                        <p>直取引の大手有名企業の上流案件中心に、ドリームビジョンの社員として、チームで常駐(出向して)してインフラの設計・構築を行います。※本募集はドリームビジョン株式会社の正規雇用となります。</p>
+                        <div class="Icons">
+                            <ul class="Icons_list">
+                                <li>ベンチャー企業</li>
+                                <li>土日祝休み</li>
+                                <li>急募</li>
+                                <li>服装自由</li>
+                                <li>業界経験者優遇</li>
+                                <li>残業少なめ（月20時間以内）</li>
+                                <li>産休・育休実績あり</li>
+                                <li>自社サービスあり</li>
+                                <li>退職金制度</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="jobpanel_foot">
+                        <ul class="jobpanel_detail">
+                            <li class="jobpanel_item jobDetailIcon iconjob01">ネットワークエンジニア</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob03">正社員</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob02">300万円～700万円/年収</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob04">天王町駅</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jobpanel clear filter development">
+            <div class="jobpanel_thumbnail">
+                <img
+                    src="~/assets/img/career_entry/job_img-03.png"
+                    alt=""
+                  >
+            </div>
+            <div class="jobpanel_main">
+                <div class="jobpanel_head">
+                <a class="jobpanel_title" href="https://jp.indeed.com/%E4%BB%95%E4%BA%8B?t=%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2&jk=a106dc71b39359ee&_ga=2.159220413.608485934.1573449546-1621123813.1549018844" target="_blank">ゆくゆくは事業戦略に携わりたい開発エンジニアを募集</a>
+                </div>
+                <div class="clear">
+                    <div class="jobpanel_body">
+                        <p>エンジニアとしてどう成長していきたいか?
+どんな開発に携わりたいか?
+3年後にはどんなポジションについていたいのか?
+ドリームビジョンではすべての希望を効率的かつ的確に成長・案件・ポジションの階段を昇れます。</p>
+                        <div class="Icons">
+                            <ul class="Icons_list">
+                                <li>ベンチャー企業</li>
+                                <li>土日祝休み</li>
+                                <li>急募</li>
+                                <li>服装自由</li>
+                                <li>業界経験者優遇</li>
+                                <li>残業少なめ（月20時間以内）</li>
+                                <li>産休・育休実績あり</li>
+                                <li>自社サービスあり</li>
+                                <li>退職金制度</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="jobpanel_foot">
+                        <ul class="jobpanel_detail">
+                            <li class="jobpanel_item jobDetailIcon iconjob01">開発エンジニア</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob03">正社員</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob02">400万円～700万円/年収</li>
+                            <li class="jobpanel_item jobDetailIcon iconjob04">小伝馬町/馬喰町駅/馬喰横山駅</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div><!--inner-->
 
@@ -446,7 +393,6 @@
 <style scoped lang="scss">
 .section02 {
     background-color: #f7f7f7;
-    padding-top: 30px;
 }
 .inner {
   width: 1000px;
@@ -457,16 +403,19 @@
     padding: 0 20px 20px;
   }
 }
+
 .jobpanel {
   display: flex;
 /*align-items: center;*/
-  padding: 20px;
+  color: #343438;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
   box-shadow: 0 0 4px 2px rgba(227, 230, 231, 0.1);
   position: relative;
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
-  flex-direction: row-reverse;
 }
 .clear {
   &:before, &:after {
@@ -475,10 +424,12 @@
   }
 }
 .jobpanel_thumbnail {
-    width: 28%;
-    height: auto;
-    float: left;
-    display: block;
+  width: 25%;
+  height: auto;
+  float: left;
+  display: block;
+  padding-right: 10px;
+
   img {
     width: auto;
     height: auto;
@@ -491,44 +442,28 @@
   }
 }
 .jobpanel_main {
-  width: 72%;
+  width: 75%;
   float: right;
   padding-top: 0;
-  padding-right: 2%;
 @include _mqmax(){
     width: 100%;
     float: none;
-    padding-right: 0;
   }
 }
 .jobpanel_head {
   display: table;
   width: 100%;
-  margin: 0 0 17px;
-  font-weight: bold;
-  font-size: 23px;
+  margin-bottom: 5px;
 }
-.jobpanel_link {
-    color: #000;
+.jobpanel_title {
+    color: #2886c6;
     line-height: 1;
+    padding-right: 10px;
     text-decoration: none;
     font-size: 1.2em;
-    font-weight: normal;
-    display: block;
-    background: #fff;
-    margin-bottom: 20px;
+    font-weight: bold;
   &:hover {
-    text-decoration: none;
-    transition: 0.2s;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
-    transform: translateY(-0.1875em);
-    @include _mqmax(){
-      box-shadow: none;
-      transform: translateY(0);
-    }
-  }
-  @include _mqmax(){
-    padding-right: 0;
+    text-decoration: underline;
   }
 }
 .jobpanel_head .jobId {
@@ -551,20 +486,20 @@
 }
 .jobpanel_body {
   float: left;
-  width: 100%;
+  width: 65%;
   margin: 0;
-  @include _mqmax(){
-    float: none;
-    width: 100%;
-}
   p {
     font-size: 14px;
     line-height: 1.4;
     margin-bottom: 8px;
   }
 }
-.Icons{
-  margin-top: .5em;
+@media screen and (max-width: 767px) {
+  .jobpanel_body {
+    float: none;
+    width: 100%;
+    margin-bottom: 8px;
+  }
 }
 .Icons_list {
   line-height: 1;
@@ -576,7 +511,6 @@
     padding: 5px 7px;
     border: solid 1px #2886c6;
     border-radius: 4px;
-    background: #fff;
   }
 }
 .jobpanel_foot {
@@ -586,7 +520,7 @@
   padding: 15px 14px 10px;
   box-sizing: border-box;
   line-height: 1;
-  @include _mqmax(){
+@include _mqmax(){
     float: none;
     width: 100%;
   }
@@ -625,74 +559,12 @@ ul, ol {
 .iconjob04:before {
   background: url(~assets/img/career_entry/icon_job04.png) no-repeat;
 }
-.narrowing_result {
-  margin: 0;
-  padding-top: 0;
-    @include _mqmax(){
-    margin: -70px auto 0;
-    padding-top: 70px;
-  }
-}
-dl {
-  display: flex;
-  dt {
-    border-bottom: none;
-    width: 4em;
-    margin: 0 30px 0 0;
-    padding: 5px;
-      @include _mqmax(){
-        border-bottom: 1px solid #029AE4;
-        margin: 0;
-      }
-    &.first {
-      border-top: none;
-    }
-    &.last {
-      border-bottom: none;
-    }
-    h2 {
-      font-size: 14px;
-      font-weight: normal;
-    }
-  }
-  dd {
-    border-bottom: none;
-    width: calc(100% - 4em);
-    padding: 5px;
-    @include _mqmax(){
-     border-bottom: 1px solid #CCC;
-    }
-    &.first {
-      /*border-top: 1px solid #CCC;*/
-    }
-    &.last {
-      border-bottom: none;
-    }
-    .caution {
-      display: block;
-      font-size: 12px;
-      line-height: 2;
-    }
-  }
-}
-.jobpanel_body {
-  dl dd p {
+.narrowing_result{
     margin: 0;
-  }
-  .jobdetails {
-    padding: 5px 10px 0 0;
-    text-align: right;
-    color: #029ae4;
-    margin: 0;
-    font-weight: normal;
-      @include _mqmax(){
-        text-align: center;
-        padding: 1em;
-        margin: 15px 0 0;
-        background: #029ae4;
-        color: #fff;
-        font-weight: bold;
-      }
+    padding-top: 0;
+    @include _mqmax(){
+        margin: -70px auto 0;
+        padding-top: 70px;
   }
 }
 </style>

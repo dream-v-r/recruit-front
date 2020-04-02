@@ -1,6 +1,7 @@
 <template>
   <main>
     <KeyVisual class="career_entry2" />
+    <Section01 class="career_entry2" />
     <Section02 class="career_entry2" />
   </main>
 </template>
@@ -8,10 +9,11 @@
 <script>
   import Meta from '~/assets/mixins/meta'
   import KeyVisual from '../components/Career_entry2/KeyVisual'
+  import Section01 from '../components/Career_entry2/Section01'
   import Section02 from '../components/Career_entry2/Section02'
 
   export default {
-    components: { KeyVisual, Section02 },
+    components: { KeyVisual, Section01, Section02 },
     mixins: [Meta],
     data () {
       return {
@@ -19,7 +21,7 @@
           title: 'キャリアエントリー',
           description: 'ドリームビジョンのキャリア向け求人情報です。ドリームビジョンは日本一エンジニアにやさしい企業を目指しております。',
           keywords: '採用情報,エンジニア,クリエイティブ,Web,IT,システム開発,ネットワーク,インフラ,小伝馬町,ドリームビジョン株式会社,新卒採用,中途採用',
-          url: 'career_entry'
+          url: 'career_entry2'
         }
       }
     }
