@@ -27,7 +27,7 @@
         </li>
         <li class="flowItem flowItem--02">
           <div class="content">
-            <span class="stage">１ヵ月</span>
+            <span class="stage">１ヵ月～２ヵ月</span>
             <h3>
               実機を使った講義では、現場をよく知る先輩が講師となり、<br>実際のサーバーやネットワーク機器を触りながら<br>実践的な内容を学んでいきます。
             </h3>
@@ -36,7 +36,7 @@
             <p>社内チャットなどを利用して、<br>いろいろな先輩からさまざまなアドバイスをもらえますよ。</p>
           </div>
         </li>
-        <li class="flowItem flowItem--03">
+        <!--li class="flowItem flowItem--03">
           <div class="content">
             <span class="stage">２ヵ月</span>
             <h3>
@@ -46,12 +46,12 @@
           <div class="point">
             <p>これまで100％取得できているので、ご安心ください。</p>
           </div>
-        </li>
-        <li class="flowItem flowItem--04">
+        </li-->
+        <li class="flowItem flowItem--03">
           <div class="content">
             <span class="stage">３ヵ月</span>
             <h3>
-              いよいと初現場。配属後も1年間は3年以上の経験をもつ先輩が、<br>あなた専属のトレーナーとしてつくので、なんでも<br>わからないことを相談できますよ。
+              いよいよ初現場。配属後も1年間は3年以上の経験をもつ先輩が、<br>あなた専属のトレーナーとしてつくので、なんでも<br>わからないことを相談できますよ。
             </h3>
           </div>
           <div class="point">
@@ -277,6 +277,9 @@
             @include _mqmax(){
               background: #FFF url(~assets/img/job/num_training_03.png) no-repeat top 20px left 50%;
               background-size: 97px;
+            }
+            &:after {
+              content: none;
             }
             .point {
               margin: 60px auto 0;
