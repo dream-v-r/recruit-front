@@ -287,6 +287,29 @@
         }
       }
     }
+    &.vol8 {
+      background: url(~assets/img/people/detail/vol08/bg_detailInfo_pc.jpg) no-repeat top center;
+      .inner {
+        padding: 110px 0 0;
+        h2 {
+          margin: 0 0 90px -50px;
+        }
+      }
+      @include _mqmax() {
+        background: url(~assets/img/people/detail/vol08/bg_detailInfo_sp.jpg) no-repeat top center;
+        background-size: 90%;
+        .inner {
+          padding: 36px 0 0;
+          h2 {
+            width: 182px;
+            margin: 0 0 130px 10px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
   }
 
 </style>

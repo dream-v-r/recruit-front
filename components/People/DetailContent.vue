@@ -368,6 +368,34 @@
         }
       }
     }
+    &.vol8 {
+      .detailContent {
+        &--01 {
+          background: url(~assets/img/people/detail/vol08/bg_content_01_pc.jpg) no-repeat top left;
+          @include _mqmax() {
+            background: url(~assets/img/people/detail/vol08/bg_content_01_sp.jpg) no-repeat top left;
+            background-size: 80%;
+          }
+        }
+        &--02 {
+          &:before {
+            background: url(~assets/img/people/detail/vol08/bg_content_02_pc.jpg) no-repeat top center;
+            background-size: cover;
+            @include _mqmax() {
+              background: url(~assets/img/people/detail/vol08/bg_content_02_sp.jpg) no-repeat top center;
+              background-size: 100%;
+            }
+          }
+        }
+        &--03 {
+          background: url(~assets/img/people/detail/vol08/bg_content_03_pc.jpg) no-repeat top right;
+          @include _mqmax() {
+            background: url(~assets/img/people/detail/vol08/bg_content_03_sp.jpg) no-repeat top right;
+            background-size: 80%;
+          }
+        }
+      }
+    }
   }
 
 </style>
