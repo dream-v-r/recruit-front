@@ -310,7 +310,7 @@
         }
       }
     }
-      &.vol9 {
+    &.vol9 {
       background: url(~assets/img/people/detail/vol09/bg_detailInfo_pc.jpg) no-repeat top center;
       .inner {
         padding: 110px 0 0;
@@ -320,6 +320,75 @@
       }
       @include _mqmax() {
         background: url(~assets/img/people/detail/vol09/bg_detailInfo_sp.jpg) no-repeat top center;
+        background-size: 90%;
+        .inner {
+          padding: 36px 0 0;
+          h2 {
+            width: 182px;
+            margin: 0 0 130px 10px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    &.vol10 {
+      background: url(~assets/img/people/detail/vol10/bg_detailInfo_pc.jpg) no-repeat top center;
+      .inner {
+        padding: 110px 0 0;
+        h2 {
+          margin: 0 0 90px -50px;
+        }
+      }
+      @include _mqmax() {
+        background: url(~assets/img/people/detail/vol10/bg_detailInfo_sp.jpg) no-repeat top center;
+        background-size: 90%;
+        .inner {
+          padding: 36px 0 0;
+          h2 {
+            width: 182px;
+            margin: 0 0 130px 10px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    &.vol11 {
+      background: url(~assets/img/people/detail/vol11/bg_detailInfo_pc.jpg) no-repeat top center;
+      .inner {
+        padding: 110px 0 0;
+        h2 {
+          margin: 0 0 90px -50px;
+        }
+      }
+      @include _mqmax() {
+        background: url(~assets/img/people/detail/vol11/bg_detailInfo_sp.jpg) no-repeat top center;
+        background-size: 90%;
+        .inner {
+          padding: 36px 0 0;
+          h2 {
+            width: 182px;
+            margin: 0 0 130px 10px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    &.vol12 {
+      background: url(~assets/img/people/detail/vol12/bg_detailInfo_pc.jpg) no-repeat top center;
+      .inner {
+        padding: 110px 0 0;
+        h2 {
+          margin: 0 0 90px -50px;
+        }
+      }
+      @include _mqmax() {
+        background: url(~assets/img/people/detail/vol12/bg_detailInfo_sp.jpg) no-repeat top center;
         background-size: 90%;
         .inner {
           padding: 36px 0 0;
