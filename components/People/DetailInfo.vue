@@ -292,7 +292,7 @@
       .inner {
         padding: 110px 0 0;
         h2 {
-          margin: 0 0 90px -50px;
+          margin: 0 0 125px -50px;
         }
       }
       @include _mqmax() {
@@ -302,7 +302,7 @@
           padding: 36px 0 0;
           h2 {
             width: 182px;
-            margin: 0 0 130px 10px;
+            margin: 0 0 147px 10px;
             img {
               width: 100%;
             }
@@ -315,17 +315,17 @@
       .inner {
         padding: 110px 0 0;
         h2 {
-          margin: 0 0 90px -50px;
+          margin: 0 0 112px -50px;
         }
       }
       @include _mqmax() {
         background: url(~assets/img/people/detail/vol09/bg_detailInfo_sp.jpg) no-repeat top center;
         background-size: 90%;
         .inner {
-          padding: 36px 0 0;
+          padding: 70px 0 0;
           h2 {
-            width: 182px;
-            margin: 0 0 130px 10px;
+            width: 200px;
+            margin: 0 0 95px 15px;
             img {
               width: 100%;
             }
@@ -336,19 +336,19 @@
     &.vol10 {
       background: url(~assets/img/people/detail/vol10/bg_detailInfo_pc.jpg) no-repeat top center;
       .inner {
-        padding: 110px 0 0;
+        padding: 150px 0 0;
         h2 {
-          margin: 0 0 90px -50px;
+          margin: 0 0 141px -50px;
         }
       }
       @include _mqmax() {
         background: url(~assets/img/people/detail/vol10/bg_detailInfo_sp.jpg) no-repeat top center;
         background-size: 90%;
         .inner {
-          padding: 36px 0 0;
+          padding: 169px 0 0;
           h2 {
-            width: 182px;
-            margin: 0 0 130px 10px;
+            width: 280px;
+            margin: 0 0 32px 23px;
             img {
               width: 100%;
             }
@@ -361,17 +361,17 @@
       .inner {
         padding: 110px 0 0;
         h2 {
-          margin: 0 0 90px -50px;
+          margin: 0 0 120px -50px;
         }
       }
       @include _mqmax() {
         background: url(~assets/img/people/detail/vol11/bg_detailInfo_sp.jpg) no-repeat top center;
         background-size: 90%;
         .inner {
-          padding: 36px 0 0;
+          padding: 182px 0 0;
           h2 {
-            width: 182px;
-            margin: 0 0 130px 10px;
+            width: 220px;
+            margin: 0 0 12px 64px;
             img {
               width: 100%;
             }
@@ -384,17 +384,17 @@
       .inner {
         padding: 110px 0 0;
         h2 {
-          margin: 0 0 90px -50px;
+          margin: 0 0 104px -50px;
         }
       }
       @include _mqmax() {
         background: url(~assets/img/people/detail/vol12/bg_detailInfo_sp.jpg) no-repeat top center;
         background-size: 90%;
         .inner {
-          padding: 36px 0 0;
+          padding: 80px 0 0;
           h2 {
             width: 182px;
-            margin: 0 0 130px 10px;
+            margin: 0 0 60px 10px;
             img {
               width: 100%;
             }
