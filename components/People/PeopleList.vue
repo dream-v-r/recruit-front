@@ -80,6 +80,61 @@
             </div>
           </nuxt-link>
         </li>
+        <li class="peopleListItem peopleListItem--vol8">
+          <nuxt-link to="/people_vol8">
+            <div class="info">
+              <span class="post">インフラエンジニア</span>
+              <span class="category">未経験者</span>
+              <span class="name">H.R.</span>
+              <span class="year">2018年入社</span>
+              <span class="more">READ MORE</span>
+            </div>
+          </nuxt-link>
+        </li>
+        <li class="peopleListItem peopleListItem--vol9">
+          <nuxt-link to="/people_vol9">
+            <div class="info">
+              <span class="post">インフラエンジニア</span>
+              <span class="category">経験者</span>
+              <span class="name">K.Y.</span>
+              <span class="year">2020年入社</span>
+              <span class="more">READ MORE</span>
+            </div>
+          </nuxt-link>
+        </li>
+        <li class="peopleListItem peopleListItem--vol10">
+          <nuxt-link to="/people_vol10">
+            <div class="info">
+              <span class="post">インフラエンジニア</span>
+              <span class="category">未経験者</span>
+              <span class="name">N.N.</span>
+              <span class="year">2017年入社</span>
+              <span class="more">READ MORE</span>
+            </div>
+          </nuxt-link>
+        </li>
+        <li class="peopleListItem peopleListItem--vol11">
+          <nuxt-link to="/people_vol11">
+            <div class="info">
+              <span class="post">開発エンジニア</span>
+              <span class="category">未経験者</span>
+              <span class="name">O.T.</span>
+              <span class="year">2019年入社</span>
+              <span class="more">READ MORE</span>
+            </div>
+          </nuxt-link>
+        </li>
+        <li class="peopleListItem peopleListItem--vol12">
+          <nuxt-link to="/people_vol12">
+            <div class="info">
+              <span class="post">ITサポート</span>
+              <span class="category">未経験者</span>
+              <span class="name">S.S.</span>
+              <span class="year">2018年入社</span>
+              <span class="more">READ MORE</span>
+            </div>
+          </nuxt-link>
+        </li>
       </ul>
     </div>
   </section>
@@ -136,10 +191,35 @@
               margin: 0 0 40px;
             }
           }
+          /*
           &:nth-child(7) {
             margin: 0;
             @include _mqmax(){
               margin: 0;
+            }
+          }*/
+          &:nth-child(8) {
+            margin: 40px 70px 0 0;
+            @include _mqmax(){
+              margin: 0 0 40px;
+            }
+          }
+          &:nth-child(9) {
+            margin: 80px 0 0;
+            @include _mqmax(){
+              margin: 0 0 40px;
+            }
+          }
+          &:nth-child(11) {
+            margin: 40px 70px 0 0;
+            @include _mqmax(){
+              margin: 0 0 40px;
+            }
+          }
+          &:nth-child(12) {
+            margin: 80px 0 0;
+            @include _mqmax(){
+              margin: 0 0 40px;
             }
           }
           a {
@@ -309,6 +389,61 @@
                 background: url(~assets/img/people/img_people_list_07_pc.png) no-repeat;
                 @include _mqmax(){
                   background: url(~assets/img/people/img_people_list_07_sp.png) no-repeat;
+                  background-size: 100%;
+                }
+              }
+            }
+          }
+          &--vol8 {
+            a {
+              &:before {
+                background: url(~assets/img/people/img_people_list_08_pc.png) no-repeat;
+                @include _mqmax(){
+                  background: url(~assets/img/people/img_people_list_08_sp.png) no-repeat;
+                  background-size: 100%;
+                }
+              }
+            }
+          }
+          &--vol9 {
+            a {
+              &:before {
+                background: url(~assets/img/people/img_people_list_09_pc.png) no-repeat;
+                @include _mqmax(){
+                  background: url(~assets/img/people/img_people_list_09_sp.png) no-repeat;
+                  background-size: 100%;
+                }
+              }
+            }
+          }
+          &--vol10 {
+            a {
+              &:before {
+                background: url(~assets/img/people/img_people_list_10_pc.png) no-repeat;
+                @include _mqmax(){
+                  background: url(~assets/img/people/img_people_list_10_sp.png) no-repeat;
+                  background-size: 100%;
+                }
+              }
+            }
+          }
+          &--vol11 {
+            a {
+              &:before {
+                background: url(~assets/img/people/img_people_list_11_pc.png) no-repeat;
+                @include _mqmax(){
+                  background: url(~assets/img/people/img_people_list_11_sp.png) no-repeat;
+                  background-size: 100%;
+                }
+              }
+            }
+          }
+          &--vol12 {
+            a {
+              &:before {
+                background: url(~assets/img/people/img_people_list_12_pc.png) no-repeat;
+                @include _mqmax(){
+                  background: url(~assets/img/people/img_people_list_12_sp.png) no-repeat;
                   background-size: 100%;
                 }
               }

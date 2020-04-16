@@ -141,6 +141,101 @@
               </div>
             </nuxt-link>
           </swiper-slide>
+          <swiper-slide>
+            <nuxt-link to="/people_vol8">
+              <img
+                src="~assets/img/slider/img_slider_08_pc.png"
+                alt="N.Y."
+                class="pc"
+              >
+              <img
+                src="~assets/img/slider/img_slider_08_sp.png"
+                alt="N.Y."
+                class="sp"
+              >
+              <div class="infoBox">
+                <span class="post">営業</span>
+                <span class="name">N.Y.</span>
+                <span class="year">2015年入社 | 中途採用</span>
+              </div>
+            </nuxt-link>
+          </swiper-slide>
+          <swiper-slide>
+            <nuxt-link to="/people_vol9">
+              <img
+                src="~assets/img/slider/img_slider_09_pc.png"
+                alt="N.Y."
+                class="pc"
+              >
+              <img
+                src="~assets/img/slider/img_slider_09_sp.png"
+                alt="N.Y."
+                class="sp"
+              >
+              <div class="infoBox">
+                <span class="post">営業</span>
+                <span class="name">N.Y.</span>
+                <span class="year">2015年入社 | 中途採用</span>
+              </div>
+            </nuxt-link>
+          </swiper-slide>
+          <swiper-slide>
+            <nuxt-link to="/people_vol10">
+              <img
+                src="~assets/img/slider/img_slider_10_pc.png"
+                alt="N.Y."
+                class="pc"
+              >
+              <img
+                src="~assets/img/slider/img_slider_10_sp.png"
+                alt="N.Y."
+                class="sp"
+              >
+              <div class="infoBox">
+                <span class="post">営業</span>
+                <span class="name">N.Y.</span>
+                <span class="year">2015年入社 | 中途採用</span>
+              </div>
+            </nuxt-link>
+          </swiper-slide>
+          <swiper-slide>
+            <nuxt-link to="/people_vol11">
+              <img
+                src="~assets/img/slider/img_slider_11_pc.png"
+                alt="N.Y."
+                class="pc"
+              >
+              <img
+                src="~assets/img/slider/img_slider_11_sp.png"
+                alt="N.Y."
+                class="sp"
+              >
+              <div class="infoBox">
+                <span class="post">営業</span>
+                <span class="name">N.Y.</span>
+                <span class="year">2015年入社 | 中途採用</span>
+              </div>
+            </nuxt-link>
+          </swiper-slide>
+          <swiper-slide>
+            <nuxt-link to="/people_vol12">
+              <img
+                src="~assets/img/slider/img_slider_12_pc.png"
+                alt="N.Y."
+                class="pc"
+              >
+              <img
+                src="~assets/img/slider/img_slider_12_sp.png"
+                alt="N.Y."
+                class="sp"
+              >
+              <div class="infoBox">
+                <span class="post">営業</span>
+                <span class="name">N.Y.</span>
+                <span class="year">2015年入社 | 中途採用</span>
+              </div>
+            </nuxt-link>
+          </swiper-slide>
           <div class="swiper-button-prev" slot="button-prev"></div>
           <div class="swiper-button-next" slot="button-next"></div>
         </swiper>
