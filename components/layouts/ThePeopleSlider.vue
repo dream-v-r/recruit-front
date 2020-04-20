@@ -137,7 +137,7 @@
               <div class="infoBox">
                 <span class="post">営業</span>
                 <span class="name">N.Y.</span>
-                <span class="year">2015年入社 | 中途採用</span>
+                <span class="year">2018年入社 | 中途採用</span>
               </div>
             </nuxt-link>
           </swiper-slide>
@@ -145,18 +145,18 @@
             <nuxt-link to="/people_vol8">
               <img
                 src="~assets/img/slider/img_slider_08_pc.png"
-                alt="N.Y."
+                alt="H.R."
                 class="pc"
               >
               <img
                 src="~assets/img/slider/img_slider_08_sp.png"
-                alt="N.Y."
+                alt="H.R."
                 class="sp"
               >
               <div class="infoBox">
                 <span class="post">営業</span>
-                <span class="name">N.Y.</span>
-                <span class="year">2015年入社 | 中途採用</span>
+                <span class="name">H.R.</span>
+                <span class="year">2018年入社 | 中途採用</span>
               </div>
             </nuxt-link>
           </swiper-slide>
@@ -164,18 +164,18 @@
             <nuxt-link to="/people_vol9">
               <img
                 src="~assets/img/slider/img_slider_09_pc.png"
-                alt="N.Y."
+                alt="K.Y."
                 class="pc"
               >
               <img
                 src="~assets/img/slider/img_slider_09_sp.png"
-                alt="N.Y."
+                alt="K.Y."
                 class="sp"
               >
               <div class="infoBox">
                 <span class="post">営業</span>
-                <span class="name">N.Y.</span>
-                <span class="year">2015年入社 | 中途採用</span>
+                <span class="name">K.Y.</span>
+                <span class="year">2020年入社 | 中途採用</span>
               </div>
             </nuxt-link>
           </swiper-slide>
@@ -183,18 +183,18 @@
             <nuxt-link to="/people_vol10">
               <img
                 src="~assets/img/slider/img_slider_10_pc.png"
-                alt="N.Y."
+                alt="N.N."
                 class="pc"
               >
               <img
                 src="~assets/img/slider/img_slider_10_sp.png"
-                alt="N.Y."
+                alt="N.N."
                 class="sp"
               >
               <div class="infoBox">
                 <span class="post">営業</span>
-                <span class="name">N.Y.</span>
-                <span class="year">2015年入社 | 中途採用</span>
+                <span class="name">N.N.</span>
+                <span class="year">2017年入社 | 中途採用</span>
               </div>
             </nuxt-link>
           </swiper-slide>
@@ -202,18 +202,18 @@
             <nuxt-link to="/people_vol11">
               <img
                 src="~assets/img/slider/img_slider_11_pc.png"
-                alt="N.Y."
+                alt="O.T."
                 class="pc"
               >
               <img
                 src="~assets/img/slider/img_slider_11_sp.png"
-                alt="N.Y."
+                alt="O.T."
                 class="sp"
               >
               <div class="infoBox">
                 <span class="post">営業</span>
-                <span class="name">N.Y.</span>
-                <span class="year">2015年入社 | 中途採用</span>
+                <span class="name">O.T.</span>
+                <span class="year">2019年入社 | 中途採用</span>
               </div>
             </nuxt-link>
           </swiper-slide>
@@ -221,18 +221,18 @@
             <nuxt-link to="/people_vol12">
               <img
                 src="~assets/img/slider/img_slider_12_pc.png"
-                alt="N.Y."
+                alt="S.S."
                 class="pc"
               >
               <img
                 src="~assets/img/slider/img_slider_12_sp.png"
-                alt="N.Y."
+                alt="S.S."
                 class="sp"
               >
               <div class="infoBox">
                 <span class="post">営業</span>
-                <span class="name">N.Y.</span>
-                <span class="year">2015年入社 | 中途採用</span>
+                <span class="name">S.S.</span>
+                <span class="year">2018年入社 | 中途採用</span>
               </div>
             </nuxt-link>
           </swiper-slide>
