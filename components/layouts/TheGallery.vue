@@ -42,6 +42,13 @@
         gallery: [
           {
             title: '',
+            detail: '\u3010\u63a1\u7528\u30b5\u30a4\u30c8\u66f4\u65b0\u306e\u304a\u77e5\u3089\u305b\u3011\n\u65b0\u305f\u306b\u793e\u54e1\u30a4\u30f3\u30bf\u30d3\u30e5\u30fc\u3092\uff15\u540d\u8ffd\u52a0\u3044\u305f\u3057\u307e\u3057\u305f\uff01\u672a\u7d4c\u9a13\u8005\u304b\u3089\u7d4c\u9a13\u8005\u307e\u3067\u3001\u5e45\u5e83\u304f\u53d6\u6750\u3055\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3057\u305f\u306e\u3067\u3001\u662f\u975e\u3054\u89a7\u304f\u3060\u3055\u3044\uff01 \u25bc\u8ffd\u52a0\u793e\u54e1\u7d39\u4ecb\u25bc\nhttps://www.dream-v.co.jp/recruit/people_vol8\nhttps://www.dream-v.co.jp/recruit/people_vol9...',
+            img: "https://scontent.cdninstagram.com/v/t51.2885-15/93385519_362806751300279_2657591895815080859_n.jpg?_nc_cat=103&_nc_sid=8ae9d6&_nc_ohc=1Cu_-YNif2YAX_NSk6u&_nc_ht=scontent.cdninstagram.com&oh=09859a78097078d7fa3bda20de66ff3f&oe=5EC3B2CB",
+            isDetail: false,
+            URL:"https://www.instagram.com/p/B_ElQ5YnDHo/"
+          },
+          {
+            title: '',
             detail: '\u30c9\u30ea\u30fc\u30e0\u30d3\u30b8\u30e7\u30f3\u3067\n\u958b\u767a\u306e\u4ed5\u4e8b\u3092\u3057\u3066\u3044\u308b\u793e\u54e1\u306e\n\u30a4\u30f3\u30bf\u30d3\u30e5\u30fc&\u64ae\u5f71\u3092\u884c\u3044\u307e\u3057\u305f\uff01\n\n\u524d\u8077\u306b\u3064\u3044\u3066\u3084\u30c9\u30ea\u30fc\u30e0\u30d3\u30b8\u30e7\u30f3\u3078\u306e\u5165\u793e\u306e\u7d4c\u7def\u3001\u73fe\u5728\u306e\u4ed5\u4e8b\u306b\u3064\u3044\u3066\u306a\u3069\u306a\u3069\u3001IT\u696d\u754c\u3078\u5165\u793e\u3092\u8003\u3048\u3066\u3044\u308b\u65b9\u304c\u6c17\u306b\u306a\u308b\u3067\u3042\u308d\u3046\u5185\u5bb9\u3092\u4e2d\u5fc3\u306b\u3001\u3044\u308d\u3044\u308d\u6b63\u76f4\u306a\u3068\u3053\u308d\u3092\u304a\u8a71\u3057\u3057\u3066\u3082\u3089\u3044\u307e\u3057\u305f\u3002\n\n\u4ed6\u306b\u3082\u30a4\u30f3\u30d5\u30e9\u3001IT\u30b5\u30dd\u30fc\u30c8\u30e1\u30f3\u30d0\u30fc\u306b\u3082\u305e\u304f\u305e\u304f\u30a4...',
             img: "https://scontent.xx.fbcdn.net/v/t51.2885-15/91500891_568820580399314_3138554355321353098_n.jpg?_nc_cat=102&_nc_sid=8ae9d6&_nc_ohc=uZIUFE5MvtsAX9EF-vx&_nc_ht=scontent.xx&oh=d9430dfa6e476a30ec0caaa670e77da4&oe=5EA68B5D",
             isDetail: false,
@@ -60,13 +67,6 @@
             img: "https://scontent.xx.fbcdn.net/v/t51.2885-15/87594854_599659540882394_2160720676951800081_n.jpg?_nc_cat=105&_nc_sid=8ae9d6&_nc_ohc=ArMIr9-7qQ0AX_H2lwt&_nc_ht=scontent.xx&oh=bf15e079ee72b288c3e1146beba95a27&oe=5E9DB715",
             isDetail: false,
             URL:"https://www.instagram.com/p/B9YcSgCnuNt/"
-          },
-         {
-            title: '',
-            detail: '\u4eca\u6708\u3082\u5f0a\u793e\u798f\u5229\u539a\u751f\u306e\u4e00\u3064\u3001\n\u3010BENEFIT ONE\u3011\u304b\u3089\u518a\u5b50\u304c\u5c4a\u304d\u307e\u3057\u305f\u266a\n\n\u6620\u753b\u3084\u98f2\u98df\u5e97\u306e\u5272\u5f15\u60c5\u5831\u304c\u76db\u308a\u3060\u304f\u3055\u3093\uff01\n\n\u305d\u306e\u4ed6\u306b\u3082\u5f0a\u793e\u306f\u798f\u5229\u539a\u751f\u3092\u5145\u5b9f\u3055\u305b\u3066\u3044\u307e\u3059\u266a \u25bc\u25bd\u798f\u5229\u539a\u751f\u306e\u8a73\u7d30\u306f\u3053\u3061\u3089\u25bc\u25bd\nhttps://www.dream-v.co.jp/recruit/culture-welfare\n\n#\u798f\u5229\u539a\u751f #benefitone #\u5145\u5b9f #\u30e9\u30a4\u30d5\u30ef\u30fc\u30af\u30d0\u30e9\u30f3\u30b9...',
-            img: "https://scontent.xx.fbcdn.net/v/t51.2885-15/85257793_213297733388602_2810716193415598554_n.jpg?_nc_cat=105&_nc_sid=8ae9d6&_nc_ohc=H5owxGxKlh0AX-9rNI6&_nc_ht=scontent.xx&oh=396438082cb37e533e22ad5dcd599146&oe=5EA0FD9A",
-            isDetail: false,
-            URL:"https://www.instagram.com/p/B9DtoFHndb5/"
           }
         ]
       }
