@@ -23,7 +23,7 @@
               <div class="infoBox">
                 <span class="post">インフラエンジニア</span>
                 <span class="name">S.T.</span>
-                <span class="year">2015年入社 | 中途採用</span>
+                <span class="year">2016年入社 | 中途採用</span>
               </div>
             </nuxt-link>
           </swiper-slide>
@@ -137,7 +137,7 @@
               <div class="infoBox">
                 <span class="post">営業</span>
                 <span class="name">N.Y.</span>
-                <span class="year">2018年入社 | 中途採用</span>
+                <span class="year">2016年入社 | 中途採用</span>
               </div>
             </nuxt-link>
           </swiper-slide>
@@ -154,7 +154,7 @@
                 class="sp"
               >
               <div class="infoBox">
-                <span class="post">営業</span>
+                <span class="post">インフラエンジニア</span>
                 <span class="name">H.R.</span>
                 <span class="year">2018年入社 | 中途採用</span>
               </div>
@@ -173,7 +173,7 @@
                 class="sp"
               >
               <div class="infoBox">
-                <span class="post">営業</span>
+                <span class="post">インフラエンジニア</span>
                 <span class="name">K.Y.</span>
                 <span class="year">2020年入社 | 中途採用</span>
               </div>
@@ -192,7 +192,7 @@
                 class="sp"
               >
               <div class="infoBox">
-                <span class="post">営業</span>
+                <span class="post">インフラエンジニア</span>
                 <span class="name">N.N.</span>
                 <span class="year">2017年入社 | 中途採用</span>
               </div>
@@ -211,7 +211,7 @@
                 class="sp"
               >
               <div class="infoBox">
-                <span class="post">営業</span>
+                <span class="post">開発エンジニア</span>
                 <span class="name">O.T.</span>
                 <span class="year">2019年入社 | 中途採用</span>
               </div>
@@ -230,7 +230,7 @@
                 class="sp"
               >
               <div class="infoBox">
-                <span class="post">営業</span>
+                <span class="post">ITサポート</span>
                 <span class="name">S.S.</span>
                 <span class="year">2018年入社 | 中途採用</span>
               </div>

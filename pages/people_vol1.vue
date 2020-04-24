@@ -5,7 +5,7 @@
       <DetailInfo
         number="01"
         title="Recruit"
-        year="2015年入社 | 中途採用"
+        year="2016年入社 | 中途採用"
         name="S.T."
         post="インフラエンジニア"
         class="vol1"
