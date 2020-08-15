@@ -2,7 +2,6 @@
   <div v-scroll="handleScroll">
     <TheHeader :class="{isFixed: isFixed}" :style="{ left: positionLeft }" />
     <nuxt/>
-    <TheGallery/>
     <TheEntry/>
     <TheFooter/>
   </div>
@@ -11,11 +10,10 @@
 <script>
   import TheHeader from '../components/layouts/TheHeader'
   import TheFooter from '../components/layouts/TheFooter'
-  import TheGallery from '../components/layouts/TheGallery'
   import TheEntry from '../components/layouts/TheEntry'
 
   export default {
-    components: { TheEntry, TheGallery, TheFooter, TheHeader },
+    components: { TheEntry, TheFooter, TheHeader },
     data() {
       return {
         offsetY: 0,
