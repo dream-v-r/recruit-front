@@ -14,8 +14,9 @@
     新卒採用エントリーはこちら
     </a>
     <a
-      href="https://www.dream-v.co.jp/recruit/career_entry/"
-      class="btn2"
+      href="https://en-gage.net/dream-v_career/work_932284/?via_recruit_page=1"
+      class="btn btn2"
+      target="_blank"
     >
     キャリア採用エントリーはこちら
     </a>
@@ -105,21 +106,22 @@
 	}
 }
   .btn2 {
-    width: 300px;
-    margin: auto;
-    color: #fff;
-    background-color: #f58a00;
-    font-size: 15px;
-    border-radius: 30px;
-    padding: 14px 0;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    transition: .3s;
-
-    &:hover {
-      opacity: 0.8;
+    &::before {
+      right: 23px;
     }
+@include _mqmax(){
+		&::before {
+		right: 14px;
+		}
+	}
+    &::after {
+      right: 21px;
+    }
+@include _mqmax(){
+    &::after {
+		right: 12px;
+		}
+	}
   }
 }
 

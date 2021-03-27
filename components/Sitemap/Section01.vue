@@ -16,6 +16,11 @@
             <li><a href="/recruit/people_vol5/">先輩社員インタビューVol.5</a></li>
             <li><a href="/recruit/people_vol6/">先輩社員インタビューVol.6</a></li>
             <li><a href="/recruit/people_vol7/">先輩社員インタビューVol.7</a></li>
+            <li><a href="/recruit/people_vol8/">先輩社員インタビューVol.8</a></li>
+            <li><a href="/recruit/people_vol9/">先輩社員インタビューVol.9</a></li>
+            <li><a href="/recruit/people_vol10/">先輩社員インタビューVol.10</a></li>
+            <li><a href="/recruit/people_vol11/">先輩社員インタビューVol.11</a></li>
+            <li><a href="/recruit/people_vol12/">先輩社員インタビューVol.12</a></li>
           </ul>
         </dd>
         <dt><a href="/recruit/culture-company-style/">CULTURE<span>福利厚生・社風</span></a></dt>
@@ -44,7 +49,13 @@
         <span>新卒採用エントリー</span></a>
         </dt>
         <dd></dd>
-        <dt><a href="/recruit/career_entry/">CAREER RECRUITMENT ENTRY<span>キャリア採用エントリー</span></a></dt>
+        <dt><a href="https://en-gage.net/dream-v_career/work_932284/?via_recruit_page=1" target="_blank">CAREER RECRUITMENT ENTRY
+        <img
+          src="~/assets/img/sitemap/externallink.png"
+          alt="別タブで外部サイトが開きます"
+        >
+        <span>キャリア採用エントリー</span></a>
+        </dt>
         <dd></dd>
         <dt><a href="/" target="_blank">CORPORATE SITE
         <img
