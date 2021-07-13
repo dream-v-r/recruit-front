@@ -22,14 +22,14 @@
             会員制リゾート施設
             <span>(セラヴィリゾート泉郷)</span>
           </h3>
-          <p>全国26地区37施設の会員制リゾートが1泊2900円から利用可能です！<br>八ヶ岳、蓼科、伊豆高原、安曇野等のリゾートホテル、温泉付きコテージ等が格安で宿泊可能です。家族だけでなく、友人との利用でも社員価格で利用できます。</p>
+          <p>全国26地区37施設の会員制リゾートが1泊2,900円から利用可能です！<br>八ヶ岳、蓼科、伊豆高原、安曇野等のリゾートホテル、温泉付きコテージ等が格安で宿泊可能です。家族だけでなく、友人との利用でも社員価格で利用できます。</p>
         </li>
         <li class="welfareTileItem welfareTileItem--cate03">
           <span class="iconBox" />
           <h3 class="mb">
             書籍購入補助
           </h3>
-          <p>エンジニアとしてキャリアアップを目指す皆さんをサポートするための制度です。技術スキルや専門知識の習得に関する書籍を、月３,000円分までご購入いただけます。また、技術スキル・専門知識を向上しセミナーへなどの参加費用としても活用できます。</p>
+          <p>エンジニアとしてキャリアアップを目指す皆さんをサポートするための制度です。技術スキルや専門知識の習得に関する書籍を、月3,000円分までご購入いただけます。また、技術スキル・専門知識を向上しセミナーへなどの参加費用としても活用できます。</p>
         </li>
         <li class="welfareTileItem welfareTileItem--cate04">
           <span class="iconBox" />
@@ -84,10 +84,10 @@
         <li class="welfareTileItem welfareTileItem--cate11">
           <span class="iconBox" />
           <h3 class="lines2">
-            中小事業主掛金納付制度
-            <span>(イデコプラス)<br>※退職金制度</span>
+            企業型確定拠出年金
+            <span>（DC）<br>※退職金制度</span>
           </h3>
-          <p>個人型確定拠出年金（イデコ）に加入している社員に対して会社が掛金を上乗せして、社員の将来の資産形成を支援する制度です。社員の将来設計のサポート、退職金制度として導入しました。</p>
+          <p>企業型確定拠出年金（DC）に加入している社員に対して会社が掛金を上乗せして、社員の将来の資産形成を支援する制度です。社員の将来設計のサポート、退職金制度として導入しました。</p>
         </li>
         <li class="welfareTileItem welfareTileItem--cate12">
           <span class="iconBox" />
@@ -95,6 +95,30 @@
             家族扶養手当
           </h3>
           <p>配偶者5,000円、子3,000円<br>社員が扶養している家族に応じて、会社が主には生活を支援する目的で基本給とは別に支給いたします。※当社規定による</p>
+        </li>
+        <li class="welfareTileItem welfareTileItem--cate13">
+          <span class="iconBox" />
+          <h3 class="mb">
+            リモート手当
+          </h3>
+          <p>リモートしている社員もしていない社員も全社員に対して毎月3,000円の補助がでます。</p>
+        </li>
+        <li class="welfareTileItem welfareTileItem--cate14">
+          <span class="iconBox" />
+          <h3 class="mb">
+            予防接種補助
+          </h3>
+          <p>社員とご家族のインフルエンザなどの予防接種に3,000円を支給いたします。</p>
+        </li>
+        <li class="welfareTileItem welfareTileItem--cate15">
+          <span class="iconBox" />
+          <h3 class="mb">
+            慶弔見舞金
+          </h3>
+          <p>社員の結婚・出産・香典・災害など祝い金・見舞金を支給しております。<br>
+            例えば<br>
+            ・結婚祝金：5万円（入社3年以上の場合）<br>
+            ・出産祝金：2万円等</p>
         </li>
       </ul>
       <div class="titleMovie">
@@ -370,14 +394,14 @@
           &--cate04 {
             .iconBox {
               &:before {
-                background: url(~assets/img/culture/welfare/ico_welfare_04.svg) no-repeat;
-                width: 72px;
-                height: 63px;
-                margin: 32px auto 0;
+                background: url(~assets/img/culture/welfare/ico_welfare_16.svg) no-repeat;
+                width: 90px;
+                height: 90px;
+                margin: 20px auto 0;
                 @include _mqmax(){
-                  width: 54px;
-                  height: 48px;
-                  margin: 25px auto 0;
+                  width: 67px;
+                  height: 67px;
+                  margin: 17px auto 0;
                 }
               }
             }
@@ -490,13 +514,58 @@
           &--cate12 {
             .iconBox {
               &:before {
-                background: url(~assets/img/culture/welfare/ico_welfare_12.svg) no-repeat;
+                background: url(~assets/img/culture/welfare/ico_welfare_04.svg) no-repeat;
+                width: 75px;
+                height: 75px;
+                margin: 30px auto 0;
+                @include _mqmax(){
+                  width: 55px;
+                  height: 55px;
+                  margin: 23px auto 0;
+                }
+              }
+            }
+          }
+          &--cate13 {
+            .iconBox {
+              &:before {
+                background: url(~assets/img/culture/welfare/ico_welfare_17.svg) no-repeat;
+                width: 85px;
+                height: 85px;
+                margin: 35px auto 0;
+                @include _mqmax(){
+                  width: 70px;
+                  height: 70px;
+                  margin: 25px auto 0;
+                }
+              }
+            }
+          }
+          &--cate14 {
+            .iconBox {
+              &:before {
+                background: url(~assets/img/culture/welfare/ico_welfare_18.svg) no-repeat;
                 width: 66px;
                 height: 74px;
-                margin: 27px auto 0;
+                margin: 30px auto 0;
                 @include _mqmax(){
-                  width: 46px;
-                  height: 52px;
+                  width: 53px;
+                  height: 53px;
+                  margin: 20px auto 0;
+                }
+              }
+            }
+          }
+          &--cate15 {
+            .iconBox {
+              &:before {
+                background: url(~assets/img/culture/welfare/ico_welfare_19.svg) no-repeat;
+                width: 64px;
+                height: 70px;
+                margin: 32px auto 0;
+                @include _mqmax(){
+                  width: 53px;
+                  height: 53px;
                   margin: 23px auto 0;
                 }
               }
